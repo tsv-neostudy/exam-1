@@ -1,0 +1,2 @@
+/etc/logrotate.d/prometheus-nginx-exporter
+/etc/prometheus/nginx-exporter.yml

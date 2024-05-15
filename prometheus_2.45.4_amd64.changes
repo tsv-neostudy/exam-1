@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Apr 2024 14:33:45 +0000
+Source: prometheus
+Binary: prometheus
+Architecture: amd64
+Version: 2.45.4
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus - monitoring system and time series database
+Changes:
+ prometheus (2.45.4) unstable; urgency=medium
+ .
+   * prometheus ver.2.45.4
+Checksums-Sha1:
+ d31ecdd49fd6739bfe9977ad29b7854ed84d629a 5274 prometheus_2.45.4_amd64.buildinfo
+ 9e74c1726f460b95c44b0185f595309b2fd249f2 32955680 prometheus_2.45.4_amd64.deb
+Checksums-Sha256:
+ 910609890a3c9860b047dfdce5f919a9b05468583d9898f294ad625cf1999418 5274 prometheus_2.45.4_amd64.buildinfo
+ 036f5147ae6f8dd0e6b5974402d8a352e2058fbf26edf5df25a30bb038d16d3f 32955680 prometheus_2.45.4_amd64.deb
+Files:
+ c36900f362663e7fc3711e3f7cb246c3 5274 net optional prometheus_2.45.4_amd64.buildinfo
+ a1202137db730092910c8ddeff749d9c 32955680 net optional prometheus_2.45.4_amd64.deb

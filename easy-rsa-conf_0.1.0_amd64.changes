@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 22 Apr 2024 13:27:52 +0300
+Source: easy-rsa-conf
+Binary: easy-rsa-conf
+Architecture: amd64
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ easy-rsa-conf - Install easy-rsa and put base configuration.
+Changes:
+ easy-rsa-conf (0.1.0) unstable; urgency=medium
+ .
+   * Easy-rsa with custom "vars" file and "pki" dir
+Checksums-Sha1:
+ bf30e56850bfad2c2e9ba4494e592551d6721587 5276 easy-rsa-conf_0.1.0_amd64.buildinfo
+ d61a02b836182ad9d8105701edc13ef2ceea5819 10608 easy-rsa-conf_0.1.0_amd64.deb
+Checksums-Sha256:
+ 27b10484fb389bee9d0e7f4552a7bb59b3462b7e4c315e1dbf91c10ba2171ad4 5276 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 6b56eaeeb5342de0e3da5fd3bd36c9c4cb11999c0cf8385a24c119a690e8b29b 10608 easy-rsa-conf_0.1.0_amd64.deb
+Files:
+ 8fd63ce8cfa7242bf16c81e477a5f5f4 5276 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
+ 9c11b780af20cdc7dc16fa2ccf814c53 10608 utils optional easy-rsa-conf_0.1.0_amd64.deb

@@ -1,0 +1,2 @@
+/etc/cron.d/bkp-srv
+/etc/rsyncd.conf

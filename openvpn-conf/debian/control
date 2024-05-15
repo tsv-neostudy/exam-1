@@ -1,0 +1,14 @@
+Source: openvpn-conf
+Section: utils
+Priority: optional
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://sb.stumasov.ru
+#Vcs-Browser: https://salsa.debian.org/debian/openvpn-conf
+#Vcs-Git: https://salsa.debian.org/debian/openvpn-conf.git
+
+Package: openvpn-conf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, openvpn, iptables-persistent
+Description: OpenVPN with init settings, ip_forward=1, iptables settings 

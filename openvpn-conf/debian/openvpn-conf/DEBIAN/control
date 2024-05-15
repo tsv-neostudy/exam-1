@@ -1,0 +1,10 @@
+Package: openvpn-conf
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 36
+Depends: openvpn, iptables-persistent
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: OpenVPN with init settings, ip_forward=1, iptables settings

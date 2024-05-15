@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 09 May 2024 23:37:48 +0300
+Source: file-bkp
+Binary: file-bkp
+Architecture: amd64
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ file-bkp   - RSYNC with base config for dayly backup
+Changes:
+ file-bkp (0.1.0) unstable; urgency=medium
+ .
+   * rsync with base conf.
+Checksums-Sha1:
+ 8478e7c7a2caed9bd08bea894a777d0bb91993ea 5032 file-bkp_0.1.0_amd64.buildinfo
+ cd3b582cd05b6156ad21830f90f0cbf90a2dc7e8 3296 file-bkp_0.1.0_amd64.deb
+Checksums-Sha256:
+ fccca17801bb3d4ad802c83304989c1582c2b47aad4418880a8e83ae2620b92e 5032 file-bkp_0.1.0_amd64.buildinfo
+ bf0263f1f9576dca784b2b46d3e8c70dc4961b1fa170f2b357e141dd300de7f4 3296 file-bkp_0.1.0_amd64.deb
+Files:
+ efbb09df925708d661c721d463411f23 5032 utils optional file-bkp_0.1.0_amd64.buildinfo
+ 41f8241a69130fd0ed1192092c9c12fb 3296 utils optional file-bkp_0.1.0_amd64.deb

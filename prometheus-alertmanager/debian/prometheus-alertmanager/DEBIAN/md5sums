@@ -1,0 +1,6 @@
+3df798d28eeb02808b49c88fc3907257  lib/systemd/system/prometheus-alertmanager.service
+af3bda9621dfa4258dc270acbe36bf7a  usr/bin/amtool
+a1da743ee7f28ebff243f225346c1637  usr/bin/prometheus-alertmanager
+a422f021fc663adf87fef293e0d07e6b  usr/share/doc/prometheus-alertmanager/README.Debian
+dc5e88e779b039f76798bccc998156d4  usr/share/doc/prometheus-alertmanager/changelog.gz
+4f75f6616127ce120f90a60cccd23455  usr/share/doc/prometheus-alertmanager/copyright

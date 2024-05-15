@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 21 Apr 2024 20:22:31 +0300
+Source: openvpn-conf
+Binary: openvpn-conf
+Architecture: amd64
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ openvpn-conf - OpenVPN with init settings, ip_forward=1, iptables settings
+Changes:
+ openvpn-conf (0.1.0) unstable; urgency=medium
+ .
+   * OpenVPN install like dependencies. Set ip_forward=1. iptables settings.
+Checksums-Sha1:
+ e10c0c44d8fdbeeb9b3062467127e20a7773d314 5268 openvpn-conf_0.1.0_amd64.buildinfo
+ 271fee209cd2a663c2c8c470bab9cb28befd88db 9112 openvpn-conf_0.1.0_amd64.deb
+Checksums-Sha256:
+ bbf135ed978471b25442114f5ab3171d278b3486a85479c9c122f0d985273a54 5268 openvpn-conf_0.1.0_amd64.buildinfo
+ 8d36cca4df5aacd7a2717f65cdca3a9d9f87b14306b151ce67d77819bcf5bbc3 9112 openvpn-conf_0.1.0_amd64.deb
+Files:
+ 2bd5cc0f3d3cf4711ba6ed513d3e3507 5268 utils optional openvpn-conf_0.1.0_amd64.buildinfo
+ 80fc0ee5ce699305e17d9073d603864f 9112 utils optional openvpn-conf_0.1.0_amd64.deb

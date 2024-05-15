@@ -1,0 +1,18 @@
+[Unit]
+Description=Prometheus NGINX Log Exporter
+Documentation=https://github.com/martin-helmich/prometheus-nginxlog-exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Restart=on-failure
+User=prometheus
+Type=simple
+ExecStart=/usr/bin/prometheus-nginxlog-exporter -config-file /etc/prometheus/nginxlog_exporter.yml
+ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStopSec=20s
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target
+~

@@ -1,0 +1,5 @@
+prometheus-node-exporter (1.7.0) unstable; urgency=medium
+
+  * Prometheus Node Exporter ver.1.7.0
+
+ -- Sergey <mail@sb.stumasov.ru>  Thu, 04 Apr 2024 01:40:25 +0300

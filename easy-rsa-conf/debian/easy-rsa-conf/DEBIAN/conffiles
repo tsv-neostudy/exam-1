@@ -1,0 +1,4 @@
+/etc/easy-rsa/make-win-cmd.sh
+/etc/easy-rsa/pki/base.conf
+/etc/easy-rsa/pki/openssl-easyrsa.cnf
+/etc/easy-rsa/vars

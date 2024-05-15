@@ -1,0 +1,5 @@
+easy-rsa-conf (0.1.0) unstable; urgency=medium
+
+  * Easy-rsa with custom "vars" file and "pki" dir
+
+ -- Sergey <mail@sb.stumasov.ru>  Mon, 22 Apr 2024 13:27:52 +0300

@@ -1,0 +1,13 @@
+Package: prometheus-alertmanager
+Version: 0.27.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 48673
+Section: net
+Priority: optional
+Homepage: https://prometheus.io/
+Description: handle and deliver alerts created by Prometheus -- source
+ The Alertmanager handles alerts sent by client applications such as the
+ Prometheus server. It takes care of deduplicating, grouping, and routing them
+ to the correct receiver integration such as email, PagerDuty, or OpsGenie. It
+ also takes care of silencing and inhibition of alerts.

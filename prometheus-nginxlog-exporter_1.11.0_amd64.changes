@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 04 Apr 2024 18:35:55 +0300
+Source: prometheus-nginxlog-exporter
+Binary: prometheus-nginxlog-exporter
+Architecture: amd64
+Version: 1.11.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus-nginxlog-exporter - Prometheus NGINX log metrics exporter
+Changes:
+ prometheus-nginxlog-exporter (1.11.0) unstable; urgency=medium
+ .
+   * Prometheus NginxLog Exporter
+Checksums-Sha1:
+ cf3555c49b21da45cdc51e905c79fa936c05edd7 5361 prometheus-nginxlog-exporter_1.11.0_amd64.buildinfo
+ bb9ca4d63964d03f67706db0a49e4be9c60a0c67 3152856 prometheus-nginxlog-exporter_1.11.0_amd64.deb
+Checksums-Sha256:
+ 0c58f04a22cfe4c4b7ae1eacd0cfbb6b04d22714194b75ea3d50533e27ff85c3 5361 prometheus-nginxlog-exporter_1.11.0_amd64.buildinfo
+ 3b16728028c4ada59825f0383aa7c4dc3c55505f236bb885b533a722d2619790 3152856 prometheus-nginxlog-exporter_1.11.0_amd64.deb
+Files:
+ 11b77d750314251da84b7d46f599418d 5361 net optional prometheus-nginxlog-exporter_1.11.0_amd64.buildinfo
+ 5600bd4db65e7c019781523808aab470 3152856 net optional prometheus-nginxlog-exporter_1.11.0_amd64.deb

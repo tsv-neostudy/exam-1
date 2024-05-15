@@ -1,0 +1,5 @@
+51681f2ecd247a9703b034ffa4f90772  lib/systemd/system/prometheus-nginx-exporter.service
+6f4283a5228e7cc264a4c629ae6d740b  usr/bin/prometheus-nginx-exporter
+9569699cb640e56e67f2d156cc7611dd  usr/share/doc/prometheus-nginx-exporter/README.Debian
+aed8991b05b8cbed945bf82d8ca1ec09  usr/share/doc/prometheus-nginx-exporter/changelog.gz
+817555e387de310e8a0267001cd4110b  usr/share/doc/prometheus-nginx-exporter/copyright

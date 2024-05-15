@@ -1,0 +1,15 @@
+Source: prometheus-nginxlog-exporter
+Section: net
+Priority: optional
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/martin-helmich/prometheus-nginxlog-exporter
+#Vcs-Browser: https://salsa.debian.org/debian/prometheus-nginxlog-exporter
+#Vcs-Git: https://salsa.debian.org/debian/prometheus-nginxlog-exporter.git
+
+Package: prometheus-nginxlog-exporter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Prometheus NGINX log metrics exporter
+ Prometheus exporter for NGINX Log metrics, developed by Martin Helmich.

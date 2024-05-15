@@ -1,0 +1,2 @@
+prometheus-nginxlog-exporter usr/bin/
+nginxlog_exporter.yml        etc/prometheus/

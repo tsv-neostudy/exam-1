@@ -1,0 +1,7 @@
+./prometheus
+./promtool
+./consoles
+./console_libraries
+./prometheus.yml
+./web/ui/static
+./web/ui/templates

@@ -1,0 +1,3 @@
+prometheus-nginx-exporter  /usr/bin/
+nginx-exporter.yml         /etc/prometheus/
+

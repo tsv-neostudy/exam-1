@@ -1,0 +1,2 @@
+./prometheus-nginxlog-exporter
+./nginxlog_exporter.yml

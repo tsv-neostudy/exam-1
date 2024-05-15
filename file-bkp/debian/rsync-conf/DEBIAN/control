@@ -1,0 +1,11 @@
+Package: rsync-conf
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 17
+Depends: rsync
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: RSYNC with base config
+ <insert long description, indented with spaces>

@@ -1,0 +1,5 @@
+bkp-srv (0.1.0) unstable; urgency=medium
+
+  * rsync conf + delete old backups by cron
+
+ -- Sergey <mail@sb.stumasov.ru>  Mon, 13 May 2024 23:10:30 +0300

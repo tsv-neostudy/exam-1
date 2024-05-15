@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 04 Apr 2024 11:43:01 +0300
+Source: prometheus-alertmanager
+Binary: prometheus-alertmanager
+Architecture: amd64
+Version: 0.27.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus-alertmanager - handle and deliver alerts created by Prometheus -- source
+Changes:
+ prometheus-alertmanager (0.27.0) unstable; urgency=medium
+ .
+   * Prometheus alert manager
+Checksums-Sha1:
+ bc3908d36e8cc0d27e46f0fd57e812636393a79e 5339 prometheus-alertmanager_0.27.0_amd64.buildinfo
+ 5b8b581e0c8f586715305a6e6dd539f7b93bddcc 13010200 prometheus-alertmanager_0.27.0_amd64.deb
+Checksums-Sha256:
+ 74881fd3033cbed4feac816bcf8e6c453f373b5f982869b142374858a5addc40 5339 prometheus-alertmanager_0.27.0_amd64.buildinfo
+ 52c9019bfa1ff0df186d93013d364f99b96d17d49f4b715f97c73a72f7a4bd48 13010200 prometheus-alertmanager_0.27.0_amd64.deb
+Files:
+ aff9af1989d9855ac448d567841ebec9 5339 net optional prometheus-alertmanager_0.27.0_amd64.buildinfo
+ eec36858bc88b8b314cb25e05df916d8 13010200 net optional prometheus-alertmanager_0.27.0_amd64.deb

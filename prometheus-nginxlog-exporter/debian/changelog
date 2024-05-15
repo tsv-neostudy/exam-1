@@ -1,0 +1,5 @@
+prometheus-nginxlog-exporter (1.11.0) unstable; urgency=medium
+
+  * Prometheus NginxLog Exporter
+
+ -- Sergey <mail@sb.stumasov.ru>  Thu, 04 Apr 2024 18:35:55 +0300

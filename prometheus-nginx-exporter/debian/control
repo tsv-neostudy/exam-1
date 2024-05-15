@@ -1,0 +1,18 @@
+Source: prometheus-nginx-exporter
+Section: net
+Priority: optional
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/nginxinc/nginx-prometheus-exporter
+#Vcs-Browser: https://salsa.debian.org/debian/prometheus-nginx-exporter
+#Vcs-Git: https://salsa.debian.org/debian/prometheus-nginx-exporter.git
+
+Package: prometheus-nginx-exporter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Prometheus exporter for NGINX webservers
+ Official Prometheus exporter for NGINX, developed by NGINX, Inc. This exporter
+ supports the NGINX stub_status handler, as well as the NGINX Plus API, and
+ exposes metrics such as number of current requests and total requests served.
+

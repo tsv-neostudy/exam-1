@@ -1,0 +1,5 @@
+openvpn-conf (0.1.0) unstable; urgency=medium
+
+  * OpenVPN install like dependencies. Set ip_forward=1. iptables settings.
+
+ -- Sergey <mail@sb.stumasov.ru>  Sun, 21 Apr 2024 20:22:31 +0300

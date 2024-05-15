@@ -1,0 +1,12 @@
+{{define "head"}}<!-- nix -->{{end}}
+
+{{define "content"}}
+  <div class="container-fluid">
+    <h2 id="agentmode">Prometheus Agent</h2>
+    <p>This Prometheus instance is running in <strong>agent mode</strong>. In
+    this mode, Prometheus is only used to scrape discovered targets and forward
+    the scraped metrics to remote write endpoints.</p>
+    <p>Some features are not available in this mode, such as querying and
+    alerting.</p>
+  </div>
+{{end}}

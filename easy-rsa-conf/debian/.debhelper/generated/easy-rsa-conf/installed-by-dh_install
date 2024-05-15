@@ -1,0 +1,4 @@
+./vars
+./pki
+./make-win-cmd.sh
+./output

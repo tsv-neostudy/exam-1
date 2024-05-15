@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 04 Apr 2024 15:31:08 +0300
+Source: prometheus-nginx-exporter
+Binary: prometheus-nginx-exporter
+Architecture: amd64
+Version: 1.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus-nginx-exporter - Prometheus exporter for NGINX webservers
+Changes:
+ prometheus-nginx-exporter (1.1.0) unstable; urgency=medium
+ .
+   * Prometheus Nginx Exporter
+Checksums-Sha1:
+ 7feec63fb09549d286dfdd9ed1ea902ea063eb26 5342 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 10a2b6470251eea2e8a290af1be8ad79d42209f5 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+Checksums-Sha256:
+ bb5334ed9754e309831a699628b031b33b5ff7cb7ed303d396ec024ffbd6b1fb 5342 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ b313ab38f9682b783734c4fb63f158d8c0e2d9092a45960da54ad7eb0580a2f3 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+Files:
+ c61e67a224f4d4337179fd95eb677ab4 5342 net optional prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 5824152b0edbd6836510e3f5b5a2d161 3216976 net optional prometheus-nginx-exporter_1.1.0_amd64.deb

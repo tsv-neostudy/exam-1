@@ -1,0 +1,8 @@
+openvpn-conf for Debian
+----------------------
+
+OpenVPN install as dependencies
+Key ip_forward=1 setup in /etc/sysctl.conf
+iptables settings apply like for router
+
+ -- Sergey <mail@stumasov.ru>  Mon, 22 Jan 2024 16:11:17 +0300

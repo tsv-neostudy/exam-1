@@ -1,0 +1,3 @@
+./prometheus-alertmanager
+./amtool
+./alertmanager.yml

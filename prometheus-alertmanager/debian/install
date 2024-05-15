@@ -1,0 +1,3 @@
+prometheus-alertmanager   usr/bin/
+amtool                   usr/bin/
+alertmanager.yml         etc/prometheus

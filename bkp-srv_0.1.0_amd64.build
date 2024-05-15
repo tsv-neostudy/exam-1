@@ -1,0 +1,53 @@
+ dpkg-buildpackage -us -uc -ui -b
+dpkg-buildpackage: info: source package bkp-srv
+dpkg-buildpackage: info: source version 0.1.0
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Sergey <mail@sb.stumasov.ru>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installcron
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_dwz
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package bkp-srv: substitution variable ${shlibs:Depends} used, but is not defined
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'bkp-srv' in '../bkp-srv_0.1.0_amd64.deb'.
+ dpkg-genbuildinfo --build=binary
+ dpkg-genchanges --build=binary >../bkp-srv_0.1.0_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+Now running lintian bkp-srv_0.1.0_amd64.changes ...
+E: bkp-srv changes: bad-distribution-in-changes-file unstable
+E: bkp-srv: copyright-contains-dh_make-todo-boilerplate
+E: bkp-srv: description-is-dh_make-template
+E: bkp-srv: helper-templates-in-copyright
+W: bkp-srv: copyright-has-url-from-dh_make-boilerplate
+W: bkp-srv: maintainer-script-calls-systemctl postinst:44
+W: bkp-srv: readme-debian-contains-debmake-template
+Finished running lintian.

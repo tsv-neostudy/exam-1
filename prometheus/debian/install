@@ -1,0 +1,9 @@
+prometheus          usr/bin/
+promtool            usr/bin/
+consoles            etc/prometheus
+console_libraries   etc/prometheus
+prometheus.yml      etc/prometheus
+web/ui/static       usr/share/prometheus/web
+web/ui/templates    usr/share/prometheus/web
+
+

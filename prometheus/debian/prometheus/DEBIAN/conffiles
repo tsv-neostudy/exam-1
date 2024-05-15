@@ -1,0 +1,11 @@
+/etc/logrotate.d/prometheus
+/etc/prometheus/console_libraries/menu.lib
+/etc/prometheus/console_libraries/prom.lib
+/etc/prometheus/consoles/index.html.example
+/etc/prometheus/consoles/node-cpu.html
+/etc/prometheus/consoles/node-disk.html
+/etc/prometheus/consoles/node-overview.html
+/etc/prometheus/consoles/node.html
+/etc/prometheus/consoles/prometheus-overview.html
+/etc/prometheus/consoles/prometheus.html
+/etc/prometheus/prometheus.yml

@@ -1,0 +1,21 @@
+[Unit]
+Description=Prometheus alert manager
+Documentation=https://github.com/prometheus/alertmanager
+Wants=network-online.target
+After=network-online.target
+
+
+[Service]
+Restart=on-failure
+User=prometheus
+Type=simple
+ExecStart=/usr/bin/prometheus-alertmanager \
+    --config.file="/etc/prometheus/alertmanager.yml" \
+    --storage.path="/var/lib/prometheus/alertmanager/"
+ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStopSec=20s
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target
+

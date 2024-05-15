@@ -1,0 +1,11 @@
+Package: file-bkp
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 19
+Depends: rsync
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: RSYNC with base config for dayly backup
+ <insert long description, indented with spaces>

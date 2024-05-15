@@ -1,0 +1,3 @@
+/etc/cron.d/file-bkp
+/etc/file-bkp/backup.list
+/etc/file-bkp/backup.sh

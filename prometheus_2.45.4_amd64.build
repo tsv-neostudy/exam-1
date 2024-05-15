@@ -1,0 +1,66 @@
+ dpkg-buildpackage -us -uc -ui -b
+dpkg-buildpackage: info: source package prometheus
+dpkg-buildpackage: info: source version 2.45.4
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Sergey <mail@sb.stumasov.ru>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installinit
+   dh_installsystemd
+   dh_installlogrotate
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_dwz
+dwz: debian/prometheus/usr/bin/prometheus: .debug_info section not present
+dwz: debian/prometheus/usr/bin/promtool: .debug_info section not present
+dwz: Too few files for multifile optimization
+dh_dwz: warning: No dwz multifile created, but not explicitly requested either so ignoring it.
+dh_dwz: warning: Common issues include no debug information at all (missing -g) and
+dh_dwz: warning: compressed debug information (#931891).
+   dh_strip
+dh_strip: warning: Could not find the BuildID in debian/prometheus/usr/bin/promtool
+dh_strip: warning: Could not find the BuildID in debian/prometheus/usr/bin/prometheus
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package prometheus: substitution variable ${shlibs:Depends} used, but is not defined
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'prometheus' in '../prometheus_2.45.4_amd64.deb'.
+ dpkg-genbuildinfo --build=binary
+ dpkg-genchanges --build=binary >../prometheus_2.45.4_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+Now running lintian prometheus_2.45.4_amd64.changes ...
+E: prometheus changes: bad-distribution-in-changes-file unstable
+E: prometheus: copyright-contains-dh_make-todo-boilerplate
+E: prometheus: helper-templates-in-copyright
+E: prometheus: statically-linked-binary usr/bin/prometheus
+E: prometheus: statically-linked-binary usr/bin/promtool
+W: prometheus: binary-without-manpage usr/bin/prometheus
+W: prometheus: binary-without-manpage usr/bin/promtool
+W: prometheus: copyright-has-url-from-dh_make-boilerplate
+W: prometheus: readme-debian-contains-debmake-template
+Finished running lintian.

@@ -1,0 +1,12 @@
+Package: prometheus-nginx-exporter
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 11760
+Section: net
+Priority: optional
+Homepage: https://github.com/nginxinc/nginx-prometheus-exporter
+Description: Prometheus exporter for NGINX webservers
+ Official Prometheus exporter for NGINX, developed by NGINX, Inc. This exporter
+ supports the NGINX stub_status handler, as well as the NGINX Plus API, and
+ exposes metrics such as number of current requests and total requests served.

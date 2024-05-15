@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 13 May 2024 23:10:30 +0300
+Source: bkp-srv
+Binary: bkp-srv
+Architecture: amd64
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ bkp-srv    - rsync conf and remove old backups
+Changes:
+ bkp-srv (0.1.0) unstable; urgency=medium
+ .
+   * rsync conf + delete old backups by cron
+Checksums-Sha1:
+ 8e27cebb394ca0ea4a6cdcaca058aef67503086e 5027 bkp-srv_0.1.0_amd64.buildinfo
+ 48512f963b6ce5c06730eff24e7c94300a3008e4 3440 bkp-srv_0.1.0_amd64.deb
+Checksums-Sha256:
+ fe19cd49c112d7722cd810db2dd7d3a6b0f652bef053375268baef711d05f4a4 5027 bkp-srv_0.1.0_amd64.buildinfo
+ 0bb2568818503d2d54eae124947631819509c226336874763d28fbd674cd73f4 3440 bkp-srv_0.1.0_amd64.deb
+Files:
+ 771239077fbeabb060a66ebc9aa77f8d 5027 utils optional bkp-srv_0.1.0_amd64.buildinfo
+ 4959f542f4bc23b0928d8afba01b275a 3440 utils optional bkp-srv_0.1.0_amd64.deb

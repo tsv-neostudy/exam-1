@@ -1,0 +1,5 @@
+2b729e21696b7406a53761ece2a34816  lib/systemd/system/prometheus-node-exporter.service
+4b435d22baaa9394c64633c43f10bba3  usr/bin/prometheus-node-exporter
+71e73d48b5fb9a9a4e073bbf089e0cf8  usr/share/doc/prometheus-node-exporter/README.Debian
+1ad94f4e9295f06581538c3a08972c76  usr/share/doc/prometheus-node-exporter/changelog.gz
+c7f226e591a6b6585b5a2d303ec65f01  usr/share/doc/prometheus-node-exporter/copyright

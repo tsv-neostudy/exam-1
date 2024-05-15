@@ -1,0 +1,5 @@
+d7f93fc35e3180ddbd400ab4315cac2b  lib/systemd/system/prometheus-nginxlog-exporter.service
+54332f9976e56b3272691c8fbe8b2302  usr/bin/prometheus-nginxlog-exporter
+7ae9ac7ce5c536107bfa5166e55cdd0a  usr/share/doc/prometheus-nginxlog-exporter/README.Debian
+1d55260debbb7baef5e58663b0b5c25f  usr/share/doc/prometheus-nginxlog-exporter/changelog.gz
+3d2e3b4daacaefe60f9058330ea88fa0  usr/share/doc/prometheus-nginxlog-exporter/copyright

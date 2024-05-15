@@ -1,0 +1,11 @@
+Package: prometheus-node-exporter
+Version: 1.7.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 13400
+Section: net
+Priority: optional
+Homepage: https://github.com/prometheus/node_exporter
+Description: Prometheus exporter for machine metrics
+ Prometheus exporter for machine metrics, written in Go with pluggable metric
+ collectors.

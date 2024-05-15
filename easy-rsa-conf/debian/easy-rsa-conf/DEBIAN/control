@@ -1,0 +1,10 @@
+Package: easy-rsa-conf
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Sergey <mail@stumasov.ru>
+Installed-Size: 52
+Depends: easy-rsa
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: Install easy-rsa and put base configuration.

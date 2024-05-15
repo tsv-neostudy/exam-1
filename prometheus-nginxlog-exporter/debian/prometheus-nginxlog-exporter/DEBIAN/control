@@ -1,0 +1,10 @@
+Package: prometheus-nginxlog-exporter
+Version: 1.11.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 10233
+Section: net
+Priority: optional
+Homepage: https://github.com/martin-helmich/prometheus-nginxlog-exporter
+Description: Prometheus NGINX log metrics exporter
+ Prometheus exporter for NGINX Log metrics, developed by Martin Helmich.

@@ -1,0 +1,4 @@
+vars etc/easy-rsa
+pki etc/easy-rsa
+make-win-cmd.sh etc/easy-rsa/
+output etc/easy-rsa/

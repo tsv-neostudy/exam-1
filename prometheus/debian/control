@@ -1,0 +1,46 @@
+Source: prometheus
+Section: net
+Priority: optional
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://prometheus.io/
+#Vcs-Browser: https://salsa.debian.org/debian/prometheus
+#Vcs-Git: https://salsa.debian.org/debian/prometheus.git
+
+Package: prometheus
+Architecture: any
+Depends: fonts-glyphicons-halflings,
+         libjs-bootstrap4,
+         libjs-eonasdan-bootstrap-datetimepicker,
+         libjs-jquery, 
+#(>= 3.5.1~),
+         libjs-jquery-hotkeys,
+         libjs-moment,
+         libjs-moment-timezone,
+         libjs-mustache (>= 2.3.0-1~),
+         libjs-popper.js,
+         libjs-rickshaw,
+         ${shlibs:Depends},
+         ${misc:Depends}
+#Recommends: prometheus-node-exporter (>= 1.7.0)
+Description: monitoring system and time series database
+ Prometheus is a systems and services monitoring system. It collects metrics
+ from configured targets at given intervals, evaluates rule expressions,
+ displays the results, and can trigger alerts if some condition is observed to
+ be true.
+ .
+ Prometheus' main distinguishing features as compared to other monitoring
+ systems are:
+ .
+  * A multi-dimensional data model (timeseries defined by metric name and set
+    of key/value dimensions).
+  * A flexible query language to leverage this dimensionality.
+  * No dependency on distributed storage; single server nodes are autonomous.
+  * Timeseries collection happens via a pull model over HTTP.
+  * Pushing timeseries is supported via an intermediary gateway.
+  * Targets are discovered via service discovery or static configuration.
+  * Multiple modes of graphing and dashboarding support.
+  * Federation support coming soon.
+
+
