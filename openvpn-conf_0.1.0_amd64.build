@@ -46,6 +46,11 @@ E: openvpn-conf changes: bad-distribution-in-changes-file unstable
 E: openvpn-conf: copyright-contains-dh_make-todo-boilerplate
 E: openvpn-conf: extended-description-is-empty
 E: openvpn-conf: helper-templates-in-copyright
-W: openvpn-conf: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:40
-W: openvpn-conf: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:41
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo openvpn-conf_0.1.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo openvpn-conf_0.1.0_amd64.buildinfo openvpn-conf_0.1.0_amd64.changes
+ signfile changes openvpn-conf_0.1.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

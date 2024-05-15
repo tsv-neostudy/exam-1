@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Mon, 13 May 2024 23:10:30 +0300
 Source: bkp-srv
@@ -15,11 +18,29 @@ Changes:
  .
    * rsync conf + delete old backups by cron
 Checksums-Sha1:
- 8e27cebb394ca0ea4a6cdcaca058aef67503086e 5027 bkp-srv_0.1.0_amd64.buildinfo
+ c3c501ed7f8ec99236b8288725dc19f6eb1aea30 6155 bkp-srv_0.1.0_amd64.buildinfo
  48512f963b6ce5c06730eff24e7c94300a3008e4 3440 bkp-srv_0.1.0_amd64.deb
 Checksums-Sha256:
- fe19cd49c112d7722cd810db2dd7d3a6b0f652bef053375268baef711d05f4a4 5027 bkp-srv_0.1.0_amd64.buildinfo
+ 416ef00c0f38ef7f53f97b39838b6e22a4890915062def00818c9025130f2a0e 6155 bkp-srv_0.1.0_amd64.buildinfo
  0bb2568818503d2d54eae124947631819509c226336874763d28fbd674cd73f4 3440 bkp-srv_0.1.0_amd64.deb
 Files:
- 771239077fbeabb060a66ebc9aa77f8d 5027 utils optional bkp-srv_0.1.0_amd64.buildinfo
+ 4b69d45113ca00f481009fa74f91c736 6155 utils optional bkp-srv_0.1.0_amd64.buildinfo
  4959f542f4bc23b0928d8afba01b275a 3440 utils optional bkp-srv_0.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8aIUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1G4BAAmVb/IeH98lT6YTIA69k92ar7Tv91
+JdAuFfx4nXuG24uv9JYWoMlRtFue+lU/F3gtac1rRvuvJQmgrLfJxhM22BZvGV+6
+N+QB+MLhB7xWqIsUkTxnqKPmSQZLm5bOae4U72JBYXNQlI83LIUNx5qZ2kYOH70W
+dJGJ6iiTsNp5gtmR7O7O6dyWCOEpLDsU7bZJni/bpHMDaQZ6o+bbyTC4sMzu/H1B
+CxWcOnLnTG3N6u6Acl6yPt67Rdas8ZpAZCh0Jcx1Le+PdsRunyOzobttzRQRYmOP
+kOeLH3Cb8E7GhGZ5BRkTEKt3nUaydA/DkMJTWXsUSHJuytK4mP9mkvEPaOXsCL0V
+Bp5DLG0gNwDbNwIb03fAd56JzVvu1UvxAR2NVgY0C+SaWPOf9C7rvw68jySQ5WZX
+gXB7ad/nZgJbIRJTRVrTkt9zFcBaG8c4M632bRDt3PVsueRwEe0/MjwNPs3bYv4L
+IADQgcsxuU9+CpHPWF0yXD41Xz+vwwckzuGDyvFeNtlaAHtuwSl3FMqtMxNVI33P
+q3SbG50u/crUF4Vd0F9lDhNntGYj9Ergh3lPqqkgvhn6fsDQ17xmFhJ6GxBAuJOd
+VSFZTLk94wT5RhzgzqvAVyqlyScNOko+OT3cHpLctapRH7PXB5OTzz9U85fYFBQM
+JNffvl0gBubnrQI=
+=q2OX
+-----END PGP SIGNATURE-----

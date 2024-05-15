@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: easy-rsa-conf
 Binary: easy-rsa-conf
@@ -11,7 +14,7 @@ Checksums-Sha256:
  6b56eaeeb5342de0e3da5fd3bd36c9c4cb11999c0cf8385a24c119a690e8b29b 10608 easy-rsa-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 27 Apr 2024 02:57:35 +0300
+Build-Date: Wed, 15 May 2024 20:32:38 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -94,7 +97,7 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.8.5-5ubuntu1.1),
  libgdbm-compat4 (= 1.18.1-5),
  libgdbm6 (= 1.18.1-5),
- libglib2.0-0 (= 2.64.6-1~ubuntu20.04.6),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.7),
  libgmp10 (= 2:6.2.0+dfsg-4ubuntu0.1),
  libgomp1 (= 10.5.0-1ubuntu1~20.04),
  libgpg-error0 (= 1.37-1),
@@ -137,7 +140,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-177.197),
+ linux-libc-dev (= 5.4.0-182.202),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -164,3 +167,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1713781672"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8bkUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0JlxAAjxSAthF0pzjemzmaiSSgZukR/48x
+IcE9YuQTpC7P5myxB7aQToZxZLIlvQrutcgnpGtk+Y0ExKBn42IjEmBVQQ2NTNqb
+x+9TnvSaLnDpwDCBYpRcSkFD1qti4SdKVnExT6mDRGYc9wcSGOoaLSol23G8Bx52
+dQoa8Pb9fXV4CyuC354J7X6cBhILBEpnlqeb5FJqA6PEN41otkS+i52UNNgiu8FT
++a+ohwPNsjdiPw90L9VDo1xouqhWOhdbnrFDlPGu7DXnUccamzgE47UHNixwRRvS
+IJErGU/8ZKh9uetOtBLXjx1yza7mCBenyO/ZgIl6moa8gL5JXb1tE5zC1kbkVEg9
+xy/h5kFiYSTGIidmPgIE5OC+Vdn0vW3T8vupOc5czQNki4KL5vB0Ix4BZGDxlrjQ
+nWzSvASGfYjIfBqWZEXf1WzVVaOVvFc+GDcebkgDqaFE/vw1omnQT5KBKvmUU/DT
+oWkVCymLqWlnjplxfZW46GWsab30/GgdtntclK5Vda9JuL9DHipGZ0IweW/slnFs
+TQiLUlplDuEPWrnLvcbJsY9P1eP3gnDvlIS43J3t8mzaG94D53Wd5x631qJ1+tbQ
+d0jpAZ8AkJ37UOx6w+bNv7X4L/pICR6eunEo72tjf1ZbR7HJrhsonlxDu6c86grW
+I1ptpxbC5yak2MQ=
+=lRXs
+-----END PGP SIGNATURE-----

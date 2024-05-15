@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Thu, 04 Apr 2024 15:31:08 +0300
 Source: prometheus-nginx-exporter
@@ -15,11 +18,29 @@ Changes:
  .
    * Prometheus Nginx Exporter
 Checksums-Sha1:
- 7feec63fb09549d286dfdd9ed1ea902ea063eb26 5342 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 3b855d12dcdb285169710826ce730a3b9b880028 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
  10a2b6470251eea2e8a290af1be8ad79d42209f5 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
 Checksums-Sha256:
- bb5334ed9754e309831a699628b031b33b5ff7cb7ed303d396ec024ffbd6b1fb 5342 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ dfd88b7c889da760a8cc79e7bf11ff468eab8d04fa649280c2e8be4d7aaae0f2 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
  b313ab38f9682b783734c4fb63f158d8c0e2d9092a45960da54ad7eb0580a2f3 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
 Files:
- c61e67a224f4d4337179fd95eb677ab4 5342 net optional prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 87e5db496951ea89ef8e8f548c955016 6254 net optional prometheus-nginx-exporter_1.1.0_amd64.buildinfo
  5824152b0edbd6836510e3f5b5a2d161 3216976 net optional prometheus-nginx-exporter_1.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE+SUUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1Baw//bUqtPKzd8Scm6Y1e43AACGO4l1bQ
+LQRF5cjx1qPD6qlbH45tBXG0cwrFXO1doQZKDjstcGv0EcSynKpzOVgJ/vAm+89E
+WIQYA8jGi4bzgZxTiKZD1ffee7i9xo5Qft7BHSjgRB0Mr7Y1UjUwoisyK20OOM19
+43Wjh4ZhEJnTdToUukXU6Fylog+XBoHVHa4LF93iBp5mGQsYPtqQwgHNghRxFJnP
+rl+A/vit7RcKngE/RzaZIyf6rePA5vt5FZdcxwQ9TcC6xR2Gb3y8UspfA0Xjuhf1
+YJFW07KDLs1jXT/4eQnL7BKiFP5tPBlwRhQGjmMCAsLkXMVYM01xTgxZcAXoI3c8
+2Id2MA/s1tml2cguiu76zLff606xv0nGmg7qznZeO5QEQO4kmlxZovxEdnt9IK+p
+szvxcah95Df+2IXi8NHNJXPmag0NB9cVL1n10dWFKtSrbSdau84I0ZxMSlzVc2jv
+CqIok4yIzwJtMgVBvsL9Qf5OwzdANcWEIdRS02xWClCJfA4DrMVLmg14bj3UmPve
+utZBe7kYoGafIf4DqeWZQ+PWK9RFRMi8RRA+LXNTM+UKULA1D5WXBzz5KC1NZERj
+Fu0bhrlDRqANFDEe++OEpr+lYkfvclvNE0ydkwQahVR0aOU69wuK8BooTf/5RbZt
+0k8QPlVk52P/xoY=
+=cf1Y
+-----END PGP SIGNATURE-----

@@ -48,35 +48,17 @@ Homepage: https://sb.stumasov.ru
 Description: RSYNC with base config for dayly backup
  <insert long description, indented with spaces>
 
-Package: mongodb-mongosh
-Version: 2.2.4
-Architecture: amd64
-Maintainer: Compass Team <compass@mongodb.com>
-Installed-Size: 219695
-Depends: libc6 (>= 2.17)
-Recommends: libgssapi-krb5-2
-Provides: mongodb-shell (= 2.0)
-Filename: ./1/mongodb-mongosh_2.2.4_amd64.deb
-Size: 53006032
-MD5sum: 5253754caa132292648ced9c5eb5d4d3
-SHA1: 61a6abd2c0e09f58eaf6e5bd9bef91526d397f0c
-SHA256: 1803cf64f327a675c7a1e751a94768895141b6301699fb3b45677e9b7515f4c9
-Section: utils
-Priority: optional
-Homepage: https://github.com/mongodb-js/mongosh
-Description: MongoDB Shell CLI REPL Package
-
 Package: openvpn-conf
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 36
+Installed-Size: 31
 Depends: openvpn, iptables-persistent
 Filename: ./openvpn-conf_0.1.0_amd64.deb
-Size: 9112
-MD5sum: 80fc0ee5ce699305e17d9073d603864f
-SHA1: 271fee209cd2a663c2c8c470bab9cb28befd88db
-SHA256: 8d36cca4df5aacd7a2717f65cdca3a9d9f87b14306b151ce67d77819bcf5bbc3
+Size: 8044
+MD5sum: 3e29dd1a7cc10893be198879802e0fb0
+SHA1: b225c1d07c28b408e85bfff84005a1ebf45885d0
+SHA256: f0c0097b6cef049f38f1c3ed940219f718a223214a264fa0035bd8c12731b5f1
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru
@@ -121,10 +103,10 @@ Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 48673
 Filename: ./prometheus-alertmanager_0.27.0_amd64.deb
-Size: 13010200
-MD5sum: eec36858bc88b8b314cb25e05df916d8
-SHA1: 5b8b581e0c8f586715305a6e6dd539f7b93bddcc
-SHA256: 52c9019bfa1ff0df186d93013d364f99b96d17d49f4b715f97c73a72f7a4bd48
+Size: 13009600
+MD5sum: ff62301eeeda08cf44b5fbed56bd7bbd
+SHA1: 25100fdedd335df988fe9c95a419bdcb40e7462e
+SHA256: d4c9cf44f2ad1edf64c8ed882b94f897b893bf5acff6723d77a7bbe8b6376194
 Section: net
 Priority: optional
 Homepage: https://prometheus.io/

@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: prometheus
 Binary: prometheus
@@ -11,7 +14,7 @@ Checksums-Sha256:
  036f5147ae6f8dd0e6b5974402d8a352e2058fbf26edf5df25a30bb038d16d3f 32955680 prometheus_2.45.4_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 19:33:26 +0300
+Build-Date: Wed, 15 May 2024 20:35:44 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -164,3 +167,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1712068425"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8pAUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0yxA/+LAIvn+uZXIpdbuzSzEA9k79S9CPp
+owzc0UPi604BjIIVB7hZdZVKOUuNaGEo8GKcYDrwSIj2jmflU2zSjhPuXW/YRtXQ
+GEsZxxw7xYC+4uU/wTSmRoXUR/k6tuIRJBxr6614Pcw4yB5ovfy2hE93FXe8iuPg
+k8ekOemSiJNueBdQKM9LP5uoaqsRuzl58XrieRo9JbCW6JJcQl5OiemP/b38ylJQ
+kFdHES/ID9MRZeDSTCrQosDfDOjtnukXhY2E5T5ucsuYD4528AgQPd4Kjdxlg8OA
+L5cWJLmo8MwVWSjfLXcRfG+hoyIJEBR1T+c96raVzuB33FY7Sl+ArgGl+QUVDz88
+Nv9uveYAbibsNc8aC+SVfihkS4huqPocSWApgmMoWX6zWqmmS5MuIudV5BhrEsuR
+/z2KCkb+TzBhlSKMzleF5wXT7k0Xwul3asGGGf781hYrBpRceUEh7+TrSOHAutPn
+kshdMAMDa5xvAPVKX2jUCZ2VprakqB0X41SE8crFsM701q5sKevPMMeLB2IOmFfs
+uLB7SNgVmzmibOj/Fuu32hhj42LJPOVeYaSBfAUi5GwGcaXotLtgM9ijHipM7gy4
+Lq4gPv2I1ILmsANrWGBiZbmFPGTDQlouhO3NiT6UwuyE+ligaoMkAjsHC0HoLdvz
+YjpmxmbrvJiRRBs=
+=g1R1
+-----END PGP SIGNATURE-----

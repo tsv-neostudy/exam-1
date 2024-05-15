@@ -51,3 +51,10 @@ W: bkp-srv: copyright-has-url-from-dh_make-boilerplate
 W: bkp-srv: maintainer-script-calls-systemctl postinst:44
 W: bkp-srv: readme-debian-contains-debmake-template
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo bkp-srv_0.1.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo bkp-srv_0.1.0_amd64.buildinfo bkp-srv_0.1.0_amd64.changes
+ signfile changes bkp-srv_0.1.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

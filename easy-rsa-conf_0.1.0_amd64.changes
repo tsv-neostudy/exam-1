@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Mon, 22 Apr 2024 13:27:52 +0300
 Source: easy-rsa-conf
@@ -15,11 +18,29 @@ Changes:
  .
    * Easy-rsa with custom "vars" file and "pki" dir
 Checksums-Sha1:
- bf30e56850bfad2c2e9ba4494e592551d6721587 5276 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 183caa5e839662ff7cad566266c4db40fbb3b19e 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
  d61a02b836182ad9d8105701edc13ef2ceea5819 10608 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- 27b10484fb389bee9d0e7f4552a7bb59b3462b7e4c315e1dbf91c10ba2171ad4 5276 easy-rsa-conf_0.1.0_amd64.buildinfo
+ bb16914cf155e4f8c670f9cd411c1f9e39d1054f720c632236d20b4669df045f 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
  6b56eaeeb5342de0e3da5fd3bd36c9c4cb11999c0cf8385a24c119a690e8b29b 10608 easy-rsa-conf_0.1.0_amd64.deb
 Files:
- 8fd63ce8cfa7242bf16c81e477a5f5f4 5276 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
+ 44b7ad872c37ddfd162aaa60c836470a 6188 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
  9c11b780af20cdc7dc16fa2ccf814c53 10608 utils optional easy-rsa-conf_0.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8bkUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM3KVw/+KsCP7zkFgxlUZh9lDseLf9xjY+FU
+8La2lP1dRXyUkKXLLKhezXTIAfyHz205IGWQpkaxpGQ/UtXDFfz1eXNRGjq7Nbcm
+Xy99R4rh8p7PhOvzfYA9nd5CrTT5H2GZ1W1bjB5UBqyI78Q3tPxCRFPKw4uL3H21
+B7PYO8D8vnl26HgNOrSY/Xw108DsC8yvsgoDL+OJt4VDLPI7kjPKG0O88mvUFhgz
+VJAXbm4ev4YY0PFWPrQ+oNIRf23aQ7rStxq6iPZV8j6EgGLdIa+ubOE8qWTKYJHW
+mypEsvOBRTzijDxy8749TfxvvKgUqbg9TfESeXEhDaKTo9m7KhzwSsi9l//7+K0m
+F4ylw7s4PNXfw+AzIKBgOxxtJn5HxOnQaMFKa4eqyCGyK7C6J0sVLMSHapZwyDw9
+zj4K3tE91cXYP0LMBjwh8jXCPqBk49VkeuBFhuGqlVeHd8mj9jmRrs7czJ8lVx2T
+KlgjGQWCyG9tz1iYlgzYhuVtTaQO0kv3Om/rUuhzXAjd2UWIMGJB7CxvG+aARp39
+hQREm0VseeQ+N63J+/Q/QotIi1X6gZdaW9h6YgCHrsnNSCbfyUCxr+XvHWdl1mCz
+KI/vpeGGoGWiUJqLI1GeMp1fa25aYLdzO9L1b+GsDC2grSPUbnRhAsiIenUjOU6F
+U0zgzkv9I4Id3mI=
+=gwIN
+-----END PGP SIGNATURE-----

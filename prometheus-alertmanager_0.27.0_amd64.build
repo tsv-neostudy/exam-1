@@ -64,3 +64,10 @@ W: prometheus-alertmanager: binary-without-manpage usr/bin/prometheus-alertmanag
 W: prometheus-alertmanager: copyright-has-url-from-dh_make-boilerplate
 W: prometheus-alertmanager: readme-debian-contains-debmake-template
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo prometheus-alertmanager_0.27.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo prometheus-alertmanager_0.27.0_amd64.buildinfo prometheus-alertmanager_0.27.0_amd64.changes
+ signfile changes prometheus-alertmanager_0.27.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

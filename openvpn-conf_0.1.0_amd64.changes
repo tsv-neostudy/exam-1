@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Sun, 21 Apr 2024 20:22:31 +0300
 Source: openvpn-conf
@@ -15,11 +18,29 @@ Changes:
  .
    * OpenVPN install like dependencies. Set ip_forward=1. iptables settings.
 Checksums-Sha1:
- e10c0c44d8fdbeeb9b3062467127e20a7773d314 5268 openvpn-conf_0.1.0_amd64.buildinfo
- 271fee209cd2a663c2c8c470bab9cb28befd88db 9112 openvpn-conf_0.1.0_amd64.deb
+ 5386d89cadbd19b408f8de34a0f240c54c981547 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ b225c1d07c28b408e85bfff84005a1ebf45885d0 8044 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- bbf135ed978471b25442114f5ab3171d278b3486a85479c9c122f0d985273a54 5268 openvpn-conf_0.1.0_amd64.buildinfo
- 8d36cca4df5aacd7a2717f65cdca3a9d9f87b14306b151ce67d77819bcf5bbc3 9112 openvpn-conf_0.1.0_amd64.deb
+ 622f63327a794af0a7681dcf328feceba9d668ec88599b422b2690e19c72674c 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ f0c0097b6cef049f38f1c3ed940219f718a223214a264fa0035bd8c12731b5f1 8044 openvpn-conf_0.1.0_amd64.deb
 Files:
- 2bd5cc0f3d3cf4711ba6ed513d3e3507 5268 utils optional openvpn-conf_0.1.0_amd64.buildinfo
- 80fc0ee5ce699305e17d9073d603864f 9112 utils optional openvpn-conf_0.1.0_amd64.deb
+ 00115547aa045ab5e5bf32a14669a3a1 6180 utils optional openvpn-conf_0.1.0_amd64.buildinfo
+ 3e29dd1a7cc10893be198879802e0fb0 8044 utils optional openvpn-conf_0.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8f4UHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1wqA//Q/WA+IyxaJba+mYGvwx8MxK2FxpQ
+6Jp7KymxNjxseVnbHU91hmuXo2IoWEgrSLMsDYm1VaHjNfGZLuq3PVu8f41Zek6d
+O0XI84godJEGXpeiFrOB45vY2yNk/11f5vJBri+MlSbLvtdypUMT/+y0Ig3hRpzw
+ASA/yDWkdwKLMYvTBPb1WGBSAu5jIgjwk8Z3KC5Rt4pmZaqe8jeCuBepgVilVeNZ
+oQv1qgez/lZvK617GmT+DFVHgEn8gJsa1y38uao5eRyEhgarkAdpu0qXc1SDX3mu
+cLVwl8FppS8Lo0npvhE90hVSs5wW3Qvwf7+Jb8gDbGOLPFc0jWsUDGYDW8TKmFKz
+Bum0pWfp/Oh7CLgvfiz5Y/uqAV+jwXpUh1z376CkewJPC+XE+peFrzhrkJtdS4LI
+cU5SE/jNo3q+baznR1mRJCM2OH9FoLkwtV4aneskImBddVO0SiXZr039BP4jY+MK
+mqNipAalILSrtxdC6d87y/XjDSzSk5c09Jw5EzKSfFKwUQiKaiA1BiwoH/DXS45n
+uQmx6jXaJ6jJnl41miXyyt7wgwceIadZST4Ay/YcA09xrZxJ3l5QT1rlntu9+wes
+iqudojV669/8c4C0Yaj8R43crsHnc05nTC3xl/Win4iYdMihprAIkSk19KPN9XhA
+mKiK2+v2BBEfdVk=
+=Vxbl
+-----END PGP SIGNATURE-----

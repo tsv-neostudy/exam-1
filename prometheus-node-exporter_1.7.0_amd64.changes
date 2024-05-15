@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Thu, 04 Apr 2024 01:40:25 +0300
 Source: prometheus-node-exporter
@@ -15,11 +18,29 @@ Changes:
  .
    * Prometheus Node Exporter ver.1.7.0
 Checksums-Sha1:
- 96fa27bf407b553c5ce5e0ff32ef89b4f84e3e1d 5337 prometheus-node-exporter_1.7.0_amd64.buildinfo
+ 2b51d0f064dac387e1804dd9a4895293fc120662 6249 prometheus-node-exporter_1.7.0_amd64.buildinfo
  bb0e00211afd9cf08cfc2c4d864cb9561e285a68 4065928 prometheus-node-exporter_1.7.0_amd64.deb
 Checksums-Sha256:
- 0958cf9fa20578b5dd758e63bbc1489904a187af0200fda0ff614eb463b93acc 5337 prometheus-node-exporter_1.7.0_amd64.buildinfo
+ 02d16d6e26966d43ebfda73f64dbc0caa13cf9c1e6a8ccaff40f2e91c273f5e6 6249 prometheus-node-exporter_1.7.0_amd64.buildinfo
  78c98c8ba09ac44d0dbdeb7f3f7848d10a9a1253fa8288e91e09434064cdd9bb 4065928 prometheus-node-exporter_1.7.0_amd64.deb
 Files:
- 96a7e0ff3ba58334271db3898e246f19 5337 net optional prometheus-node-exporter_1.7.0_amd64.buildinfo
+ 0bcfe5a79b7dfe3294c0b55299650efb 6249 net optional prometheus-node-exporter_1.7.0_amd64.buildinfo
  d9bf9392244a1360c86179808328e218 4065928 net optional prometheus-node-exporter_1.7.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE+YwUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM183hAAg8CxyM+mafFqJwfPJVGVrZyluEEH
+TjpfWvKmXS555S33tT/ZhkMQNvdMxVQyXicMZr5ahIk/WAX3C0OhjiQ7+6TRrA0D
+Xldvcqj1gXJHFCd4HlIq8VxmYz81SuZDxCHfKWP44y5Ng7iFdQByqO6copwn7bAT
+vPp2tL8iGPKK1AjvfTfSrOqnubExFevQCZewMSSiVMeWQY83tDRxQLyh5NeSvjp2
+VInjaZnXnaPlf5lBa4LlMfm3pkcQ9NT9zThQBQqeeyADkYtLz6zzQ/g+YmxJI9kC
+6kiKe4Zm6VE2LwrZDamoxLtWnifv1oZZiilXYQiD62M/VrBrquZWmpz/BPo2lvLK
++4nDraw+Z1N+JYOV3vsJF1BcbNS/ZOwAvPRtzkLVAJFgJqEen9yJGhpgYqIHh2PG
+1T+XEmxzg8XMiXhHG4jFFOF/LmdaH2lVMGRDaEYuGZjqjUo6NgSFcDv3xxNUZf9D
+6gdevW/wA3OOfdoTKLxMZ5xbKva/ivSac8I0iX0ASInlemlaLn1sLu2ouV2J1lg0
+d9GOEzw+ydsk0jjm7sOh9TSVXIVAmGP/bA4L2AZxXdG2vQ9RP+PqOxO3XDEqou1q
+5brbs6mf5j57nZxkZ+5V1Nyu5KqhAQc3qWq7SEPmuB3FZOAkXbiQsUAyHj89owv+
+XV93CU0Zmt8gJqE=
+=jGo5
+-----END PGP SIGNATURE-----

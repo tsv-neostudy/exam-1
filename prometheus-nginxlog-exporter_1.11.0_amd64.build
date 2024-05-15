@@ -53,3 +53,10 @@ W: prometheus-nginxlog-exporter: binary-without-manpage usr/bin/prometheus-nginx
 W: prometheus-nginxlog-exporter: copyright-has-url-from-dh_make-boilerplate
 W: prometheus-nginxlog-exporter: readme-debian-contains-debmake-template
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo prometheus-nginxlog-exporter_1.11.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo prometheus-nginxlog-exporter_1.11.0_amd64.buildinfo prometheus-nginxlog-exporter_1.11.0_amd64.changes
+ signfile changes prometheus-nginxlog-exporter_1.11.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

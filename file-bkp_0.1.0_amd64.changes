@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Thu, 09 May 2024 23:37:48 +0300
 Source: file-bkp
@@ -15,11 +18,29 @@ Changes:
  .
    * rsync with base conf.
 Checksums-Sha1:
- 8478e7c7a2caed9bd08bea894a777d0bb91993ea 5032 file-bkp_0.1.0_amd64.buildinfo
+ a56f97abbab345f6062d3804cc903e12df9d3b4a 6160 file-bkp_0.1.0_amd64.buildinfo
  cd3b582cd05b6156ad21830f90f0cbf90a2dc7e8 3296 file-bkp_0.1.0_amd64.deb
 Checksums-Sha256:
- fccca17801bb3d4ad802c83304989c1582c2b47aad4418880a8e83ae2620b92e 5032 file-bkp_0.1.0_amd64.buildinfo
+ f09f741d89d50aff00e2a87e9c63f28e9a1eaea36961b8aebe350fd937888783 6160 file-bkp_0.1.0_amd64.buildinfo
  bf0263f1f9576dca784b2b46d3e8c70dc4961b1fa170f2b357e141dd300de7f4 3296 file-bkp_0.1.0_amd64.deb
 Files:
- efbb09df925708d661c721d463411f23 5032 utils optional file-bkp_0.1.0_amd64.buildinfo
+ 61b9a6ddd4e29b0ccf3bff4dadcbce40 6160 utils optional file-bkp_0.1.0_amd64.buildinfo
  41f8241a69130fd0ed1192092c9c12fb 3296 utils optional file-bkp_0.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8dwUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM353BAApVJmF1Fam340vc/xA34WdJJvb9cb
+ReiON+KqvKZBdI53Aa9OyA+8nvD0WNGCMDGmET6cAJYtrH7VO0MLKar+gKw0rjSN
+PMT+cspiIhX+keJ4k/SvzeHQWsleOz1mN852MzFXxgo0VURoXx2OJmgA6/Lylb5K
+u/fByWk1BzFBjKJZOicEsoRXi84OacI3royiygCg19EdnM2t8XP1wUZCeHbMP74J
+4a0GIH+kiYek0HlV0sIg1+so3Q2StzCDLv3y7SAFevWIWVcUS087T1U4Y6IX5uD+
+BiqDu8fVL3iHRoYQ+Xv8jrIhpzu2ZHN4joLlJx8sCIf6ix+JH7b/wjR6AO2cgfzc
+myNkKiVOgTzibny3eoH4SO0JD4yuEZKtBxlyLVfn05ON3LYoie1aVSajXZ65uQeY
+DjpM3zGQbEZqK2iJloi5JqP3naXD9Er1XjlGjCF5OeJaeMmdjXQwORyPexTy2Ybi
+0IKFhrb8ffTviGr7WXDoGqFJJu/xUxhBEer7x46svu/KjeqZ7axstfqbeHEilhqh
+V9KFyWcruQU8XrxmCyfLEq05hUo8UBMil1NrQOYmdyRDtZTLcjMg+KHyv6uNWpcy
+XxG6YD3TX0tq3jgWW4TLrsCLs9LhjiJQpBN6tgz+v0yiitkJfZz8g7AuPT5HRdtL
+5i3X+7qdzPiKfkg=
+=wXux
+-----END PGP SIGNATURE-----

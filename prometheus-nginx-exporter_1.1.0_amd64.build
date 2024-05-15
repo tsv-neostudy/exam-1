@@ -54,3 +54,10 @@ W: prometheus-nginx-exporter: binary-without-manpage usr/bin/prometheus-nginx-ex
 W: prometheus-nginx-exporter: copyright-has-url-from-dh_make-boilerplate
 W: prometheus-nginx-exporter: readme-debian-contains-debmake-template
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo prometheus-nginx-exporter_1.1.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo prometheus-nginx-exporter_1.1.0_amd64.buildinfo prometheus-nginx-exporter_1.1.0_amd64.changes
+ signfile changes prometheus-nginx-exporter_1.1.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

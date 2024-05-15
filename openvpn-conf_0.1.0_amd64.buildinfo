@@ -1,17 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: openvpn-conf
 Binary: openvpn-conf
 Architecture: amd64
 Version: 0.1.0
 Checksums-Md5:
- 80fc0ee5ce699305e17d9073d603864f 9112 openvpn-conf_0.1.0_amd64.deb
+ 3e29dd1a7cc10893be198879802e0fb0 8044 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha1:
- 271fee209cd2a663c2c8c470bab9cb28befd88db 9112 openvpn-conf_0.1.0_amd64.deb
+ b225c1d07c28b408e85bfff84005a1ebf45885d0 8044 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- 8d36cca4df5aacd7a2717f65cdca3a9d9f87b14306b151ce67d77819bcf5bbc3 9112 openvpn-conf_0.1.0_amd64.deb
+ f0c0097b6cef049f38f1c3ed940219f718a223214a264fa0035bd8c12731b5f1 8044 openvpn-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 24 Apr 2024 22:09:28 +0300
+Build-Date: Wed, 15 May 2024 20:33:47 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -94,7 +97,7 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.8.5-5ubuntu1.1),
  libgdbm-compat4 (= 1.18.1-5),
  libgdbm6 (= 1.18.1-5),
- libglib2.0-0 (= 2.64.6-1~ubuntu20.04.6),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.7),
  libgmp10 (= 2:6.2.0+dfsg-4ubuntu0.1),
  libgomp1 (= 10.5.0-1ubuntu1~20.04),
  libgpg-error0 (= 1.37-1),
@@ -137,7 +140,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-177.197),
+ linux-libc-dev (= 5.4.0-182.202),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -164,3 +167,21 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1713720151"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8f4UHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0XQxAAoWRVdRQuy7+0yN4i4eN5keMOwIny
+s/VsedEIqBS65RwNfs8xi7HhQ/YkxurGFgxjL9N9cmo2af9tZpxxHfC4krMZ5QV7
+bnowxICEMvM7nNhVqKzpKI6UC5Th0u4Z+xSl5LbyH2kPZh91BAXKQcVZE92CA7a+
+JJGOc43IaeNAJVYElmu3X2zfOUfykMrT4V+WH9hjeci8vw9k/GoEvb/xW9eE2Ti6
+qvt1TuOmWXsqjJpbEgQWjfyCUo426nRFrezo5ZzJyZq1JPvGSshCi9cYCeSiZIC/
+yliSlmYypfW5m5hGRh2HHEzLdGExsYmsFECKcMUo5gb3pmGLOqjYxWA0NzPjWCFV
+PpXgaZUiNYpHaXy1W8+EGTpxxV5ARRfgOhMvCPP4B62s0u2DnNRFq2kDLY2PWhKL
+4IUfiJVruzq2Ecc4wRXS9Ky3SNN5fb88EFq+umN2yUcGSbR7ztX8V/JHp+vSkJym
+1bhlcfILe5SOtGIx5kZrcjwTo9kCka4s8wIYG8mF5XH3DYp6GgXNGyUGOPmRZf2r
+QKNFkzvaht4DahbKrFtnou9ZVL/3CdoMDZWXlAq6hZdTPbjzcB0d4jvFQIOCBKo3
+3LTX9ipLkQ2PFyZMLF20E5KrgMwpWMe3tq/Lo90ryZ/OVu/jIUxlN1K/7wcAwmpx
+h7B/hD+9dInh+xc=
+=7S3f
+-----END PGP SIGNATURE-----

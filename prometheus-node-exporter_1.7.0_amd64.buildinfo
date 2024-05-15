@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: prometheus-node-exporter
 Binary: prometheus-node-exporter
@@ -11,7 +14,7 @@ Checksums-Sha256:
  78c98c8ba09ac44d0dbdeb7f3f7848d10a9a1253fa8288e91e09434064cdd9bb 4065928 prometheus-node-exporter_1.7.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 04 Apr 2024 11:25:20 +0300
+Build-Date: Wed, 15 May 2024 21:05:58 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -26,7 +29,7 @@ Installed-Build-Depends:
  binutils-common (= 2.34-6ubuntu1.9),
  binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.9),
  bsdmainutils (= 11.1.2ubuntu3),
- bsdutils (= 1:2.34-0.1ubuntu9.5),
+ bsdutils (= 1:2.34-0.1ubuntu9.6),
  build-essential (= 12.8ubuntu1.1),
  bzip2 (= 1.0.8-2),
  coreutils (= 8.30-3ubuntu2),
@@ -68,13 +71,13 @@ Installed-Build-Depends:
  libaudit-common (= 1:2.8.5-2ubuntu6),
  libaudit1 (= 1:2.8.5-2ubuntu6),
  libbinutils (= 2.34-6ubuntu1.9),
- libblkid1 (= 2.34-0.1ubuntu9.5),
+ libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.14),
- libc-dev-bin (= 2.31-0ubuntu9.14),
- libc6 (= 2.31-0ubuntu9.14),
- libc6-dev (= 2.31-0ubuntu9.14),
+ libc-bin (= 2.31-0ubuntu9.15),
+ libc-dev-bin (= 2.31-0ubuntu9.15),
+ libc6 (= 2.31-0ubuntu9.15),
+ libc6-dev (= 2.31-0ubuntu9.15),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -94,7 +97,7 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.8.5-5ubuntu1.1),
  libgdbm-compat4 (= 1.18.1-5),
  libgdbm6 (= 1.18.1-5),
- libglib2.0-0 (= 2.64.6-1~ubuntu20.04.6),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.7),
  libgmp10 (= 2:6.2.0+dfsg-4ubuntu0.1),
  libgomp1 (= 10.5.0-1ubuntu1~20.04),
  libgpg-error0 (= 1.37-1),
@@ -106,7 +109,7 @@ Installed-Build-Depends:
  liblzma5 (= 5.2.4-1ubuntu1.1),
  libmagic-mgc (= 1:5.38-4),
  libmagic1 (= 1:5.38-4),
- libmount1 (= 2.34-0.1ubuntu9.5),
+ libmount1 (= 2.34-0.1ubuntu9.6),
  libmpc3 (= 1.1.0-1),
  libmpfr6 (= 4.0.2-1),
  libpam-modules (= 1.3.1-5ubuntu4.7),
@@ -122,7 +125,7 @@ Installed-Build-Depends:
  libseccomp2 (= 2.5.1-1ubuntu1~20.04.2),
  libselinux1 (= 3.0-1build2),
  libsigsegv2 (= 2.12-2),
- libsmartcols1 (= 2.34-0.1ubuntu9.5),
+ libsmartcols1 (= 2.34-0.1ubuntu9.6),
  libstdc++-9-dev (= 9.4.0-1ubuntu1~20.04.2),
  libstdc++6 (= 10.5.0-1ubuntu1~20.04),
  libsub-override-perl (= 0.09-2),
@@ -134,10 +137,10 @@ Installed-Build-Depends:
  libuchardet0 (= 0.0.6-3build1),
  libudev1 (= 245.4-4ubuntu3.23),
  libunistring2 (= 0.9.10-2),
- libuuid1 (= 2.34-0.1ubuntu9.5),
+ libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-174.193),
+ linux-libc-dev (= 5.4.0-182.202),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -157,10 +160,28 @@ Installed-Build-Depends:
  sysvinit-utils (= 2.96-2.1ubuntu1),
  tar (= 1.30+dfsg-7ubuntu0.20.04.4),
  tzdata (= 2024a-0ubuntu0.20.04),
- util-linux (= 2.34-0.1ubuntu9.5),
+ util-linux (= 2.34-0.1ubuntu9.6),
  xz-utils (= 5.2.4-1ubuntu1.1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu1.5)
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1712184025"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE+YwUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM14nw//atQXtb90pQA3PznJycLjSTXXmZXp
+9g0kpKPwlY5oy1Dl7FhNNuUL06PAi7sC7TavLQ6CqAtWVlO8EtHNiKzYii1kose7
+xHa0OYKSOgyCgDsKi2Dv2dKUtMRJ6uMxobKbL7OpOoGxA76AuAuDyRc4DpODrQUs
+16YJLdnVbDU12XOEKyynPtk7aqHY3rczGLg0mzy9/hiCVcTXYTNncv1rq0ZIc4v8
+BXkxTIgv4ZJZAkOg3qtODW+t4RjycXy/IXB/7opKxBxqzXiaHRhzhc2rpYxrpXKm
+Ssj3Wk9flVRtPUjAoZ5ZiXHjkU5nND+JcXBRU122TtJnly6llivqoCvsDWuOMCgc
+gyewthxhUjLKbZtTJabSpc+OLleWLED4/nRAbm2+gmJoR9WECQI4xgWDPt0j1O2d
+Dy/Xtz0ygfRu2x+Tl27Gba5kqcz5xYB14YDV1Um/zHRVHqCa6fjQGUChy0DzriVs
+bw+9HXZYYjrh2Uj22nbsSRU7a7gcYtMm8Dz4fIjEO+LzhIB+1kp70MhSULO6zdlF
+DHL8kxpvekAzxCdfHLetjgNmP3SLLHwQROs3PRJY9bGnC3lOYlTSb2J/p3m8ng8g
+RcNzXDYi5KMhxe/DiWweCh0X3hqC6UfkGsYhdXOR6sKOhQinMivz2sHVYgh0k3q2
+TYgCGzxJyFiE1ms=
+=dcCR
+-----END PGP SIGNATURE-----

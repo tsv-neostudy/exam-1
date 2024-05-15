@@ -49,3 +49,10 @@ E: easy-rsa-conf: helper-templates-in-copyright
 W: easy-rsa-conf: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:46
 W: easy-rsa-conf: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:52
 Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo easy-rsa-conf_0.1.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo easy-rsa-conf_0.1.0_amd64.buildinfo easy-rsa-conf_0.1.0_amd64.changes
+ signfile changes easy-rsa-conf_0.1.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

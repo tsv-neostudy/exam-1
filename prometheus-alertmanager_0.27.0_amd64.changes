@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Thu, 04 Apr 2024 11:43:01 +0300
 Source: prometheus-alertmanager
@@ -15,11 +18,29 @@ Changes:
  .
    * Prometheus alert manager
 Checksums-Sha1:
- bc3908d36e8cc0d27e46f0fd57e812636393a79e 5339 prometheus-alertmanager_0.27.0_amd64.buildinfo
- 5b8b581e0c8f586715305a6e6dd539f7b93bddcc 13010200 prometheus-alertmanager_0.27.0_amd64.deb
+ 750b2be0932d047ae2c2004a737f25167648ee42 6251 prometheus-alertmanager_0.27.0_amd64.buildinfo
+ 25100fdedd335df988fe9c95a419bdcb40e7462e 13009600 prometheus-alertmanager_0.27.0_amd64.deb
 Checksums-Sha256:
- 74881fd3033cbed4feac816bcf8e6c453f373b5f982869b142374858a5addc40 5339 prometheus-alertmanager_0.27.0_amd64.buildinfo
- 52c9019bfa1ff0df186d93013d364f99b96d17d49f4b715f97c73a72f7a4bd48 13010200 prometheus-alertmanager_0.27.0_amd64.deb
+ fb279009b8695af341bc48cf22c4867d5347b3a7a417bc8b1e88273469bf393c 6251 prometheus-alertmanager_0.27.0_amd64.buildinfo
+ d4c9cf44f2ad1edf64c8ed882b94f897b893bf5acff6723d77a7bbe8b6376194 13009600 prometheus-alertmanager_0.27.0_amd64.deb
 Files:
- aff9af1989d9855ac448d567841ebec9 5339 net optional prometheus-alertmanager_0.27.0_amd64.buildinfo
- eec36858bc88b8b314cb25e05df916d8 13010200 net optional prometheus-alertmanager_0.27.0_amd64.deb
+ 4431ff41fb235d7af91d71fc8c0f2750 6251 net optional prometheus-alertmanager_0.27.0_amd64.buildinfo
+ ff62301eeeda08cf44b5fbed56bd7bbd 13009600 net optional prometheus-alertmanager_0.27.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8xsUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM34iA/+KwyDuLtU87ZtC0ZGNbbL1vUHMze1
+ysrg8joJcPwZV/HiksCvW+fVTO/sPFymw2FQStfFxungs9cPgNlwRLPcFSGnDre9
+/WU5xV2b4y54n8l9z6YwoNVDMX4c9iqmOnjWScRhFlMYqcjzYSgqrZiEh5KEYyqO
++Pw3OFEAM9CciZ5jjutET24G965LOtQ18qVZ0JbFxvWQQZr6EY1hlrRDneTbjqrh
+embGq9HhDqx3Sozor7VLiIqpI39DBeJr3+DYSLZrAqlJ5IHyxlYgFKqRpMN2kHOk
+xKJ+uz+09DM5ngXcGT/6aDBNXEyQLI3bpuMu4kfQh3ZugnAwv3W72YlQDoXOAPVZ
+N2wzjHwPO5JPvFOjYkzJhU3DiTvVyM9BcaokZSbb+VnXjjJsM42W72yF2Ik69XCl
+LE0/w7x6WCPWpQWNXz7WgVb/ap8dMQH35Bu5vb3/1uMwU4v+/dhR6KJFo+va6Crt
+bi1bdD361TebXikBVERcGmipNG1aOVmQkT5kGmKi/CB0rSRG3YbSysfhxsGwszwN
+pVBNsj7htqSIt6OqfluFmemGORZdEeZeD0Js5XZaPlyv6a8+cigtPf0Ho1ewe4jS
+kL/mdSfYa3+FWL/6Zh5gdeKJ/BhftIyaqYPR6OfAxCDVPxWDszztbIxVN1kPOm2e
+lLKqrsGIqYQ5AWM=
+=1gq9
+-----END PGP SIGNATURE-----

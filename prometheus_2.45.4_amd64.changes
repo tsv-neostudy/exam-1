@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Tue, 02 Apr 2024 14:33:45 +0000
 Source: prometheus
@@ -15,11 +18,29 @@ Changes:
  .
    * prometheus ver.2.45.4
 Checksums-Sha1:
- d31ecdd49fd6739bfe9977ad29b7854ed84d629a 5274 prometheus_2.45.4_amd64.buildinfo
+ 33116eaa97ccc745b8d241e775ff081b74f7336b 6186 prometheus_2.45.4_amd64.buildinfo
  9e74c1726f460b95c44b0185f595309b2fd249f2 32955680 prometheus_2.45.4_amd64.deb
 Checksums-Sha256:
- 910609890a3c9860b047dfdce5f919a9b05468583d9898f294ad625cf1999418 5274 prometheus_2.45.4_amd64.buildinfo
+ 3763176c90d1efa0a34a9c143fcbb04db58d4cfda43a8c7fe210883322306388 6186 prometheus_2.45.4_amd64.buildinfo
  036f5147ae6f8dd0e6b5974402d8a352e2058fbf26edf5df25a30bb038d16d3f 32955680 prometheus_2.45.4_amd64.deb
 Files:
- c36900f362663e7fc3711e3f7cb246c3 5274 net optional prometheus_2.45.4_amd64.buildinfo
+ 28b8639fe2744222945cc653a80fac7b 6186 net optional prometheus_2.45.4_amd64.buildinfo
  a1202137db730092910c8ddeff749d9c 32955680 net optional prometheus_2.45.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8pAUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM3sBw//ZXXXVxwzNqdNoNkKrtA0OIL9/h8X
+pgcWJFS6AWP2J1XeDrydmmL14Gli7KVUyHYxfYgEz7JEkteCy/WgoSLzzrJmZlKK
+9YUCe4T83vQYYvUrvO0YenKqYktQGNFYkKR3MuqC9vLjwDtew0BmRsG7gtRflfUA
+qNvfxREXsIUyFvzVT0x6NOn9MM9qRmnDhzy8wt8vOEYeErlhs3fLgxujlVek2xr5
+nde+1UtaAkDgA8e5oCTn+DbUPUE3szVregXVRV8wFo+pxuA1EvUCtU8RFuopKPue
+BsVb6E9hGTTGqu+8RtbEMwd5iNAhouC3x+/oU6bTGaFwYAKYxswvPb8xd+UkKtWv
+tCCPPnOkgRHXZrk+kh+QXuDoPkQwccD3p+1Ca/QJtMJmOzoNgJKLrZyMtuf0H8nQ
+WRWObqXoLSkGlSPMtwF6Wev1TK925YAmXAuHpl3rCbPcLhYWY08Bx36DHnL2u9Wz
+TQuUm8gtP3ZOo89Fy4cobUhu39S8lC9vpkz04pfZQmIrGLCXNUHiCsV1aHxOnrPd
+Trzsy0t2ExAhzggzgt2OMy+XYI6v38T85em8mu32q6zyDJe6gCIxY9SbuDUCFW1k
+rCGowaggoHXUN/oxQOihJAvfTMWzvFUA6Jl5NSGJgZT7ouQuE9TFTsqWVYvhtucm
+1yexTeTHI0L+c3Y=
+=94bX
+-----END PGP SIGNATURE-----
