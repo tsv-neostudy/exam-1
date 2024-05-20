@@ -7,14 +7,14 @@ Binary: openvpn-conf
 Architecture: amd64
 Version: 0.1.0
 Checksums-Md5:
- 3e29dd1a7cc10893be198879802e0fb0 8044 openvpn-conf_0.1.0_amd64.deb
+ 3852c66728e5b5ec4b8a2d98d9817df9 8048 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha1:
- b225c1d07c28b408e85bfff84005a1ebf45885d0 8044 openvpn-conf_0.1.0_amd64.deb
+ 2a1ab0b900ebd4c42f2128c306d6791f72c8d091 8048 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- f0c0097b6cef049f38f1c3ed940219f718a223214a264fa0035bd8c12731b5f1 8044 openvpn-conf_0.1.0_amd64.deb
+ bff7870942e0f97178c34f20ee5e5b686b48fbaa8b413c71736c4cafd768b831 8048 openvpn-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 20:33:47 +0300
+Build-Date: Sun, 19 May 2024 23:55:40 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8f4UHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0XQxAAoWRVdRQuy7+0yN4i4eN5keMOwIny
-s/VsedEIqBS65RwNfs8xi7HhQ/YkxurGFgxjL9N9cmo2af9tZpxxHfC4krMZ5QV7
-bnowxICEMvM7nNhVqKzpKI6UC5Th0u4Z+xSl5LbyH2kPZh91BAXKQcVZE92CA7a+
-JJGOc43IaeNAJVYElmu3X2zfOUfykMrT4V+WH9hjeci8vw9k/GoEvb/xW9eE2Ti6
-qvt1TuOmWXsqjJpbEgQWjfyCUo426nRFrezo5ZzJyZq1JPvGSshCi9cYCeSiZIC/
-yliSlmYypfW5m5hGRh2HHEzLdGExsYmsFECKcMUo5gb3pmGLOqjYxWA0NzPjWCFV
-PpXgaZUiNYpHaXy1W8+EGTpxxV5ARRfgOhMvCPP4B62s0u2DnNRFq2kDLY2PWhKL
-4IUfiJVruzq2Ecc4wRXS9Ky3SNN5fb88EFq+umN2yUcGSbR7ztX8V/JHp+vSkJym
-1bhlcfILe5SOtGIx5kZrcjwTo9kCka4s8wIYG8mF5XH3DYp6GgXNGyUGOPmRZf2r
-QKNFkzvaht4DahbKrFtnou9ZVL/3CdoMDZWXlAq6hZdTPbjzcB0d4jvFQIOCBKo3
-3LTX9ipLkQ2PFyZMLF20E5KrgMwpWMe3tq/Lo90ryZ/OVu/jIUxlN1K/7wcAwmpx
-h7B/hD+9dInh+xc=
-=7S3f
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZKZ1AUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM3ORhAAsvsh4tdABo2DxK64PylOCj9/+wfl
+fmx/chdZe3u8s+TaMqAXiHclKztqtxQ+Z+YOCQ+Rx7mIhjpcuhSw14XYJBySsetl
+8BoqlC65R4DHzPqEiyBWt4dhSvG63GBx7SqFiB/u5reVfihLqLM7moqLO0HmonDt
+iTTuvbUdlYdiH6KvW42ZKrhuKp7QhTA4X/Z66ymIXHywqT8NtwAvQnEky+k18v+n
+XVjJBE8KKH2VWVhoG15lbPfhGGcF35ledjPGEAzi2OwPfRGaCho92EcsLLsUbIQ1
+L88I3Ne5v/s246fSz5WBL7ZeEG3Tm7VgMoLN3ZHZCy11/Zp7B7yRHi1jGRE9h3/+
+BGqzPXd+VeD9CHLrnP2e0AzxuUlMdgDSgFiqvx3pb5NAf2OQyR4OwLB0GXZ1a52Q
+nRKCru6ImYGB3avohuZ0TF2T3ukc2A53HikT9sEFJtWfuzR1WMInvN2j6dnweZ0r
+qX9IpovupFb4gnbevpdYlGUXYDk5YNODcWZjwf/r1NNhWTPe9FknpwzRlF2exwsi
+hbsD2S0C8CFHTDVGbUpJJ1pOVdZSu1Gfd+1TTwoffsHQtDwVvaInC5tBP0rypyMX
+SfYaYuOlhrCCaDI4dqNqUdoE0sZIAr+9w39oVhOei5IDO70Zb9frjJFT2cBtFH5+
+0kD7XufF7Qp12os=
+=MqSw
 -----END PGP SIGNATURE-----
