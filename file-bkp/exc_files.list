@@ -1,0 +1,3 @@
+#please list here dirs and files for exclude from file-backup
+#for example:
+/home/ubuntu/.ssh/known_hosts

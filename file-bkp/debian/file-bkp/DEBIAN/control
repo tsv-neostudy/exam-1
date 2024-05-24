@@ -2,7 +2,7 @@ Package: file-bkp
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 19
+Installed-Size: 20
 Depends: rsync
 Section: utils
 Priority: optional

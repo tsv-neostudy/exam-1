@@ -48,7 +48,7 @@ E: bkp-srv: copyright-contains-dh_make-todo-boilerplate
 E: bkp-srv: description-is-dh_make-template
 E: bkp-srv: helper-templates-in-copyright
 W: bkp-srv: copyright-has-url-from-dh_make-boilerplate
-W: bkp-srv: maintainer-script-calls-systemctl postinst:44
+W: bkp-srv: maintainer-script-calls-systemctl postinst:45
 W: bkp-srv: readme-debian-contains-debmake-template
 Finished running lintian.
 Now signing changes and any dsc files...

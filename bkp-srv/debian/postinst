@@ -22,7 +22,7 @@ case "$1" in
     configure)
     
 #    if [ ! -f "/var/log/rsync.log" ]; then
-#	    echo "bkp-srv installation started on `date +%F-%H:%M:%S`" > "/var/log/rsync.log"
+	    echo "`date +%F-%H:%M:%S`  bkp-srv installation started " >> "/var/log/rsync.log"
 #    fi
 
 #    if ! dpkg-statoverride --list /var/log/rsync.log >/dev/null ; then
@@ -34,12 +34,13 @@ case "$1" in
 #    fi
 
     if [ ! -d "/mnt/bkp" ]; then
-	    mkdir --mode=0700 -p "/mnt/bkp"
+	    mkdir --mode=0700 -p "/mnt/bkp"  
+            echo "`date +%F-%H:%M:%S`  /mnt/bkp had been created " >> "/var/log/rsync.log"
     fi
     
-    if ! dpkg-statoverride --list /mnt/bkp >/dev/null ; then
-	   chown bkp:bkp /mnt/bkp
-    fi
+#    if ! dpkg-statoverride --list /mnt/bkp >/dev/null ; then
+#	   chown bkp:bkp /mnt/bkp
+#    fi
     
     systemctl restart rsync
     ;;

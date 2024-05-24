@@ -1,4 +1,8 @@
 #!/bin/bash
+#ppa-update script 
+#
+EMAIL='mail@sb.stumasov.ru'
+
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 

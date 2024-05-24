@@ -5,4 +5,4 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/etc/file-bkp
 
-05 0/12 * * * ubuntu /etc/file-bkp/backup.sh
+05 0/12 * * * /etc/file-bkp/backup.sh

@@ -5,5 +5,5 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/etc
 
-30 * * * * ubuntu find /mnt/bkp/ -maxdepth 1 -type d -ctime +180 -exec rm -rf {} \;
+30 0 * * * find /mnt/bkp/ -maxdepth 1 -type d -ctime +180 -exec rm -rf {} \;
 

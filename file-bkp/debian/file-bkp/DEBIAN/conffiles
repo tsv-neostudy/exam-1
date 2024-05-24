@@ -1,3 +1,4 @@
 /etc/cron.d/file-bkp
-/etc/file-bkp/backup.list
 /etc/file-bkp/backup.sh
+/etc/file-bkp/exc_files.list
+/etc/file-bkp/inc_files.list

@@ -1,2 +1,3 @@
 ./backup.sh
-./backup.list
+./inc_files.list
+./exc_files.list

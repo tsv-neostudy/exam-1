@@ -21,7 +21,9 @@ set -e
 case "$1" in
     configure)
     LOG_FILE="/var/log/file-bkp.log"
-    [ -w "${LOG_FILE}" ] || echo "$(date +%F--%H-%M-%S) file-bkp configuration installation started" > "$LOG_FILE"
+    echo "$(date +%F--%H-%M-%S) file-bkp configuration installation started" >> "$LOG_FILE"
+    chmod 0640 "${LOG_FILE}"
+    #chown ubuntu:ubuntu "{LOG_FILE}"
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

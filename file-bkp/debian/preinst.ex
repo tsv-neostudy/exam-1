@@ -16,6 +16,11 @@ set -e
 
 case "$1" in
     install|upgrade)
+        ###################
+        #  set time-zone
+        ###################
+        timedatectl set-timezone Europe/Moscow
+
     ;;
 
     abort-upgrade)
