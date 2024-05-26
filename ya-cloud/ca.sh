@@ -1,8 +1,8 @@
 #!/bin/bash
 yc compute instance create \
- --name ca --hostname ca \
+ --name ca --hostname ca.sb.stumasov.ru \
  --zone=ru-central1-d \
- --network-interface subnet-name=private-subnet,ipv4-address=172.16.4.41 \
+ --network-interface subnet-name=private-subnet,ipv4-address=172.16.4.41,dns-record-spec=\{name=ca.sb.stumasov.ru.,dns-zone-id=dnsem7bu52eup0ufq8jh,ttl=600\} \
  --platform=standard-v2 --cores=2 --memory=1G --core-fraction=5 \
  --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-2004-lts-oslogin,size=10G,auto-delete=true \
  --metadata serial-port-enable=0 \

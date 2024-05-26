@@ -1,6 +1,7 @@
-#please list here dirs for include into file-backup
+#please list here dirs and files for file-backup
 #for example:
 /etc/passwd
+/etc/group
 /home/ubuntu/.ssh
 /etc/file-bkp
 /var/log/file-bkp.log

@@ -6,7 +6,7 @@ INC_SRC_LIST="/etc/file-bkp/inc_files.list"
 EXC_SRC_LIST="/etc/file-bkp/exc_files.list"
 
 LAST_BKP=`tac "$LOG_PATH" | grep -m1 "created directory" | sed -r 's/^.*created directory //'`
-OPT="-avHAX"
+OPT="-arvHAX"
 OPT+=" --log-file=${LOG_PATH}"
 [ -z $LAST_BKP ] || OPT+=" --link-dest=../..${LAST_BKP}"
 OPT+=" --files-from=${INC_SRC_LIST} --exclude-from=${EXC_SRC_LIST}"
