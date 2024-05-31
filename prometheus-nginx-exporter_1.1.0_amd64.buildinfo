@@ -7,14 +7,14 @@ Binary: prometheus-nginx-exporter
 Architecture: amd64
 Version: 1.1.0
 Checksums-Md5:
- 5824152b0edbd6836510e3f5b5a2d161 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+ c1fddc320bbbcc4c8f9a5d10e3a233b7 3216988 prometheus-nginx-exporter_1.1.0_amd64.deb
 Checksums-Sha1:
- 10a2b6470251eea2e8a290af1be8ad79d42209f5 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+ 9fb28d14ad86e0802cb0502084153c0db6f581b7 3216988 prometheus-nginx-exporter_1.1.0_amd64.deb
 Checksums-Sha256:
- b313ab38f9682b783734c4fb63f158d8c0e2d9092a45960da54ad7eb0580a2f3 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+ 946fdae7655d65265febd37008d0c1ac4c41058ca7ff3c875df493efd0aa7dd0 3216988 prometheus-nginx-exporter_1.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 21:04:11 +0300
+Build-Date: Fri, 31 May 2024 11:15:58 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -74,10 +74,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.15),
- libc-dev-bin (= 2.31-0ubuntu9.15),
- libc6 (= 2.31-0ubuntu9.15),
- libc6-dev (= 2.31-0ubuntu9.15),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE+SAUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM2t9Q/+PvHa56cZtoqCrTV2w/BGQ09U/ffp
-LhlZCST2JmhwxiFi+5H2nIQSJ2yblzcZeonv/+vTHsmNECqaTOrTn9p6ehr2ybuV
-TltYVqzPaAFTVkSoxMx6N+r0ZmtIvRNIV1kEwTs6ym4kQopUgFj86gqGPf7vsgkC
-djXOQYUEukrqI9w+8LsCeXp6vVBogHpCXO/iZ+gSH11rm+ySt5+FMlFGUpwa7QGr
-9T7IqkDtAqvtfcZOKmyg/0t6rOaSmm6Oj48a0YfJKdb1xi6P1jzov7OBtgPbrtkQ
-+R1d+Rz0NTIwLkRNCQEMWypkUGUxj4f3G/bPWsNuTlxbFeFQx15sfXfCKfYixMBI
-YzkxPZ1gHbb8Uyv5VJMFw2NAoJhlWYPeCKJ264bmgZGeJqJZ5pahqFi1MkVaGrfL
-tUsxF18ekTHw7YE5xu1Gid084e6dIJECTnKZ6q8YAEYQo0/2Z4rGmc2IjbYzV+Kf
-GCbQXgbtkessp7tamyCOVl/iEly9Z6digNJI335E2Gc07+yK2bvlw98+V3Od4kbx
-PUioIsZfgJxWU7iTjBF9kyHFXdXc375wHD0wJfWRnOyOZhscUwaFi2Wpu6YbdKbL
-sXg1qQG4+ym52VgDjtGTWCYR61UEB5E+Tyuul8QqJVNI+/OIwBb5F/FEdIiBlUIb
-4lOFcJ3kE5le/Nc=
-=W8Gp
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZZh0QUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0waA//eimVOKgcUujxYMdX4NU1dpTKtLPq
+RAsck90qyKNg0kXaBFf4e/C06+xjT/XJVQcupaR205MhXfZCw9Vjnkgm/EsrZC07
+9d/08caVQ8tz6dRO8rlyguHy7Go8ZPBUzdWGmDSXyA3z2LqejwQnGdhc0PGS1vzf
+X9JgZvO+ypSE4R4DeoimoRwmwxnl2Ekdc2fwK4IRPdyYCsxa98rATYzkW0/RODz4
+brC0FkVrclgM1I2LJ+cm9lqTeNMT7nv6D8i0URt3O6MlPSoeDe7Kzyph1KWhE5HF
+VhU2ZGUG1QRuYZLy3recChMQj8HbA8fn2kBqj1WIITh9N4/qcH1Rr5Zk3I3RJ9d/
+VQjDZeRikJLs6XOjN1v/Qdare3DRm8dAy5WlxrJVwqRWRn51nfKJiDYcrpvCbFVg
+wuov+8kop+ns0idlocyX12lP72vz5m6ln61Zod6F8hP8lDi6i4xBg3uxh2iryVva
+LQh2Z/p+3i+MDtYy0qg+PC2Yd9CU5I6lepqg5nmbcF9ol8f2IdX/ApLZTw0kHwWc
+oSZpiSxJzxgRlgxHHuqjLxrlfgUIAFIVspdSSeP8klAJAMtBHU3167QauCeWz+uV
+WA+zxxqoEM72n4tAdXI12TYSntekOobJz7uv8MEn36pHAeP6yaGM23YfXUQbmRlL
+pzaneE0amV63MG0=
+=TSdq
 -----END PGP SIGNATURE-----

@@ -14,5 +14,5 @@ namespaces:
     labels:
       service: "nginxlog"
       environment: "production"
-      hostname: "nginx.site.local"
+      hostname: "web.sb.stumasov.ru"
     histogram_buckets: [.005, .01, .025, .05, .1, .25, .5, 1, 2.5, 5, 10]

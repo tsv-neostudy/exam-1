@@ -2,3 +2,5 @@
 ./pki
 ./make-win-cmd.sh
 ./output
+./csr-win.cmd
+./base.conf

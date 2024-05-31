@@ -7,14 +7,14 @@ Binary: prometheus-alertmanager
 Architecture: amd64
 Version: 0.27.0
 Checksums-Md5:
- ff62301eeeda08cf44b5fbed56bd7bbd 13009600 prometheus-alertmanager_0.27.0_amd64.deb
+ 19c4336d5c2b74127abfd9a5f89e0a57 13009612 prometheus-alertmanager_0.27.0_amd64.deb
 Checksums-Sha1:
- 25100fdedd335df988fe9c95a419bdcb40e7462e 13009600 prometheus-alertmanager_0.27.0_amd64.deb
+ 8b184bfa90e635b72368e328f07419e3cfa313b6 13009612 prometheus-alertmanager_0.27.0_amd64.deb
 Checksums-Sha256:
- d4c9cf44f2ad1edf64c8ed882b94f897b893bf5acff6723d77a7bbe8b6376194 13009600 prometheus-alertmanager_0.27.0_amd64.deb
+ 2a9989cc6dd114c7f051e80767baa49a235c515c960635c75f7d91b4d30d7bd6 13009612 prometheus-alertmanager_0.27.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 20:38:23 +0300
+Build-Date: Fri, 31 May 2024 11:17:03 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -74,10 +74,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.15),
- libc-dev-bin (= 2.31-0ubuntu9.15),
- libc6 (= 2.31-0ubuntu9.15),
- libc6-dev (= 2.31-0ubuntu9.15),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8xoUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM2/IhAAmHM+XHir7MZ2+wu6nJ0TGv8g97UE
-djAJSf+TAvZl9GNqkGWB1olz1hrwCTmWv8LdiMA+laADIw9VgpjfPgTHBj74KLAc
-LCsxBz41Y2kj0UvKGayiWe/xO80Yk94vNCDunhf+9z6kXcnLc0lexlp3iX24YDp8
-S3lgxzdHZ+s5uvnzV0tKFbi0RCXNuU2IyowY+D5dNtetGCtkTkbxrSh5eWYNzniP
-Nbx0QBCfPrQ25uFWkLfzAhWFmBsZR4zEp6uj16MZEhJsK4cGAG4ztwgUIgLFGp0Y
-zABWo6W37lF7Rl2wtLHH6ag/9t94aCe8qav4vjkITcjXadrmkjSV19IiKSWaNchv
-jD6HPoDYbZhdt5OQ/xUOgNexcNZFirHzcUjp5byjQnNijzF9+qxuP3uNqoTSquCo
-JV1pv/N7pug7oU+uNtFn0XLz29G0v7SRQq4nIOsnZu86l1ZUsXmjtVLjBLZgJtke
-ROjhrW6xK/q08iu2enBwmZ8F10KjeUsuUBjZimdjGirPOrAbvIBoZSamE4dQaiTy
-xABCvL8FzLBB9my4/6FDZKVBy8Rh5KGjc7dtB51h044KRg8419q+gcsJ4aG+i79U
-quuabfisJh8qiQITplNMG/dz8qKK3UArhS2WXKE/c2dwvZ821TMqSlJXvT4kfNHo
-h0wxLG5WfLh1WzI=
-=4KSD
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZZh4sUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM3qVBAAiDdYW1yob5qjmVODKK+SD1E5cceA
+G3FwOp2dkSH+DtTCE8SHhPPHOMHX7ll8vb4lueXlokDFL+5V+fxuxNo5uCm3DmAi
+/pxTvlgubq/aq3jG3FXlFcQ6NX7xxXYvwg8hTJRSVUEWttsuWW7BtNAYXXTuuu+Z
+yHVEIIFs7Ws3UX8JtOcDSCAw2cdzY0w384Jyq++5bhi3lqQHJJmiodhbkV2uIfrO
+PHPAJg2iAn28rrH9h+3HvQev1Qo6OPb7oQMfVAG7MW1aCcaiPOklAOGJ4VrJ9xfL
+scikL69N3XKFM1lPVkxSaUEk0nNKmUyApR6qwqlKENMYruU1u6KpHra2QdqOONq2
+tyoBBaUum3Rceos6ZilvpCfMoma9njGJdEy9RrhPNqOv+3yPkZsUoGbyRTz3OsWM
+Wj7cVuHyGrUtswlYv7oG+stgxv5Swwr5PA7KXYmXyzez7M8n4nvq3oTd7pJsESpP
+u7+RtImeBHKZfoHJAj8zv0YlBSPEHYmjGjTkilzyWRrPe/UXUPXGA2TgLDdbeeaK
+toB7wuhKxzw9IHxUTpcGzFAuW22c37h+TsHUmsW2DdrVHqgjrerT+7hhKE57GMrb
+d/xSLb4f+uwlvaoW8Jrt0XE6R3XBBLW1K7WVP20CW6ibiq/hk61ebzEikQ14Ic/Q
+3iynpBhLn1D6L3M=
+=YNfY
 -----END PGP SIGNATURE-----

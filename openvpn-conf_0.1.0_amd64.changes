@@ -18,29 +18,29 @@ Changes:
  .
    * OpenVPN install like dependencies. Set ip_forward=1. iptables settings.
 Checksums-Sha1:
- c168004a2ecebd12075ad29b1a88a54951f6a306 6180 openvpn-conf_0.1.0_amd64.buildinfo
- 2a1ab0b900ebd4c42f2128c306d6791f72c8d091 8048 openvpn-conf_0.1.0_amd64.deb
+ 0bd862b52ddadaf6cfd72a92d6d368460e73ff8c 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ a46347b35de4ffab194fc4132f9f635140f180af 8048 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- bbb4123bbd5d83c0881e0fc15ca31400477cfc920b64ea10cc5cecbe176aab73 6180 openvpn-conf_0.1.0_amd64.buildinfo
- bff7870942e0f97178c34f20ee5e5b686b48fbaa8b413c71736c4cafd768b831 8048 openvpn-conf_0.1.0_amd64.deb
+ 251b8cc71bd41a523d9162c2cd6266c6b7f0f54dd29850d25c0eb5581a4ce87f 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ c3a158d68fdb458e26b6f48740b368c302d12e177ecde6fd3b9fa2aa23d702be 8048 openvpn-conf_0.1.0_amd64.deb
 Files:
- 463e5aae87fee8c77047fcbc84086ee0 6180 utils optional openvpn-conf_0.1.0_amd64.buildinfo
- 3852c66728e5b5ec4b8a2d98d9817df9 8048 utils optional openvpn-conf_0.1.0_amd64.deb
+ 89ef215ed0f07fc55f032e28d28642d9 6180 utils optional openvpn-conf_0.1.0_amd64.buildinfo
+ 9e3963cbf3b50476645d18d292f16e81 8048 utils optional openvpn-conf_0.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZKZ1UUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM1QzxAAjhAaJO+51WbfUDI52rWZE4pXsZ+p
-39zyI6iQxYYK1sgRLs6uUcZNNpO7POVcH8jc6OCGkVnucrr+RXAfqk+69PobEZik
-RdHrYnEQ/IEi1Sc+8Lt/xNXQsQEMwtO4p1RmQMtQ+iddNkYZNekBUBY+IfAuOvQh
-VKaIRaN2sDPqo0EEtKwATrJF/Wf21CtqKsJWnSWN9n7CEso5wfuepmKaFaG27L0X
-rztHvuXA8tBWafpNhGAKjvlRO1adqTmWsKO3i9ArmS7JcAyj6kDJuF526cGQazzO
-44ehRD0nCzpuFqvvqnvbsMDQH23uj07Zi4l9fDzclRkwwebsJjpTg86xbDAUVvUO
-FjsbPgTrO5N04AwW/9MIgjTj4gTWqgyo1ZezauF4y89F1mvkcPintAhCz91fCWIs
-VqzYmLdT3P3L3h5y9/KSqlp/WKeWmfDFN6Pxs0pCtcxRfpLOosRDuP/fy3L+EQhu
-wyeMROdQQyKhf3CAo+wCWkfDw0gAa3+FyhckEaDRRKCoY5IrkZa627Z5kuwo3ULl
-xpzQfdtU8epgllKppW1YsnNdQ2TqRNTBtLuGmMTU3fFPkvnPeZSqSWqI2VJ2LEF3
-rSsjmsSOOUodbk39zrpmIS8JPThAq4z7QGBHpfR4H8vq7IfqVSVhMLAKE2RaxFk9
-9jR+Tl4itKpXXbE=
-=hO5L
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZY1TUUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1s5A//e3kFik0rw1eR37SceHWks+3e0Wvh
+IezhneqhgsQujDd6j3aL2LtJMO0IZzEAoX1Oosh4o33sjxj2cYT5S4JHe84hAlq5
+rNQdXh3n8MtBtkVqfO5TPZH0eqClseFNiQVEQsXXdIwh65notSuZwp6/8Eqy2G7I
+Z0cJ1mZWPYPTOh0Qk7GdlLGJfVknS6h+7fqyotWDdGyw6rwUvgFhVQEK4PcE7gIC
+WGSmF0012TAERE9FEgBSHFn8lwZRQJm67byxtc48LrGOIde/EuFdH+YZj760EGu2
+HFF/QVgW8xsOqHUn6H+cYmsbxUdgPrRgtY3C7Ry27hjwzAHILn8bLq22MzHSNtLm
+Ptjuiyc+XeSZlmfgMeUDBwwwo2FdCakcyO6fpM0krbcGciIT0dYYcUuoNkKNVcdU
+ZAactDVhf2wRw4lQ/kGRVDVyPjgAMv1tHzuzZEBkyOJxfKwhfEhLkZodK/yzdppc
+pyRuwoofFjEITFbofizNvj7lQ0K0V7xJgiJVsPPLYNeihRl7De8AMQPlsQmIIGiF
+NpP7Y8X9EmWqg/X0NCF39s3dgk++tZXKHPEwkfFLiEn1v9Sdo/B++ZCOV4E2hfSY
+pp4HGlu70GVJNlY3C+mi8Ehbt6Bjor9MSITNLzCHy2VOJgb0pNL4Q9SzA2OXGeyY
+i0ljepaEnaEbmwk=
+=+q18
 -----END PGP SIGNATURE-----

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#run this script on the easy-rsa server when get csr-file from user
+
 KEY_DIR="/etc/easy-rsa/pki"
 REQS_DIR="${KEY_DIR}/reqs"
 CERT_DIR="${KEY_DIR}/issued"

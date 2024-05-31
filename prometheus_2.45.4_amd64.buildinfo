@@ -7,14 +7,14 @@ Binary: prometheus
 Architecture: amd64
 Version: 2.45.4
 Checksums-Md5:
- a1202137db730092910c8ddeff749d9c 32955680 prometheus_2.45.4_amd64.deb
+ 742a81272ae7dd53b907c555d7dcbe31 32955692 prometheus_2.45.4_amd64.deb
 Checksums-Sha1:
- 9e74c1726f460b95c44b0185f595309b2fd249f2 32955680 prometheus_2.45.4_amd64.deb
+ 0a9fdaccf110ac08b5e682bd8b0ae3f9eb9c4f2b 32955692 prometheus_2.45.4_amd64.deb
 Checksums-Sha256:
- 036f5147ae6f8dd0e6b5974402d8a352e2058fbf26edf5df25a30bb038d16d3f 32955680 prometheus_2.45.4_amd64.deb
+ 349154e0ae4cab897a515645bb1ede4805bfa1e00f2ec96a262fe4b9ed02820e 32955692 prometheus_2.45.4_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 20:35:44 +0300
+Build-Date: Fri, 31 May 2024 11:20:15 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -74,10 +74,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.15),
- libc-dev-bin (= 2.31-0ubuntu9.15),
- libc6 (= 2.31-0ubuntu9.15),
- libc6-dev (= 2.31-0ubuntu9.15),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8pAUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0yxA/+LAIvn+uZXIpdbuzSzEA9k79S9CPp
-owzc0UPi604BjIIVB7hZdZVKOUuNaGEo8GKcYDrwSIj2jmflU2zSjhPuXW/YRtXQ
-GEsZxxw7xYC+4uU/wTSmRoXUR/k6tuIRJBxr6614Pcw4yB5ovfy2hE93FXe8iuPg
-k8ekOemSiJNueBdQKM9LP5uoaqsRuzl58XrieRo9JbCW6JJcQl5OiemP/b38ylJQ
-kFdHES/ID9MRZeDSTCrQosDfDOjtnukXhY2E5T5ucsuYD4528AgQPd4Kjdxlg8OA
-L5cWJLmo8MwVWSjfLXcRfG+hoyIJEBR1T+c96raVzuB33FY7Sl+ArgGl+QUVDz88
-Nv9uveYAbibsNc8aC+SVfihkS4huqPocSWApgmMoWX6zWqmmS5MuIudV5BhrEsuR
-/z2KCkb+TzBhlSKMzleF5wXT7k0Xwul3asGGGf781hYrBpRceUEh7+TrSOHAutPn
-kshdMAMDa5xvAPVKX2jUCZ2VprakqB0X41SE8crFsM701q5sKevPMMeLB2IOmFfs
-uLB7SNgVmzmibOj/Fuu32hhj42LJPOVeYaSBfAUi5GwGcaXotLtgM9ijHipM7gy4
-Lq4gPv2I1ILmsANrWGBiZbmFPGTDQlouhO3NiT6UwuyE+ligaoMkAjsHC0HoLdvz
-YjpmxmbrvJiRRBs=
-=g1R1
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZZiGEUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM2hNQ/9HR2DKEpBbYkPDCwXt6Eg2BA6gNcu
+HfaOd/LeBW+fZ19L31E7pUnxf1Cr/OPG43EHxCiJjdb4jZYFzMB30YT74ubqHIsq
+6VtTcrmVJ4ALcWQAIOMvDUueZ4YIZLrXOZtMird65/GeHNg7VBnMwehMFD0FVn9k
+WBArMYi6bL/e0ttH4iaGjMaenKqkiqiyuntWnlBZ1H0/xIB+VT6yGx9/6SpbzmX+
+ZG7wQJ3MqFnyFWuDvVRlGSJY3U6Bx8Jig3E58SJZav6leOVra/oBVZlHFsbe820n
+sJNioo3yr7lUDGAPAWhDrFScLTuVtkSgsjlBvblLk+GeALeeNwamsX56aE1ZV+Ao
+ug25O2jcrHnKdNb/vrgPDfBmjQ0XZfQZC7oCgr86vDE/eLv04n5kossEpk/Lw08G
+HCYDdyrcj40Rb4v2wWHynAZ4hQYJoJBkpND0pFhsMnSIyIfw0aRqDN60vczdlhzy
+6U+ZC86cmgUbF+hE+b6VPYYs/4lcxZ4bw4Eo/5U30ZcMiu4RfDwFoziuKIVzBJAx
+b8CtbV2O7ROupKXIUjsU2w0l5BQvC+l9GJhZztBhqg3u6v1pFXHJJiEMBHDctYBt
+7LyT4WaT29Dy5Yeysagb3MPXuGtMcTzuB/x2KIsZsh/hBJsdC0ESez2hzEwhTvDi
+JZ2ajF4jv+qvCQY=
+=XGWq
 -----END PGP SIGNATURE-----

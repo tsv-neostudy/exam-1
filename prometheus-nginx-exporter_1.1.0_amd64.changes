@@ -18,29 +18,29 @@ Changes:
  .
    * Prometheus Nginx Exporter
 Checksums-Sha1:
- 3b855d12dcdb285169710826ce730a3b9b880028 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
- 10a2b6470251eea2e8a290af1be8ad79d42209f5 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+ 732e1224c9f503eef1924ce2ed69fdbcb08de02e 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 9fb28d14ad86e0802cb0502084153c0db6f581b7 3216988 prometheus-nginx-exporter_1.1.0_amd64.deb
 Checksums-Sha256:
- dfd88b7c889da760a8cc79e7bf11ff468eab8d04fa649280c2e8be4d7aaae0f2 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
- b313ab38f9682b783734c4fb63f158d8c0e2d9092a45960da54ad7eb0580a2f3 3216976 prometheus-nginx-exporter_1.1.0_amd64.deb
+ 70450f0b9393a73a90cf2543b71b32d126e29412767615e220d90dc95385dd01 6254 prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ 946fdae7655d65265febd37008d0c1ac4c41058ca7ff3c875df493efd0aa7dd0 3216988 prometheus-nginx-exporter_1.1.0_amd64.deb
 Files:
- 87e5db496951ea89ef8e8f548c955016 6254 net optional prometheus-nginx-exporter_1.1.0_amd64.buildinfo
- 5824152b0edbd6836510e3f5b5a2d161 3216976 net optional prometheus-nginx-exporter_1.1.0_amd64.deb
+ 25cbca02c3b9991f4a9b02f7ea700f43 6254 net optional prometheus-nginx-exporter_1.1.0_amd64.buildinfo
+ c1fddc320bbbcc4c8f9a5d10e3a233b7 3216988 net optional prometheus-nginx-exporter_1.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE+SUUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM1Baw//bUqtPKzd8Scm6Y1e43AACGO4l1bQ
-LQRF5cjx1qPD6qlbH45tBXG0cwrFXO1doQZKDjstcGv0EcSynKpzOVgJ/vAm+89E
-WIQYA8jGi4bzgZxTiKZD1ffee7i9xo5Qft7BHSjgRB0Mr7Y1UjUwoisyK20OOM19
-43Wjh4ZhEJnTdToUukXU6Fylog+XBoHVHa4LF93iBp5mGQsYPtqQwgHNghRxFJnP
-rl+A/vit7RcKngE/RzaZIyf6rePA5vt5FZdcxwQ9TcC6xR2Gb3y8UspfA0Xjuhf1
-YJFW07KDLs1jXT/4eQnL7BKiFP5tPBlwRhQGjmMCAsLkXMVYM01xTgxZcAXoI3c8
-2Id2MA/s1tml2cguiu76zLff606xv0nGmg7qznZeO5QEQO4kmlxZovxEdnt9IK+p
-szvxcah95Df+2IXi8NHNJXPmag0NB9cVL1n10dWFKtSrbSdau84I0ZxMSlzVc2jv
-CqIok4yIzwJtMgVBvsL9Qf5OwzdANcWEIdRS02xWClCJfA4DrMVLmg14bj3UmPve
-utZBe7kYoGafIf4DqeWZQ+PWK9RFRMi8RRA+LXNTM+UKULA1D5WXBzz5KC1NZERj
-Fu0bhrlDRqANFDEe++OEpr+lYkfvclvNE0ydkwQahVR0aOU69wuK8BooTf/5RbZt
-0k8QPlVk52P/xoY=
-=cf1Y
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZZh0QUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1lWA/+P1cm4XTA7WrBTdXGGzsk+1K/Wka/
+2bNUegqlI/louxfovOZAakur1YwUYQZHiBUwuE1ePjogzCosKqsdGb6u9mpx5ZRW
+lH9in/RNKkomfNuIJ4uepR9xaypACa8WGB68amopeC/rt3EFMD/UymNYVb1PNiZX
+UW95JY/2MG3xfyMilKjCJBvWJtBi7PyNC45xHV6h9p4xuhf+A31Xs9rYZ1GgT6Vt
+4id/Rlygod7WyMvkAxOhVLXYZICWbuNc3/nSNxIBT607SFqq7QixnPaVzhxYWZU0
+/+5lZgrsoo0nWEKMIF4+xMdx2+C1PvCUH6lR33zcYMWbB2JfNehgGdecReP/D1zH
+EU6Neso7LjyN6z4FP0BONRESD/owt63UXA7aJ6F3INddhm688wzDDk9bibL7zSpA
+svkIYBknVbpxgGOG9AOYpwlQYUoe/83dk79AJ3Lao6gfQCyR4jBqjPqkLeZL4gcm
+JEC2Q1wRey7a2xl6xCnUgXih9yO5DiJF6ZGe0hnfPmKX44pzbfZvf4j8GXYANerK
+aMz0bpkApHbMPLBGTJJf2292BgVnjfGVrLmXgAV47zreDmrsO4kxg8BAxB3GfQyR
+Ov79T1sME8eheb5i29FS8/+72MyL5RQyiYkmXKLRLHeLqFEBYvmj3qsQvXJ+7atJ
+0ooDnl0RIN/Y8CU=
+=NPJn
 -----END PGP SIGNATURE-----

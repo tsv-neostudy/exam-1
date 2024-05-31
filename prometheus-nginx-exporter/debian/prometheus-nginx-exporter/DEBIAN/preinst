@@ -25,9 +25,9 @@ case "$1" in
     # user "prometheus" create
     ###################################
     u_name="prometheus"
-    u_group="prometheus"
+    u_group="adm"
     #make user, if it doesn't exist
-    [ $(id -u "$u_name" 2>/dev/null) ] || useradd --home-dir /var/lib/prometheus --no-create-home --shell /sbin/nologin --system $u_name
+    [ $(id -u "$u_name" 2>/dev/null) ] || useradd --home-dir /var/lib/prometheus --no-create-home --shell /sbin/nologin --system --groups $u_group $u_name
 
     
     ;;

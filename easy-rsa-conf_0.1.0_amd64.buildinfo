@@ -7,14 +7,14 @@ Binary: easy-rsa-conf
 Architecture: amd64
 Version: 0.1.0
 Checksums-Md5:
- 9c11b780af20cdc7dc16fa2ccf814c53 10608 easy-rsa-conf_0.1.0_amd64.deb
+ c8e677039ed1b3042ac0796833b7cd9b 11408 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha1:
- d61a02b836182ad9d8105701edc13ef2ceea5819 10608 easy-rsa-conf_0.1.0_amd64.deb
+ 6014bec11ca6b667cceb1ffbff2ad05f7c29e41a 11408 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- 6b56eaeeb5342de0e3da5fd3bd36c9c4cb11999c0cf8385a24c119a690e8b29b 10608 easy-rsa-conf_0.1.0_amd64.deb
+ d088a58a48fdb82f65801d18f1f3f7b55282487401f00fc766244e79da389084 11408 easy-rsa-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 15 May 2024 20:32:38 +0300
+Build-Date: Mon, 27 May 2024 10:22:17 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZE8bkUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0JlxAAjxSAthF0pzjemzmaiSSgZukR/48x
-IcE9YuQTpC7P5myxB7aQToZxZLIlvQrutcgnpGtk+Y0ExKBn42IjEmBVQQ2NTNqb
-x+9TnvSaLnDpwDCBYpRcSkFD1qti4SdKVnExT6mDRGYc9wcSGOoaLSol23G8Bx52
-dQoa8Pb9fXV4CyuC354J7X6cBhILBEpnlqeb5FJqA6PEN41otkS+i52UNNgiu8FT
-+a+ohwPNsjdiPw90L9VDo1xouqhWOhdbnrFDlPGu7DXnUccamzgE47UHNixwRRvS
-IJErGU/8ZKh9uetOtBLXjx1yza7mCBenyO/ZgIl6moa8gL5JXb1tE5zC1kbkVEg9
-xy/h5kFiYSTGIidmPgIE5OC+Vdn0vW3T8vupOc5czQNki4KL5vB0Ix4BZGDxlrjQ
-nWzSvASGfYjIfBqWZEXf1WzVVaOVvFc+GDcebkgDqaFE/vw1omnQT5KBKvmUU/DT
-oWkVCymLqWlnjplxfZW46GWsab30/GgdtntclK5Vda9JuL9DHipGZ0IweW/slnFs
-TQiLUlplDuEPWrnLvcbJsY9P1eP3gnDvlIS43J3t8mzaG94D53Wd5x631qJ1+tbQ
-d0jpAZ8AkJ37UOx6w+bNv7X4L/pICR6eunEo72tjf1ZbR7HJrhsonlxDu6c86grW
-I1ptpxbC5yak2MQ=
-=lRXs
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZUNK0UHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0eSg/+OSB+twJDg0S1O0ZiBYOheI/5q102
+SbT/TRZ3/cXAZdRx1SwkYiNB21SMeUBtoxaCklhQOC5JIRHsfL8GpnkAi1br0uip
+yoXt49g+nTVU9ctKI0v+l/SRQIPv6U02ZkLIO3W1keIyRWreWOf6D+rNYfy7ASur
+UHclQ2ayyKT5+Rt/ZekQ/59mi8UwH40NZ3he04lUPw0tVUG4myfHZPm4jEJO50H+
+tN/AXsWrhjsjfmMTWVni5aU0Hv/7WQ6TRBfnsEFwR+S8m2YOMoDhmm+V2vvo/r2p
+kY3iXxeQio21COTY2dYjWjv1Hnf+VdZAGlmFaF+5YOBXhWR0UaaD0KlWeS7tqYJG
++MXPWj5se4OXKBAs4ADxJ34zN3W4Ve3BVd6shdkPWvf1GJ56USNLVBFcWBieamGJ
+41JqrPYOkd3JRD+5WA3NGKDijIyqsa9yOyBUXuYqsWiy1ax7C9xlTQNqM1Q6eSuQ
+NRZspfhEZOHVtzowuCdGka2d6agCeiEtQoeasi7rMIWBu3Mcq2T9L7ab4VPj6KiA
+p32CSJs9pFPptNtUnCnBgkZYWMYFZv0gnf4X78Elzn6ASfgcJhf3IFxGBNb048fL
+GyiEnsPvJQLwf1Q/Z4zYzcddvfC7LxgNwPZv5XTuRklPsQ3ftKFXE/Fuoe0+IIBJ
+ikYImp4JSRRYKws=
+=Z8lN
 -----END PGP SIGNATURE-----
