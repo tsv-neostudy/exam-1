@@ -1,4 +1,4 @@
- dpkg-buildpackage -us -uc -ui -b
+ dpkg-buildpackage -d -us -uc -ui
 dpkg-buildpackage: info: source package openvpn-conf
 dpkg-buildpackage: info: source version 0.1.0
 dpkg-buildpackage: info: source distribution unstable
@@ -8,6 +8,10 @@ dpkg-buildpackage: info: host architecture amd64
  fakeroot debian/rules clean
 dh clean
    dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building openvpn-conf in openvpn-conf_0.1.0.tar.xz
+dpkg-source: info: building openvpn-conf in openvpn-conf_0.1.0.dsc
  debian/rules build
 dh build
    dh_update_autotools_config
@@ -36,21 +40,41 @@ dpkg-gencontrol: warning: Depends field of package openvpn-conf: substitution va
    dh_md5sums
    dh_builddeb
 dpkg-deb: building package 'openvpn-conf' in '../openvpn-conf_0.1.0_amd64.deb'.
- dpkg-genbuildinfo --build=binary
- dpkg-genchanges --build=binary >../openvpn-conf_0.1.0_amd64.changes
-dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../openvpn-conf_0.1.0_amd64.changes
+dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
-dpkg-buildpackage: info: binary-only upload (no source included)
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
 Now running lintian openvpn-conf_0.1.0_amd64.changes ...
 E: openvpn-conf changes: bad-distribution-in-changes-file unstable
 E: openvpn-conf: copyright-contains-dh_make-todo-boilerplate
+E: openvpn-conf source: debian-rules-is-dh_make-template
 E: openvpn-conf: extended-description-is-empty
 E: openvpn-conf: helper-templates-in-copyright
+E: openvpn-conf source: readme-source-is-dh_make-template
+W: openvpn-conf source: dh-make-template-in-source debian/manpage.1.ex
+W: openvpn-conf source: dh-make-template-in-source debian/manpage.sgml.ex
+W: openvpn-conf source: dh-make-template-in-source debian/manpage.xml.ex
+W: openvpn-conf source: dh-make-template-in-source debian/openvpn-conf.cron.d.ex
+W: openvpn-conf source: dh-make-template-in-source debian/openvpn-conf.doc-base.EX
+W: openvpn-conf source: dh-make-template-in-source debian/postinst.ex
+W: openvpn-conf source: dh-make-template-in-source debian/postrm.ex
+W: openvpn-conf source: dh-make-template-in-source debian/preinst.ex
+W: openvpn-conf source: dh-make-template-in-source debian/prerm.ex
+W: openvpn-conf source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: openvpn-conf source: maintainer-script-lacks-debhelper-token debian/postinst
+W: openvpn-conf source: maintainer-script-lacks-debhelper-token debian/preinst
+W: openvpn-conf: possible-bashism-in-maintainer-script preinst:60 '    echo -e'
+W: openvpn-conf source: syntax-error-in-dep5-copyright line 11: Cannot parse line "There's a private work for study purpose only."
 Finished running lintian.
 Now signing changes and any dsc files...
+ signfile dsc openvpn-conf_0.1.0.dsc Sergey <mail@sb.stumasov.ru>
+
+ fixup_buildinfo openvpn-conf_0.1.0.dsc openvpn-conf_0.1.0_amd64.buildinfo
  signfile buildinfo openvpn-conf_0.1.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
 
+ fixup_changes dsc openvpn-conf_0.1.0.dsc openvpn-conf_0.1.0_amd64.changes
  fixup_changes buildinfo openvpn-conf_0.1.0_amd64.buildinfo openvpn-conf_0.1.0_amd64.changes
  signfile changes openvpn-conf_0.1.0_amd64.changes Sergey <mail@sb.stumasov.ru>
 
-Successfully signed buildinfo, changes files
+Successfully signed dsc, buildinfo, changes files
