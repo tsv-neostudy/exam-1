@@ -52,13 +52,13 @@ Package: openvpn-conf
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 31
+Installed-Size: 33
 Depends: openvpn, iptables-persistent
 Filename: ./openvpn-conf_0.1.0_amd64.deb
-Size: 8048
-MD5sum: 9e3963cbf3b50476645d18d292f16e81
-SHA1: a46347b35de4ffab194fc4132f9f635140f180af
-SHA256: c3a158d68fdb458e26b6f48740b368c302d12e177ecde6fd3b9fa2aa23d702be
+Size: 8464
+MD5sum: 8476baf3d6ec069fe97b9ac9cd86d7b7
+SHA1: 9807463c47c710d3cd9e9251c4d79553ffb731ce
+SHA256: d83f9ab3085e585c6d66fe58fc99ad46e7589683e3d60c1b0955d185d3a12a3c
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

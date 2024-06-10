@@ -21,7 +21,44 @@ case "$1" in
     # set timezone to Europe/Moscow
     ################################
     timedatectl set-timezone Europe/Moscow	
-    
+
+    IP_COUNT=$(ip addr | grep "inet " | wc -l)
+    LINK_COUNT=$(ip link | grep "mtu " | wc -l)
+    if [ $IP_COUNT -ne $LINK_COUNT ]
+    then
+cat << EOF > /etc/netplan/50-cloud-init.yaml
+# This file is generated from information provided by the datasource.  Changes
+# to it will not persist across an instance reboot.  To disable cloud-init's
+# network configuration capabilities, write a file
+# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+# network: {config: disabled}
+network:
+    ethernets:
+        eth0:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 100
+            dhcp6: false
+            match:
+                macaddress: 11:11:11:11:11:11
+            set-name: eth0
+        eth1:
+            dhcp4: true
+            dhcp4-overrides:
+                route-metric: 200
+            dhcp6: false
+            match:
+                macaddress: 11:11:11:11:11:11
+            set-name: eth1
+    version: 2
+EOF
+    fi
+    ip addr | grep "link/ether" | awk '{print $2}' | while read STR; do sed -i "0,/11:11:11:11:11:11/s/11:11:11:11:11:11/$STR/" /etc/netplan/50-cloud-init.yaml; done
+    netplan generate
+    [ $? -eq 0 ] && netplan apply
+
+
+
     ;;
 
     abort-upgrade)

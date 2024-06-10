@@ -2,7 +2,7 @@ Package: openvpn-conf
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 31
+Installed-Size: 33
 Depends: openvpn, iptables-persistent
 Section: utils
 Priority: optional
