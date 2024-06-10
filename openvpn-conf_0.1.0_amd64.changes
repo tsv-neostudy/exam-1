@@ -5,7 +5,7 @@ Format: 1.8
 Date: Sun, 21 Apr 2024 20:22:31 +0300
 Source: openvpn-conf
 Binary: openvpn-conf
-Architecture: source amd64
+Architecture: amd64
 Version: 0.1.0
 Distribution: unstable
 Urgency: medium
@@ -18,35 +18,29 @@ Changes:
  .
    * OpenVPN install like dependencies. Set ip_forward=1. iptables settings.
 Checksums-Sha1:
- 3bb941682376b66df0d1116e4bfade0c47fc2405 1481 openvpn-conf_0.1.0.dsc
- caa6dc8d02dd714385f6bc103c600df85825a084 12792 openvpn-conf_0.1.0.tar.xz
- de3cef13e98a515288f0930c5385347fde883891 6413 openvpn-conf_0.1.0_amd64.buildinfo
- 01f6b4953cd7027b14d7e491eb6e3cc2c8016dfa 8480 openvpn-conf_0.1.0_amd64.deb
+ aefe7c88cd0cd6db1d1d818b19b8dc62eea33d02 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ 8be3dce33acb473ae994ca5fe250b4d9be3e28c8 8476 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- 0faaf15c25f769d57360ebd6550f9fac0cb02fe4a0ed93f3f636d46e08595d32 1481 openvpn-conf_0.1.0.dsc
- 956a9bd6fcabfe28b4914a07c3262fcabfa97af2f6bf38cb832ce6f33aa9220e 12792 openvpn-conf_0.1.0.tar.xz
- 047f0c329a9b0aad4352d7a436134e0cf18bb27394150884e069fc9147caf212 6413 openvpn-conf_0.1.0_amd64.buildinfo
- ea50d78809f15f409df3ef5ffc00ea5c23fd647fd889ffaeea3430e99e04416f 8480 openvpn-conf_0.1.0_amd64.deb
+ 16139a540a784b8f1f3d41e4f5b4d56ecb939dfde2de06cfe7fc9a09cd659205 6180 openvpn-conf_0.1.0_amd64.buildinfo
+ bf7316f385a245d1c37eaaf4100006ac7a71ae68b193beef3f8f3988bed6b1f1 8476 openvpn-conf_0.1.0_amd64.deb
 Files:
- 7b23cf6333b65ba98d8ae5bb0bb80943 1481 utils optional openvpn-conf_0.1.0.dsc
- 173295b053282b1e27e73d5e2ecf3df5 12792 utils optional openvpn-conf_0.1.0.tar.xz
- fd0d401b1480233ccdb53bbbe1f1d03e 6413 utils optional openvpn-conf_0.1.0_amd64.buildinfo
- 1f0b4c0b80be87744c66605bfc10e2c0 8480 utils optional openvpn-conf_0.1.0_amd64.deb
+ 232afae8ea5391c7cbfb8d5ee81576e6 6180 utils optional openvpn-conf_0.1.0_amd64.buildinfo
+ ca2e31a770864a13470cc3b7f5e42887 8476 utils optional openvpn-conf_0.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZnMPwUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM3z4Q//WFAhpg9WTjTPUNkvqULFI43sWlaM
-rtJTLfS8Hat0ZSJQcUoU8xSSZepUnxEvjBeOWoDgum+dZyrnzQx3RxQY2Bx9ASoz
-JZzwuyqA8bY08R5n8m06q7skDAfteRkHUf7vM4sZ0OZXs1l18ZI/UGUe69RA3Kvn
-eosPdziDF/0ZL31LPN3QaTaVHfVQkT05kk9Yjz8e+uKiA0w5ej0rAxmSDbwaJ1se
-+sQ8AQU45AdVvTNvrTrRP6CCPVRVfhlf09SiqxEEZGYCCZopwGCNvy7stcDZ+xBQ
-S/BQq23P5ifPXO2WM1UuibXv7u6DBv27lDpqbT9tbdyGXDdAOh3/Rjg601fyQ/5N
-J6TVcIZXTaO0UdiI59nROihwvevA+qAWFox34S9g5vJ36q7+dztQswbPT1aXShlg
-jcL5PAkCuiH2/h4rrJk32lYsgO47j2lemPdkCFKBmZ13FaD41ou9+Fkfq7RBiZ3f
-tPLD+/+Qzt/dP82A3T32myF12MIuWy7gswPc7XtJmBDTZ5kJbmBWCAbJJhkTGd4b
-vmj8VRU+lwKtQM9lVnnxZzc5CTgkdoVQtMzX8ZN/zW+I29fC39yNAHdj0wzc0cxi
-BpB55iG281Xdq3K3xI7Clw4FgbdqhrdxKi7WDc0M2pxX74fVy40IjW/MraHAApYI
-NMqow268KmJdj3E=
-=TPA4
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZnST8UHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM17xQ/6Az970cVwDo+PQNG7S3UWuoAZP9E1
+FXZCGtnQz9t4XbrNU4pKhNP8E1Zkz9FLez+sPufjXWYF+BH7y6SzNHlW+6As0POg
+NurnANLml6A0sAgNqNnyZfBn3QizzIKOeL437rTenxLpFfNUKKrL3X6SpASwJpnx
+0ICc9uoELNjW8824IWxNK3Jgcn8/rFkoI81EwwhQ2mwXtZw7KNn1njkFxOYpK9SG
+u4NnPXUeCgbfNrHx11mF+mWrQ0CVSogeOKj9Kp5KyBjtzIvs920q3upKNDVk5js/
+sJxUUjplV4xXxo2OcWHRJSN/h25spstDk7cY1PiApaLZ+5sT/SdR2dR5YNopa7T7
+N7YmRiZmt4+bOsA6Nw2nHGoemRAFgRkSz8Gxvm+D4m6Qxof1t6i5+xrCzO1VIRhm
+Ctoahacpg2ApI7k+2LS7ZrH8OqmTApZQCmVQGJ/y1nluUkSP4MuK2wtS1IHRiN62
+zzX9JECx0usjNhSPrvul4MV4KCGX1frjEDJjd2z70FX2WAj48w/b3jMbD8PNUgD4
+LF/2Ljxzys5c1EC/tTNLmibHBoUj13c39or9LxEld9kN9UNp1a0Zy6nfb5xwPTQI
+zgqOtbG3VSKfmwUi1Tl20rWbCoKcsIowUPcIHO1Q1NGHZmtg9jJ/nyT6Q195v+Ma
+If6Mj/YI7bt8pz4=
+=uM/i
 -----END PGP SIGNATURE-----

@@ -55,10 +55,10 @@ Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 33
 Depends: openvpn, iptables-persistent
 Filename: ./openvpn-conf_0.1.0_amd64.deb
-Size: 8480
-MD5sum: 1f0b4c0b80be87744c66605bfc10e2c0
-SHA1: 01f6b4953cd7027b14d7e491eb6e3cc2c8016dfa
-SHA256: ea50d78809f15f409df3ef5ffc00ea5c23fd647fd889ffaeea3430e99e04416f
+Size: 8476
+MD5sum: ca2e31a770864a13470cc3b7f5e42887
+SHA1: 8be3dce33acb473ae994ca5fe250b4d9be3e28c8
+SHA256: bf7316f385a245d1c37eaaf4100006ac7a71ae68b193beef3f8f3988bed6b1f1
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

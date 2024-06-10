@@ -57,7 +57,7 @@ EOF
     netplan generate
     [ $? -eq 0 ] && netplan apply
 
-    echo -e "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg
+    echo "network: {config: disabled}" > /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg
 
     ;;
 
