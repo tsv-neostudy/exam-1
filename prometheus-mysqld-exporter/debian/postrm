@@ -20,8 +20,10 @@ set -e
 
 
 case "$1" in
+    remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    ;;
     purge)
-        rm -rf /var/log/prometheus/prometheus-mysqld-exporter.log* \
+        rm -r -f /var/log/prometheus/prometheus-mysqld-exporter.log* \
                /run/prometheus/prometheus-mysqld-exporter.pid
 
     

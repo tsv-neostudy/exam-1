@@ -122,10 +122,10 @@ Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 10553
 Filename: ./prometheus-mysqld-exporter_0.15.1_amd64.deb
-Size: 3244044
-MD5sum: 120f19096dc7d2b753372f8b6ecba4e5
-SHA1: 31ad35a822ba44d3c9518b6333de07946f069fc6
-SHA256: cfa62d87dfa7ad49282530903936c9896153c6558f1b6203122fabf566184de1
+Size: 3244304
+MD5sum: 75b1d0af646e200d8e701a92fc17227d
+SHA1: b66984da5a579f5e9a21bfc4418c29d76b567fe1
+SHA256: d494b8aef8e0ddcfef80bf12b5d8b6f595de54b84247825584e7e2abea6aa00e
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

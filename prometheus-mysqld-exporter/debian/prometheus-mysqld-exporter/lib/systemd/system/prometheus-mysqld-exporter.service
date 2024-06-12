@@ -7,7 +7,7 @@ After=network.target
 User=prometheus
 Group=prometheus
 Type=simple
-ExecStart=/usr/bin/mysqld_exporter  --config.my-cnf="/etc/prometheus/mysql_exporter.yml"
+ExecStart=/usr/bin/mysqld_exporter  --config.my-cnf="/etc/prometheus/mysqld_exporter.yml"
 Restart=always
 
 [Install]

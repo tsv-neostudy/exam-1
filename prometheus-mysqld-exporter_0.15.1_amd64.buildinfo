@@ -7,14 +7,14 @@ Binary: prometheus-mysqld-exporter
 Architecture: amd64
 Version: 0.15.1
 Checksums-Md5:
- 120f19096dc7d2b753372f8b6ecba4e5 3244044 prometheus-mysqld-exporter_0.15.1_amd64.deb
+ 75b1d0af646e200d8e701a92fc17227d 3244304 prometheus-mysqld-exporter_0.15.1_amd64.deb
 Checksums-Sha1:
- 31ad35a822ba44d3c9518b6333de07946f069fc6 3244044 prometheus-mysqld-exporter_0.15.1_amd64.deb
+ b66984da5a579f5e9a21bfc4418c29d76b567fe1 3244304 prometheus-mysqld-exporter_0.15.1_amd64.deb
 Checksums-Sha256:
- cfa62d87dfa7ad49282530903936c9896153c6558f1b6203122fabf566184de1 3244044 prometheus-mysqld-exporter_0.15.1_amd64.deb
+ d494b8aef8e0ddcfef80bf12b5d8b6f595de54b84247825584e7e2abea6aa00e 3244304 prometheus-mysqld-exporter_0.15.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 12 Jun 2024 18:41:51 +0300
+Build-Date: Wed, 12 Jun 2024 20:07:34 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZpwcUUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0e9BAAgdXfiGOA9Szk4bnlhGJ8rnDwmEi2
-Gq3yNx0IwSsTBptXVmBW/V/b/mLWawgGyYDGMd1djztiZPAoActyEjAjgK+Of4d+
-jUzO64sMwyAI1CyYrjlivrfz+1J77wYpk0w4SJMLHGy0fJsKw8Y7j3uliZFBnaxg
-agSAvg5aubZPwU7Ti2pumqvNhBCXQfNZCV1hlXznP5B89d/hnCXpYLc5pmf+k/Db
-koIZGxDHe1QE4AwlNGoH7HMebb14rbRAxVbySKBfQis5IjUf2bR0CF4uWjlVw+x1
-nwxSDs5xmpC+aj4jgQMkbeOHKkl+h59M70aQeYmFDCM1wNhrhJjdAsFDPrQ1Cmkf
-S7fbGACmeRiEiDVQ5trOp4NBF01BvNWwZ7HmOaZ2vL143G9mGW3nYfWm0xhESvSb
-xYaiaIoxJBdbYJWCYyZmjOPHOigkG+hUL9ZjcsabVKY8LYMrGW6ObJWAobjxo0bF
-+Wk4YZr1X+/fqYQPfCa6tYZ7n9Wx+GzOe6P9BoY1wHuYBySuOON0BWMNgXUYxgVg
-1yu6HEllGY6l9CIp9LW6Duhaxu1BZJNsLEl9YywLRWv0myl0Q2nAbtfo29tHLQ8/
-agB9R2/tZMpJkf17naT4uB2zFXaNT5yHj6mHU8XWwKjZHaUJY0sUMK6FnV1zb6SJ
-S6tOIzyfRAD5/cc=
-=2nYY
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZp1dsUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1DZg/9HgSjwpKNgDMkX6/9l5Dub76j4skU
+HWv1YwH+Zl4Ehjl+PoayCPUd8n7XgWLjoPy5jIwvP10b+djL2qVYGPWz1SiWAeYs
+Ek8DxJ1dSq+kMslCOMBffOwrpa1YA9RHyE+YXXq6+5ImMIH3heJaNBMzmggWNJ6c
+zMQDCFSUmtNgmTk/n6CP0JUA8LvAVznL30f2ivoGP4QAuldBN6CarjQhl7k7ICXZ
+RinQqZETHjQUmTyvIKVw+DrNJzg8O2o63Tui/cY5xdvODb3tGK6EXQPnicafXVoH
+Xd2dVuSPyQpQGodhrFY7xnbm3vEb7KMfphEtP39LaHuRWa4akUhuznjDQ8RD85S1
+euVLmOpA/B3iw1V7Hg58oMKBTywXCtQaGKUvRKd1N1FTR7JUnoyQERcD3lPOLN1W
+5VlDJEZEpQ5h3OU5ajCbND/GFq/nMCSJOvG2CUMMHgtVtztawlKXDjWhVnuC907K
+HWomRJzZb8Ax+l3SgsvBdO5O9okd8bWxDdbU8Ebb3Gw0AkoZVj8WZLLYBMIOrFD5
+tIZu4/OK9uYciJX+zmrrshyjVm7iVeBM4irPqXP1UvQLzLfi+zuHbDCnx9kugnvf
+NOHMNzrC1ZOI79FlGyh2EgRwMSEpgcOF5DK3ez8ykqAGwb8D+wpzCxipcVb+/5kU
+PKy6+ENiqyGUvyE=
+=CnTi
 -----END PGP SIGNATURE-----
