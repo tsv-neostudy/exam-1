@@ -18,29 +18,29 @@ Changes:
  .
    * Prometheus MySQL Exporter ver. 0.15.1.
 Checksums-Sha1:
- 7e3c29d033f78d0f11bbe339115b8256c90cf6f8 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
- b66984da5a579f5e9a21bfc4418c29d76b567fe1 3244304 prometheus-mysqld-exporter_0.15.1_amd64.deb
+ 69097b4ef74adb6ed42a9c5731acaff9c733a09c 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ 04cb92aa557d801defb4122b622b62974a77073a 3243992 prometheus-mysqld-exporter_0.15.1_amd64.deb
 Checksums-Sha256:
- 9f591ee769ddecd49344cc734ecbde8c8cf08d7450a9fa1aa892fdcb35823895 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
- d494b8aef8e0ddcfef80bf12b5d8b6f595de54b84247825584e7e2abea6aa00e 3244304 prometheus-mysqld-exporter_0.15.1_amd64.deb
+ fb40d6cdf66bfcf9ed487945423e71f55b75b78e705e5ac58e0e8d0a79ec5173 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ cca78cc580791b58df8fbee01cbaf01975fc8da556dad47fbbe64cbbbb72377c 3243992 prometheus-mysqld-exporter_0.15.1_amd64.deb
 Files:
- fd229f61dffe5def44a7d236c6a42b35 6263 utils optional prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
- 75b1d0af646e200d8e701a92fc17227d 3244304 utils optional prometheus-mysqld-exporter_0.15.1_amd64.deb
+ 89832e76edbc9539c00d1b51ced3dda9 6263 utils optional prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ 78f88aaf6ffb199d9dd0524411906b9c 3243992 utils optional prometheus-mysqld-exporter_0.15.1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZp1eAUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM1rFQ/9EgsudWtRuHMMVnT2A58tzXt6F4IS
-zne9pAMA607Y0Go7JF7TtrXUQGc2Nd1LVQM0Zgisq5Ju76PddxLc9MpJC+a6QNw0
-+eoez18gdN/LnrtDiT+APkHeLsXiU7YhDIpYL1Jvr7c95MXnhYFsFkfOiGmNkLKY
-Wxo6XY0ccYSMwfGjSvXM84kJgQf8fdwOtFvX1iHj5sv+4Za6LwFp7ZJfGU8g9t49
-j1JujdzVi9he0Sgkw0FtLfLk83OeH3Fk+i7wX0aDfytHBmQo2iQp+KzWGx2A0DAt
-+3krctsKqg4lnyjLQyQMjs6Hz9J1foUZKgBh6ulOo2rttOvWoEjo2OjF+b1IAILW
-OyeakelT3cffIaB/NsQO2TePjzh6+tXT6+s+L8OW7IgyPsY5UGmkE+wfnTQk7DF9
-uFIz/8yybLRuumUBJrklr7dhz+lciNothRmI9VMrluzWo4L1wgIZvqTKe9hqK3oj
-tTBX1VkyTR3oeLuuSMAmbwPv8p4qN1jJ4yzD5u/StbZ7lApTfM+XTPaJHToIqU44
-5AzLKnhpGlEU0re3dgmYCkh7bqsrbHTyPrR64KWFvqZXzAGy3Se/3WrX+HX59ck9
-V+yytcPiTwJPIZcDAjn+bTvrCyWSfTZkzVvy9iHDVuWQCT5qYJLD99ehj7hzy0KP
-KxlaZuEIDQLTV9E=
-=/vOU
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZp1wkUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM2skRAAprFD6vRN6XZb4vlcZzFGFKeATG6M
+5cd2HXVOcs1FZPLaqMOlPRvgtkv1KXCuXuA4JEy8KupAyGmyBfoV1UuYMHm1K/fc
+0rODmVFjQB27xuqzYSvEtqUNxjbqivjb9ccYXDyOEEhMQHaJVdCUq8ZnntoVF2yH
+Ph20OLwk9arirOCpsz43ySgLj7flE6Wsq1+r5QSrNVmCxtKJCmZmhS7COEzjkwRP
+ZbmjACtW0HTdLcQtMNI0ZnY5bhLk9fr2t041KxY2rWabPHGuPmoDmE1KMUwalr0B
+3CbrjUVoR0ehEcl99mDw+CPHgjmSzsKeAO71FAeAjilq9+O5sTrmkccIg6u7gPhO
+qyDUdvpIA1CrSEfVdlAFY9qbFmc9oBR4jZD+HFWYNKGr6DBn2qSRLpOVDGYyx9nQ
+T/8CdPOMr0/EZkRHgj3MHcV+6HZdt1c3NDCfwC3mgfDiJuLnlUlnGTzvbcq4NMxH
+vW5OQw2LFu0M/XssqZMCHQk9eSq+UpsLEZ3eiwkk1KRzbiggL0Hj8euDMRSm8Kcp
+Vb9Nvu3R8RoLvfnLW7PGj9OpN2F6KUAljso1paQ1qpbDguAxXirdsYwxCMi9yvS9
+ET0sKJkNZIbM/z7EKrYg8km5XsiM4foepfdlkSQlB+VW0u6HTQK9a+fwSRPpJutp
+Z1C6qLRyyOE8OIE=
+=keQ1
 -----END PGP SIGNATURE-----
