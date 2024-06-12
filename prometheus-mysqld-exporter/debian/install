@@ -1,0 +1,2 @@
+mysqld_exporter		usr/bin/
+mysqld_exporter.yml	etc/prometheus/

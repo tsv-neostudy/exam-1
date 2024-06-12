@@ -4,17 +4,20 @@ Hash: SHA512
 Format: 1.0
 Source: easy-rsa-conf
 Binary: easy-rsa-conf
-Architecture: amd64
+Architecture: amd64 source
 Version: 0.1.0
 Checksums-Md5:
+ 09fbb561ad561f3df85cf4171ceafcd0 1484 easy-rsa-conf_0.1.0.dsc
  c8e677039ed1b3042ac0796833b7cd9b 11408 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha1:
+ 7a80237c3e23730a5d24147bd039badc32253a96 1484 easy-rsa-conf_0.1.0.dsc
  6014bec11ca6b667cceb1ffbff2ad05f7c29e41a 11408 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha256:
+ ac219c03bc4eb460bf2c0863a7b1bc3585719a51814842df08095207e0b0052b 1484 easy-rsa-conf_0.1.0.dsc
  d088a58a48fdb82f65801d18f1f3f7b55282487401f00fc766244e79da389084 11408 easy-rsa-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 27 May 2024 10:22:17 +0300
+Build-Date: Mon, 10 Jun 2024 23:33:18 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -74,10 +77,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.15),
- libc-dev-bin (= 2.31-0ubuntu9.15),
- libc6 (= 2.31-0ubuntu9.15),
- libc6-dev (= 2.31-0ubuntu9.15),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -170,18 +173,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZUNK0UHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0eSg/+OSB+twJDg0S1O0ZiBYOheI/5q102
-SbT/TRZ3/cXAZdRx1SwkYiNB21SMeUBtoxaCklhQOC5JIRHsfL8GpnkAi1br0uip
-yoXt49g+nTVU9ctKI0v+l/SRQIPv6U02ZkLIO3W1keIyRWreWOf6D+rNYfy7ASur
-UHclQ2ayyKT5+Rt/ZekQ/59mi8UwH40NZ3he04lUPw0tVUG4myfHZPm4jEJO50H+
-tN/AXsWrhjsjfmMTWVni5aU0Hv/7WQ6TRBfnsEFwR+S8m2YOMoDhmm+V2vvo/r2p
-kY3iXxeQio21COTY2dYjWjv1Hnf+VdZAGlmFaF+5YOBXhWR0UaaD0KlWeS7tqYJG
-+MXPWj5se4OXKBAs4ADxJ34zN3W4Ve3BVd6shdkPWvf1GJ56USNLVBFcWBieamGJ
-41JqrPYOkd3JRD+5WA3NGKDijIyqsa9yOyBUXuYqsWiy1ax7C9xlTQNqM1Q6eSuQ
-NRZspfhEZOHVtzowuCdGka2d6agCeiEtQoeasi7rMIWBu3Mcq2T9L7ab4VPj6KiA
-p32CSJs9pFPptNtUnCnBgkZYWMYFZv0gnf4X78Elzn6ASfgcJhf3IFxGBNb048fL
-GyiEnsPvJQLwf1Q/Z4zYzcddvfC7LxgNwPZv5XTuRklPsQ3ftKFXE/Fuoe0+IIBJ
-ikYImp4JSRRYKws=
-=Z8lN
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZnYxYUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0JbRAAolSzLpfn5g74Q5sIFpQXyfAt35RQ
+4aPpkcqS0pPXQHl9oKNEckVumcVtYvz7nL5x/3ODqMmHimOQbBKLAt7+xmCS59cu
+yKkaScURa3CtCh8feyHsgjNqwDUL7k6Jf52khR6jRGmydJK2RrU7blZRg6lCXPaN
+edaFJfERANS8qdbCAMAEDnlQX3WnFMPrWpQmN+fnrbkciZhIz76M2ax/ccL4VZ+H
+f2Wirpz3aGl/u3PRXMY2FC6KEK6m11XgSt6UHw0oL2OoEEQukpy4AIdijnNztEDZ
+U8knwgbaMxuZ+Ny/b/jlRnc8C1U7CvXmaXEBTIRP4Cxaf5hi9jMLpuE2xvTna6S5
+ar3zbk6N/Md/pTbG95qJNRRDDXBCjy2IbwNFWj/kIxnSDkw3GmJgGlOPawz6XBkR
+sZvrIi5UxJFk8bPyVhkkTkwucP/Tkrsj+3tuQ1GoPj6imEoj1aeMMxST+wp+VWmk
+aTepbX/+an8NcoL4Xs+jD4rSyiVlvjcF48iAmbUQwU7EVueA98uTSpsSFJtJmrv6
+JU/WtWlIA65Rus6kgjs8a3hE8+GsQhyM0h5w2nLLp9SOd3Uojdn6poYCx2+M7NDo
+8/+s8BFUb55S4x42Mdvgot+iiSZVeyJZNe6Nn0QNXleT6NUwmtiD44tJ94nON3TK
+6Z7u+EXWLW1x0Yg=
+=IJYi
 -----END PGP SIGNATURE-----

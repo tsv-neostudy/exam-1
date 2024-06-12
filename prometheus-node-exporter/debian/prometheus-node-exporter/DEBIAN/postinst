@@ -22,8 +22,8 @@ case "$1" in
     configure)
 
 
-    if ! dpkg-statoverride --list /var/lib/prometheus >/dev/null ; then
-        chown prometheus:prometheus /var/lib/prometheus
+    if ! dpkg-statoverride --list /var/lib/prometheus/node-exporter >/dev/null ; then
+        chown prometheus:prometheus /var/lib/prometheus/node-exporter
     fi
 
 #    if ! dpkg-statoverride --list /etc/prometheus >/dev/null ; then

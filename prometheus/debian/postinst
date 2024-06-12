@@ -26,7 +26,7 @@ case "$1" in
         chown prometheus:prometheus /var/lib/prometheus
     fi
 
-    if ! dpkg-statoverride --list /etc/prometheus >/dev/null ; then
+    if ! dpkg-statoverride --list /etc/prometheus/* >/dev/null ; then
         chown prometheus:prometheus /etc/prometheus
     fi
     

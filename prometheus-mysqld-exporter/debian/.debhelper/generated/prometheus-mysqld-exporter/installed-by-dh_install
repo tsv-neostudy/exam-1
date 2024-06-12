@@ -1,0 +1,2 @@
+./mysqld_exporter
+./mysqld_exporter.yml

@@ -116,6 +116,23 @@ Description: handle and deliver alerts created by Prometheus -- source
  to the correct receiver integration such as email, PagerDuty, or OpsGenie. It
  also takes care of silencing and inhibition of alerts.
 
+Package: prometheus-mysqld-exporter
+Version: 0.15.1
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 10553
+Filename: ./prometheus-mysqld-exporter_0.15.1_amd64.deb
+Size: 3244044
+MD5sum: 120f19096dc7d2b753372f8b6ecba4e5
+SHA1: 31ad35a822ba44d3c9518b6333de07946f069fc6
+SHA256: cfa62d87dfa7ad49282530903936c9896153c6558f1b6203122fabf566184de1
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: Prometheus exporter for MySQL server
+ .
+ Supported versions MySQL >= 5.6. and MariaDB >= 10.3
+
 Package: prometheus-nginx-exporter
 Version: 1.1.0
 Architecture: amd64
@@ -156,10 +173,10 @@ Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 13400
 Filename: ./prometheus-node-exporter_1.7.0_amd64.deb
-Size: 4065940
-MD5sum: 2f142f141d1f5c5a02fe43c54361e7f3
-SHA1: 814a6df0a0a9ef9d9aff3b45b41818426ea2fe48
-SHA256: f9e884b4fa8a631c75058d81e45d08b4759b252105d15710422212f80dbefa04
+Size: 4065944
+MD5sum: 63b286a7641ec168918de35e9d085958
+SHA1: 5d2cbc15d7da8b7ae86aa3ae6be916b5053d01fe
+SHA256: 2a58638cb20a21a21e6062faa0a0b5ff1bbda0cc4246aa4e808b4ef7f45cd186
 Section: net
 Priority: optional
 Homepage: https://github.com/prometheus/node_exporter

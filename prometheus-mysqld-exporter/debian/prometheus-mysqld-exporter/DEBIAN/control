@@ -1,0 +1,11 @@
+Package: prometheus-mysqld-exporter
+Version: 0.15.1
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 10553
+Section: utils
+Priority: optional
+Homepage: https://sb.stumasov.ru
+Description: Prometheus exporter for MySQL server
+ .
+ Supported versions MySQL >= 5.6. and MariaDB >= 10.3

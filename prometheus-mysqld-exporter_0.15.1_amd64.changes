@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 12 Jun 2024 13:34:03 +0300
+Source: prometheus-mysqld-exporter
+Binary: prometheus-mysqld-exporter
+Architecture: amd64
+Version: 0.15.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus-mysqld-exporter - Prometheus exporter for MySQL server
+Changes:
+ prometheus-mysqld-exporter (0.15.1) unstable; urgency=medium
+ .
+   * Prometheus MySQL Exporter ver. 0.15.1.
+Checksums-Sha1:
+ 19c84f4edc0388423835c56cd62e4c10541b3114 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ 31ad35a822ba44d3c9518b6333de07946f069fc6 3244044 prometheus-mysqld-exporter_0.15.1_amd64.deb
+Checksums-Sha256:
+ 676aa89d48abf4e088b33decd04ff267d7976e1ca9e1b50e19f3908cae92ff5d 6263 prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ cfa62d87dfa7ad49282530903936c9896153c6558f1b6203122fabf566184de1 3244044 prometheus-mysqld-exporter_0.15.1_amd64.deb
+Files:
+ 97c19a04bbe23f3f733a578caaf5ec36 6263 utils optional prometheus-mysqld-exporter_0.15.1_amd64.buildinfo
+ 120f19096dc7d2b753372f8b6ecba4e5 3244044 utils optional prometheus-mysqld-exporter_0.15.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZpwcUUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1KWQ/+MwoozsOkDAvvX5AK9NW3Zx371wqA
+w0DXtv6HvX1IJyG/gkemkOAkEOUZSJojUeZXH/NYvs6dZsmleAphO9UF/uzduvrh
+yAD3fI0mP8H0qt40ZrTASNZxD7mUdwJqdzkkPmZJCaoiFgs8Mz4ObFTQMQDn8YWQ
+psZOkP+0gW+q9+ViAy2w1HOtaElPfnSJ3npFs+fe1rKPygQI3+F7rPcV4ww5gBx8
+S9We8brYMASua91rYyqVRlX08DFEE36WL751BJ4ElVm2sptJ369nO7HkBfk9aERN
+F6ZY8a7zzkHMqY2IZDe4GN9j8X8YOonzgxdlHzmXCITMfgm2X9Qxfp0Bed+DKE6F
+nOHHdTQ3Pa63h25uDu1Hg4BeOLDoHOlxoj1O3AzUjh3lxQTffE6HzLCUuMKSTrzO
+UrRFhlh/XreFe10HUw6QhbiR0WnX947Y3KeHBukF7GGYdEIV40s3q5ySawxZABX+
+C925NfHoDQlaWvzONzbKEVr7B25hJLqu/u43Q+s7mK75xuEOHC1iIp3R7fCiVUWF
+EzUF/ilgfimnrALV6p8VDgkk3fcP7oGxWFr5q2PiI+QcN9C8AiWr9/NK4aotZM0j
+mNGoIjGdrkHelaiHrycazpj2fc+CDvmeNvGHUtdABm2EuB5Bz0QWP0K9/V+lXZy3
+aPOOooi9Rd6zaAk=
+=Qan6
+-----END PGP SIGNATURE-----
