@@ -26,8 +26,8 @@ case "$1" in
         chown prometheus:prometheus /var/lib/prometheus/alertmanager
     fi
 
-    if ! dpkg-statoverride --list /etc/prometheus >/dev/null ; then
-        chown prometheus:prometheus /etc/prometheus
+    if ! dpkg-statoverride --list /etc/prometheus/alertmanager.yml >/dev/null ; then
+        chown prometheus:prometheus /etc/prometheus/alertmanager.yml
     fi
 #    chmod 2750 /var/log/prometheus
 #    chmod 2755 /usr/bin/prometheus

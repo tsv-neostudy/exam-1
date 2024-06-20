@@ -7,14 +7,14 @@ Binary: bkp-srv
 Architecture: amd64
 Version: 0.1.0
 Checksums-Md5:
- 18d878fe776c3b0c840fc85511802f88 3508 bkp-srv_0.1.0_amd64.deb
+ 2f33615265f984745acddd87ceca8dd7 3512 bkp-srv_0.1.0_amd64.deb
 Checksums-Sha1:
- 820035bda6434401c12881c587c576277b177485 3508 bkp-srv_0.1.0_amd64.deb
+ adeffeb3eda73a3a684fd49c3a3da35423b10f14 3512 bkp-srv_0.1.0_amd64.deb
 Checksums-Sha256:
- b507af876dd50d994cf1faeea9bd2a55c3cd5d9dc08a1d1c7f47a9b1e7bc9e50 3508 bkp-srv_0.1.0_amd64.deb
+ f6b9c3b6422c83078cb31a012280e9a07010d799dd1c33b44a240fda7f4f6263 3512 bkp-srv_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 24 May 2024 23:22:59 +0300
+Build-Date: Thu, 20 Jun 2024 13:26:00 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -74,10 +74,10 @@ Installed-Build-Depends:
  libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.15),
- libc-dev-bin (= 2.31-0ubuntu9.15),
- libc6 (= 2.31-0ubuntu9.15),
- libc6-dev (= 2.31-0ubuntu9.15),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
@@ -140,7 +140,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-182.202),
+ linux-libc-dev (= 5.4.0-186.206),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZQ9ycUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM0kYg/+J2JSCu3Lvjpn2se6dsxK0+19S3Ed
-pYqERURNaltu46Fwpi2m1TqCUlyZHcEruhIodni3cr4Od6OCTxjIikscWRPFTmnF
-7AMPRbwGh5jcdar8BnA3aBPzwqB62Vol3uEYXaEfutpDHREvnX7WnI1X4VUwfCIG
-X4dI5BtlFJ0F7xBakLfPBF450L+0LEaMjm+MWQqCdQ1jGKkOGO+wmkP8tU0UuAB6
-+R8wywqEBtalQOlb6KdPulVbGOl3Y//hplNRkm8r3uZNxD64avTcBcIpnPypKSUD
-mrXFEWXdFeWGqqhTMkqHtTGthcw2PnH2+Pfh4I3U4k/f+MCPS5njxpFyon1+l2SX
-inw/KEvFhpQA/otbaiY/dRh4/7Ht/PEYMw3Sg5T82GlfiXFShhVxpqzsyYz3qSWZ
-f29TtvdZse2wLgC/+jhJFs9lgiCgGSVRylzycZ3fXIiBmWXCcDK9JCc7eDp5ybcx
-wLDAqr9aGYEKzV4xjn/QhQQqmnMxqpmgtqiMKDoRpP/UqpjemU3+K640lwyxymb5
-kVUCy6ygIkdj4is0UigwHoD3iSgwKVU/35zHykoGtgIT9E996AKnVdJdsVCoI/zm
-IoIp5eQfFXY37Tg84HzsdmSVdpf46gvDbGylRW3u1HxBN606B1RYtXSnwiIPsv62
-sy+cL6PPY/5kGJQ=
-=/Ucm
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZ0A70UHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0c4hAAgVeD1XUzCnZZymPH6/bslxR9ZQ+y
+KhX94AvP0Wov1oZacaY1y/AgRiwdrH7g+c0uT6Ht5kTY9XIUmj0bgXOsrbZZoAbv
+TdePTrYJicPDFaMnFZtQvKlyOSURWUz5zuY8dnYb6DNu/39947v95bYY7yMbN7WT
+uMvO216rG84b1ZCxND7Hezq1C4oCvHroGDGnm9NgDKwa2ZyzelQkSKpAXH0VkdxT
+znMwVk8v1TUI2+GBeh9BR+8VTPQugYMxOy7UmRyryhPbrku+ZrJPJLq1oElNDn+U
+sWWFCjN4HeALH2IQlBj2OLwQTA/KnqCCbd2kwUevqzIAl6B6f4ButFRc+vrs1gME
+UG4StoZ/bhGQL7aAgYxpKxb0EE8z/pQqqNmiD144a4pymV0CPFEUlJhIgZySo6i6
+UYcCBeLMD6XCpzom3jWS+PKSOtvliAST3o2Ojt/BgmgiVogr8LhCEK2bg8xp4lKw
+DMbms2zxIwrJysBZWEH/34ISukswfkoFUCPqUXNf0FWlCwkEoBN6rhXiGDNKpUS0
+x5Fnbq0vQdmZffjzUzyvgBeG6QunHHNGqN0Jvk631aPap4oZW4Lc02dJjcY8O8mY
+d4Bf0vZrNXna5ODYoLMWYs3mJEwXFuNUvv8dp0Qu7IMbbYLfnuN3xKaA0xBOCMO2
+btVQ7o2ZHKqic/w=
+=T+7S
 -----END PGP SIGNATURE-----

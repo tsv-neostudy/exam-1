@@ -5,10 +5,10 @@ Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 19
 Depends: rsync
 Filename: ./bkp-srv_0.1.0_amd64.deb
-Size: 3508
-MD5sum: 18d878fe776c3b0c840fc85511802f88
-SHA1: 820035bda6434401c12881c587c576277b177485
-SHA256: b507af876dd50d994cf1faeea9bd2a55c3cd5d9dc08a1d1c7f47a9b1e7bc9e50
+Size: 3512
+MD5sum: 2f33615265f984745acddd87ceca8dd7
+SHA1: adeffeb3eda73a3a684fd49c3a3da35423b10f14
+SHA256: f6b9c3b6422c83078cb31a012280e9a07010d799dd1c33b44a240fda7f4f6263
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru
@@ -35,13 +35,13 @@ Package: file-bkp
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 20
+Installed-Size: 21
 Depends: rsync
 Filename: ./file-bkp_0.1.0_amd64.deb
-Size: 3472
-MD5sum: ba6f7dbd4453a563f0265d84a3ce36a2
-SHA1: 98a2f4840fe9ec8d6e6d32f612be52957eae4235
-SHA256: 1be451b52980d7a7e257e1f24054f3e0681dd54be30d4aea44e163ae0372f9cc
+Size: 3644
+MD5sum: fb4b3c653b8ff28b189f35dbbc613503
+SHA1: e39eab318bd04ab433e002d60ec6671e6cb455fb
+SHA256: 507e4985d430084c61cb503b2231584b18dca326d1e7ad98b139a2ce60a334bc
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

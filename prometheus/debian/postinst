@@ -26,8 +26,8 @@ case "$1" in
         chown prometheus:prometheus /var/lib/prometheus
     fi
 
-    if ! dpkg-statoverride --list /etc/prometheus/* >/dev/null ; then
-        chown prometheus:prometheus /etc/prometheus
+    if ! dpkg-statoverride --list /etc/prometheus/prometheus.yml >/dev/null ; then
+        chown prometheus:prometheus /etc/prometheus/prometheus.yml
     fi
     
     mkdir -p /usr/share/prometheus/web/static/vendor/bootstrap4-glyphicons/fonts
