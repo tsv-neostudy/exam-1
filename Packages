@@ -38,10 +38,10 @@ Maintainer: Sergey <mail@sb.stumasov.ru>
 Installed-Size: 21
 Depends: rsync
 Filename: ./file-bkp_0.1.0_amd64.deb
-Size: 3644
-MD5sum: fb4b3c653b8ff28b189f35dbbc613503
-SHA1: e39eab318bd04ab433e002d60ec6671e6cb455fb
-SHA256: 507e4985d430084c61cb503b2231584b18dca326d1e7ad98b139a2ce60a334bc
+Size: 3640
+MD5sum: 97114b91a7d15633dc4ecc1245696e32
+SHA1: 184f74c166ec799398439e93a46b353787efc22f
+SHA256: 244eca5069494070c8766cdb729bf0f00a5964e583ac213df6a92c8533d9f8f6
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru
