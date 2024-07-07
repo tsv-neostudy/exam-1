@@ -1,3 +1,4 @@
 ./backup.sh
-./inc_files.list
-./exc_files.list
+./inc_bkp.list
+./inc_rst.list
+./exc_bkp.list

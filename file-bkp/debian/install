@@ -1,3 +1,5 @@
 backup.sh etc/file-bkp/
-inc_files.list etc/file-bkp/
-exc_files.list etc/file-bkp/
+inc_bkp.list etc/file-bkp/
+inc_rst.list etc/file-bkp/
+exc_bkp.list etc/file-bkp/
+

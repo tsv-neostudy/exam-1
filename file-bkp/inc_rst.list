@@ -1,0 +1,8 @@
+#please list here dirs and files for file-restore
+#for example:
+#gw server:
+/home/ubuntu/.ssh
+/etc/file-bkp
+/etc/cron.d/file-bkp
+/etc/iptables/rules.v4
+/etc/openvpn

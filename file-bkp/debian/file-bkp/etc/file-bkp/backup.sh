@@ -9,11 +9,11 @@ MYSQL_BKP_FILE="${WORK_DIR}/$(date +%Y-%m-%d_%H-%M)-mysql-all-databases.sql.lzma
 
 if [ $(systemctl is-active mysql) == 'active' ]
 then
-        mysqldump -u bkp_user -p123 --all-databases | lzma > "${MYSQL_BKP_FILE}"
+        mysqldump -u bkp_user -p12!@qwQW  --flush-logs --delete-source-logs --single-transaction --all-databases | lzma > "${MYSQL_BKP_FILE}"
 fi
 
-INC_SRC_LIST="${WORK_DIR}/inc_files.list"
-EXC_SRC_LIST="${WORK_DIR}/exc_files.list"
+INC_SRC_LIST="${WORK_DIR}/inc_bkp.list"
+EXC_SRC_LIST="${WORK_DIR}/exc_bkp.list"
 
 RSYNC_LAST_BKP=`tac "$LOG_PATH" | grep -m1 "created directory" | sed -r 's/^.*created directory //'`
 OPT="-arvHAX"

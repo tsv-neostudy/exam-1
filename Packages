@@ -35,13 +35,13 @@ Package: file-bkp
 Version: 0.1.0
 Architecture: amd64
 Maintainer: Sergey <mail@sb.stumasov.ru>
-Installed-Size: 21
+Installed-Size: 22
 Depends: rsync
 Filename: ./file-bkp_0.1.0_amd64.deb
-Size: 3640
-MD5sum: 97114b91a7d15633dc4ecc1245696e32
-SHA1: 184f74c166ec799398439e93a46b353787efc22f
-SHA256: 244eca5069494070c8766cdb729bf0f00a5964e583ac213df6a92c8533d9f8f6
+Size: 3748
+MD5sum: c1fa4c52da8ff91864cc573f81d6d8e2
+SHA1: 3f80c7b1e669f444e248d2a4f2d60a319771dd71
+SHA256: 30c55d693ab89c7eccf5826df8a331ef8ff93a058029f50508f95c7ce880b0f7
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

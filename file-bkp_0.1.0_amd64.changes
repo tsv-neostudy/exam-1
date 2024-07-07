@@ -18,29 +18,29 @@ Changes:
  .
    * rsync with base conf.
 Checksums-Sha1:
- e9e505d27d8e13eca64437c77ae8cce55f334592 6160 file-bkp_0.1.0_amd64.buildinfo
- 184f74c166ec799398439e93a46b353787efc22f 3640 file-bkp_0.1.0_amd64.deb
+ caf6a32850e9842f71e43cf0cece4b1a0cd4c7ca 6160 file-bkp_0.1.0_amd64.buildinfo
+ 3f80c7b1e669f444e248d2a4f2d60a319771dd71 3748 file-bkp_0.1.0_amd64.deb
 Checksums-Sha256:
- 2a47f3447aff82846149d8b79659bbde51b5636c75b7a372e9aeaa43c574fad4 6160 file-bkp_0.1.0_amd64.buildinfo
- 244eca5069494070c8766cdb729bf0f00a5964e583ac213df6a92c8533d9f8f6 3640 file-bkp_0.1.0_amd64.deb
+ 5f62a7c2d53f62c7b7bc57076e56bf3f1cfb9776739179aa35027a8bac18d051 6160 file-bkp_0.1.0_amd64.buildinfo
+ 30c55d693ab89c7eccf5826df8a331ef8ff93a058029f50508f95c7ce880b0f7 3748 file-bkp_0.1.0_amd64.deb
 Files:
- 165db29352a3076f7d3e8793be41d723 6160 utils optional file-bkp_0.1.0_amd64.buildinfo
- 97114b91a7d15633dc4ecc1245696e32 3640 utils optional file-bkp_0.1.0_amd64.deb
+ 3b64a6ff90c7e6274192cb69a99a4d1b 6160 utils optional file-bkp_0.1.0_amd64.buildinfo
+ c1fa4c52da8ff91864cc573f81d6d8e2 3748 utils optional file-bkp_0.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZ1O7MUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM3zSA//dxa3gKJ19CzAGMScex51wh/YZ4lw
-mJbKKH93uiCzyetDfUncZKBA+9G9rebzP2eBOa3v2ZRhGxD7DaZz2LQrQVwGKy+s
-rRKLOtsCiLZffG9G6iGamdnPY3U9GMFzYEOzF/KQDozQgsyFj2IoJxsDDhYko/d7
-tB73swXklDrVHvwrQsTnCDMuzJN2aiHCGR3cX4Lj/Qi3iHppAvgvVS1Y96POyCKQ
-e9NTEcfq6YYgTgoO3X36UcCXizErxjt/FVEIOKIIc+Iagb70kqQMQSR53h9GW8b4
-IH0//rtycGKSfWBtAtK5QRjiAe+NB0SrgEdmY4sCNnusj6DzPh6mRhTt2i+yXpON
-YzFemi8UdkchrdH5qAsDhfPHxczS+x531nl6h3i1feLCpKuuK7VksGqDXBf//1J9
-Nryiqo7bX+kv3xDYiAafKFfZeFcfIpS4i6NCO3EhuV+5LX9ZX1x0g8+r1XjSbnWr
-AZvp2x0hhajKFVGyq1HX5407HswnDhfHF9j/cZVtzq9DUbCGZ9NiOSZaxp92ZN6n
-AU3m5yu5X72SSCfS0yXk2SwUcMbG7eZ7zCl0LSF6qk+j+j/LTAYDr0+LPR9PHWc6
-KOfy4JLMLN6Io5/7cf0NVHovfCcoghcM59FF5SGKIhh7q3E7+eKUYtaxpnxqWo/3
-WEGvbTAkZpSVn+E=
-=LlWC
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmaLBXwUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0NoA/+JHPDJJ3+j9Aj8etmIRv9ivgVGo4Z
+mGSZScTSeynIukVHp9UIvkkiJf8p/CdJc50eOkBZ9JppYFsWThzb5qgCIkA0bEtU
+nf8SzuSp+tjf6XhCKROG2K22y2hTElP09a4jdVPu8cfR9V5KKGDUUTNV0QXL23Gy
+1gDkWZ28Z4Ux3RFfehqhxXiX8c9rkvOWkTnmmMfJnRR4/pkJve7QDa3oH61p9Jll
+RgCQlusXziECdcdAMOGMfen8I33wsnp99M7JphpLXPG7ATP0/t/I2QYR+Z9115l6
+wAZQ/qHvehx+kEmCUrZS8howkRA15SOfQOiVctVb8ZT8mkLSXtgH/Ap43fMiCvXf
+btCSEXk0Je1ZJzFwNntyOyqRV+k1cMmRllKjrNyiAIJCQJRwtoxDnU06x9dUZzgH
+8YCXmeewgclezS7ByaMeeSwaS1+QwBEzUtZYcxvAKmWiUdZL/ucaAbw6H35Jyim/
++8lMa+yGDQ6X3bl9Piqh3XiMJpZOyoD3BUcI5W5iGduDv98XTzNdQosyzh+xHB0r
+8Ys7up1RmWltMGaTyBypm4mpiGXPgNf6aR4DuGimicfaw95Pem5n2f+Url4lraok
+mQLsBxhk7g8g6rmytsRksRkK971BtnOFSvgo4KIVqqygot/yXdG7wK4Jwpn5md5x
+lw8E6t332l24p2Q=
+=np6I
 -----END PGP SIGNATURE-----
