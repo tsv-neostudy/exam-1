@@ -18,14 +18,14 @@ Description: rsync conf and remove old backups
 Package: easy-rsa-conf
 Version: 0.1.0
 Architecture: amd64
-Maintainer: Sergey <mail@stumasov.ru>
+Maintainer: mail@sb.stumasov.ru
 Installed-Size: 55
 Depends: easy-rsa
 Filename: ./easy-rsa-conf_0.1.0_amd64.deb
-Size: 11408
-MD5sum: c8e677039ed1b3042ac0796833b7cd9b
-SHA1: 6014bec11ca6b667cceb1ffbff2ad05f7c29e41a
-SHA256: d088a58a48fdb82f65801d18f1f3f7b55282487401f00fc766244e79da389084
+Size: 11396
+MD5sum: 0db123ad59493dbd12e7c5276de344b1
+SHA1: 7ceb4adf621d420c22914bc07d15c6021606fa66
+SHA256: 68b46a0f665a850567c5649e92e24aa1cec66ed64ce1e00c334a070f4d390488
 Section: utils
 Priority: optional
 Homepage: https://sb.stumasov.ru

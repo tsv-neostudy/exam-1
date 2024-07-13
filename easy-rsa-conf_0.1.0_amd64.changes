@@ -5,11 +5,11 @@ Format: 1.8
 Date: Mon, 22 Apr 2024 13:27:52 +0300
 Source: easy-rsa-conf
 Binary: easy-rsa-conf
-Architecture: source amd64
+Architecture: amd64
 Version: 0.1.0
 Distribution: unstable
 Urgency: medium
-Maintainer: Sergey <mail@stumasov.ru>
+Maintainer: mail@sb.stumasov.ru
 Changed-By: Sergey <mail@sb.stumasov.ru>
 Description:
  easy-rsa-conf - Install easy-rsa and put base configuration.
@@ -18,35 +18,29 @@ Changes:
  .
    * Easy-rsa with custom "vars" file and "pki" dir
 Checksums-Sha1:
- 7a80237c3e23730a5d24147bd039badc32253a96 1484 easy-rsa-conf_0.1.0.dsc
- bbeca411bb3b022ea84efb7c037835bbd8706a51 15836 easy-rsa-conf_0.1.0.tar.xz
- 8fc869c6fbfad7f3a8a5bfa7fdfe747e09d6ad74 6424 easy-rsa-conf_0.1.0_amd64.buildinfo
- 6014bec11ca6b667cceb1ffbff2ad05f7c29e41a 11408 easy-rsa-conf_0.1.0_amd64.deb
+ e7ffd5056a933997fc3c0ee14925ed705a2a525e 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 7ceb4adf621d420c22914bc07d15c6021606fa66 11396 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- ac219c03bc4eb460bf2c0863a7b1bc3585719a51814842df08095207e0b0052b 1484 easy-rsa-conf_0.1.0.dsc
- ceebb57a47daa54e6762d19082f96a5a314d5ea595da265b62abd1527dc25ec5 15836 easy-rsa-conf_0.1.0.tar.xz
- 802036f853867a1360e56e33a6f92e73f03b1341ed2d92724662827124f7b63b 6424 easy-rsa-conf_0.1.0_amd64.buildinfo
- d088a58a48fdb82f65801d18f1f3f7b55282487401f00fc766244e79da389084 11408 easy-rsa-conf_0.1.0_amd64.deb
+ a177af92bfd49f3e387a38834348218fa3ec9baaa0f321fab31bfe51d0441091 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 68b46a0f665a850567c5649e92e24aa1cec66ed64ce1e00c334a070f4d390488 11396 easy-rsa-conf_0.1.0_amd64.deb
 Files:
- 09fbb561ad561f3df85cf4171ceafcd0 1484 utils optional easy-rsa-conf_0.1.0.dsc
- 54bf56b3783db4519f2ea9802ae7050c 15836 utils optional easy-rsa-conf_0.1.0.tar.xz
- 010d27f0807226f5714f1c0fa579c822 6424 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
- c8e677039ed1b3042ac0796833b7cd9b 11408 utils optional easy-rsa-conf_0.1.0_amd64.deb
+ 270c7b0629aa09c3bd9760d617ce9ea7 6188 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
+ 0db123ad59493dbd12e7c5276de344b1 11396 utils optional easy-rsa-conf_0.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZnYxYUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM1S+w/+JRb+J+FeLJwXqru2a/oT359Qqym6
-wG/9749gh9PwC2+QJME0QSNriTIXqVPPcY+DEhdkBGzE2AjmCFdOsSTEVyrKrtLh
-wMwgmgSxh1iK4X071Z8GpxqW5PhQqCLZGPV+DydRGgGT2jWuvCcGLDlEi9SNWSHl
-S4d2EtibaX1UTyKxE3Fy1f26qGzpDthX/FTNRTsNNmK+IlGGvVk1qvLBR+mNtlxG
-VR/+nr+M7WTcSpTEx1Q/0cGLeudaj7D7hh1EMC+5wSNqVzGt5fKtp/1P065ECFY1
-oHZXr5v+et44RoJtOK4vYICV6fTeAySH5yGOSZxzA4yDCedj2TiagzaTLikA67h+
-uSC18Yvph/Nq5S0GyIsgMDT/bk1D6yuPyVBTpWPirBjvXS5GyxqLomU9CC7Wot+V
-4q1z3UniOrZXDIdrwY31j1nq6cynp0TuPSN/wFPfoNyhh87b8obj6/sMV0eMJ20z
-5FmilcC+BsnGRDbS+FyyOHe8Qk11mTziH/oBxs9anLTqyi88KFJI+LIuZ9+ij9pE
-NlmboYd1EGXXmcGHTPH4KrT9v9OfAlpPn0gkItd7sX0CTER3esu+EByyX8WS2ZgQ
-fozZR2k+EDVWN9qWiq1uWPRJ8GFTj2DlGu2LZVaw1S1H0y+yEXwmiKjh34hIKcR5
-7oiKwQvzjdMiruk=
-=7sdq
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmaS/VIUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM1UwA/9HP/F46oWc2etoTOSkI9DgPcOhrmH
+pe0o1myKL+fqnZlXIv5zk8qKNCQ+5XpV/JsvC8Vp0rNfL3rJ6YDPVskZxF0Ro29J
+2Vf/rFY0vgkdVlrtvq3ffgGE78kmyCqkvzxoCab1pPWTv2VPiBmDFJ6tSqWRqgM9
+f2DP8/Y2BBQTVU3WyXQZaU/CgKWSf/Ssc8+qH3uLacs/nxIZ4xvsYIAEm8+Vp/1L
+jX5SErh1auxPAd4N0LnvAva6ZZctClryU9CwwWtRnxl5Rd0HDzgepxK7nG/Ewztt
+xMlMlE+8WNVR/ZaiH2Vbe4qA+nGg76lH28URiA3VJvmakb3jA3Rh7yeA4w+KStB1
++LQ13j10lNX3VSua8f0j0Z7pdHClz59pokoKl7au3J0DbW98qfpqoJPkJoIdE6YA
+Q9jiWw39ft94DwAom1C2HcOkPYI5EV3xLKMrqIeJ3jXDUl2bRYkaby3Vgrn+nclR
+VdLMXV+muTVTQ1n/s2lgRbBe2ubMBYCj8m/uct/TvB9c7eayMHKGz9a/coVCUZCm
+0SyerMZiv6zQNNjKP+a1vbbNznlTedWv8xwigPxUqk2P/YSICrrPCiyIZGrsDX4H
+2jcR7ASPO3WVI+i9DohT9Efjtx8rJxRvDG1P/4dDzXZDxfn/9cK2uXPZml94vU4n
+M1gCJbL4n1o2dcU=
+=lAOh
 -----END PGP SIGNATURE-----

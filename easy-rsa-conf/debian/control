@@ -1,7 +1,7 @@
 Source: easy-rsa-conf
 Section: utils
 Priority: optional
-Maintainer: Sergey <mail@stumasov.ru>
+Maintainer: mail@sb.stumasov.ru
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.4.1
 Homepage: https://sb.stumasov.ru

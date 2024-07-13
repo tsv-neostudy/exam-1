@@ -1,7 +1,7 @@
 Package: easy-rsa-conf
 Version: 0.1.0
 Architecture: amd64
-Maintainer: Sergey <mail@stumasov.ru>
+Maintainer: mail@sb.stumasov.ru
 Installed-Size: 55
 Depends: easy-rsa
 Section: utils
