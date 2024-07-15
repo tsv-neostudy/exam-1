@@ -81,12 +81,15 @@ case "$1" in
     #OpenVPN for external interface only
     proto=udp
     port=1194
-
     iptables -A INPUT -i "$EXT_NIC" -p "$proto" --dport "$port" -m conntrack --ctstate NEW -j ACCEPT
     
     #Allow TUN interface connections to OpenVPN server
     iptables -A INPUT -i tun+ -m conntrack --ctstate NEW -j ACCEPT
     
+    #Web requests on EXT interface allow to be forwarded 
+    iptables -A FORWARD -i "$EXT_NIC" -p tcp --dport 80 -m conntrack --ctstate NEW -j ACCEPT
+    iptables -A FORWARD -i "$EXT_NIC" -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT
+
     #Allow TUN interface connections to be forwarded through other interface
     iptables -A FORWARD -i "$EXT_NIC" -o tun+ -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
     iptables -A FORWARD -i "$INT_NIC" -o tun+ -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
@@ -99,8 +102,10 @@ case "$1" in
     iptables -t nat -A POSTROUTING -s "$INT_CIDR" -o "$EXT_NIC" -j MASQUERADE
     #iptables -t nat -A POSTROUTING -s 192.168.111.0/24 -o tun+ -j MASQUERADE
 
-    #DNAT traffic for www (80, 443) and Prometheus (9090) ports
-    #iptables -t nat -A PREROUTING -i 
+    #DNAT traffic for www (80, 443)
+    iptables -t nat -A PREROUTING -i "$EXT_NIC" -p tcp --dport 80 -j DNAT --to-destination 172.16.4.21
+    iptables -t nat -A PREROUTING -i "$EXT_NIC" -p tcp --dport 443 -j DNAT --to-destination 172.16.4.21
+
     #drop all undefined input traffic
     iptables -P INPUT DROP
 

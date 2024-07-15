@@ -7,14 +7,14 @@ Binary: openvpn-conf
 Architecture: amd64
 Version: 0.1.0
 Checksums-Md5:
- ca2e31a770864a13470cc3b7f5e42887 8476 openvpn-conf_0.1.0_amd64.deb
+ a093277832cca5763213ad4c8dca4a74 8540 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha1:
- 8be3dce33acb473ae994ca5fe250b4d9be3e28c8 8476 openvpn-conf_0.1.0_amd64.deb
+ 201b463354a4e2f7848ad40051950a9bf3dd4599 8540 openvpn-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- bf7316f385a245d1c37eaaf4100006ac7a71ae68b193beef3f8f3988bed6b1f1 8476 openvpn-conf_0.1.0_amd64.deb
+ f707a9b64c0ed3093f017a0aae9ecbb66a75210db8d83975760f078d33d826a8 8540 openvpn-conf_0.1.0_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 10 Jun 2024 21:43:04 +0300
+Build-Date: Mon, 15 Jul 2024 21:50:22 +0300
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -140,7 +140,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-182.202),
+ linux-libc-dev (= 5.4.0-189.209),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -170,18 +170,18 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmZnSTsUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM2qSBAAn2q1F2QQMLUVv3kCZh9IA9KzIREc
-wAeV1gXyllNQ+lzspXcHqrcOcVw7Tvci7yO54q+khyM+rIy0WKD4KV/KELnGx/fp
-OHVa3+fyUdovNeNao1j5wePQxI+W4jb0XDns8COMAer2Lmw0L0eW1n0vp0X7Rwjl
-Kj0Gv0CtyD39/hQrody3gbRuAEoG/o1X2cdsY4PLxJ8OvH4nrteP7bmnm08uN+JN
-FIjSK7PSeCYLZpBHfTpt6oebIKvSwkCGWihH6wUFBI2mF8bdZogg42moxnfG5w2i
-yr5htlMv79x4G77ux67TA9Xqjec4f2e0q9zxEFgUIuHy92i+Rjyi8axdwA1hCiUx
-cmjNXEIP1s2pLodPeClcJychRNTKuD8XIBdbAXaM3ccl/bYKaiA/dDcc5UeXOG69
-A5qfPYIaNURsKvdadcA0Bmzz0GM3dNHhTgQzW9iEAImCIl2UGeeN5YBqs7/50llZ
-FXnrGHWnn/AYV1bf6aNM7y+ZvUCVPcfC8NsmUFt4Uv7SR75RvNiJB49T7zUNMue4
-/gbW3EZcLLBDAy4AppjD7ptt3PnK4dgqbRoIS8bg8HKK5FAMGZ9+pBXOdQwGbGsT
-ycmmAH1oqMyHeuIal6hS477EGbtWQURGS1exWgHOz+FCCDYxN23Wk39BrIaCfG7q
-1yBY/d8m88fyWRI=
-=0e8i
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmaVb3EUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM2DDw/+IHuwPCWv21RCll8Bn9mzgIlmCJ3w
+SkKypGVchEycT9RD7O3y18858oZT2pqSLhwLzruVnorPUsXYHl3bb2zHSOIXQEn2
+CHo6VAxC8HQs1QrgwM/upIhQbih177AxYIVCJX/kVAoSiDz/NhlI57zH10eLUcmS
+OihwWn14Z2/peeRUakCa0V1cq0s+eUZXq/RU70dK0+2Pb4Va0DfDB+9duA+Y6O+B
+Or/C3BFU5MPHyNiu427X/QxLKtCtQhYgnobgASDpnTSr1YJIjD6vmVwZo+kbJL9l
+ayCygImgSfm4t2+esZgPZq8dFV0B5hd95GmhZIG5rJ5RebBc/YWd4FsaKi4wPp8l
+7+Vgj3fCuCr/kE8tkUlZ0AUHowJz9biOp5pQzpQwy223cgrX6g655dwL9w0v4Bta
+tX7c78crnv+hVoQgxE/uQXcQtZ3kZMw6WBdxFrPY0I5RTepcnm5hX0FuobvE7HAW
+2uHO0N9jHDd7tLXMgUttxmU2+G8/Ef3A6oy1cePlrl4ypN12G3Nc+i9QY2BKUp47
+NxEcu+995flCSkNm1pMGkSiG3keivsuW9NSY0l+kboqtr2daEL2udvgMFTqXOAl6
+Llphk8F84SkruzsRRNVwDUR8b16BzAsvHdv+vGmifZ8nZLb1EnRW/q/qofaPCQka
+D/7a4PJDGcgmMHI=
+=TMHz
 -----END PGP SIGNATURE-----
