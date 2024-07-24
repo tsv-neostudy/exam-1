@@ -4,6 +4,7 @@
 /etc/group
 /etc/shadow
 /etc/gshadow
+/etc/ssh
 /home/ubuntu/.ssh
 /etc/file-bkp
 /var/log

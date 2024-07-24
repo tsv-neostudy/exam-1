@@ -18,29 +18,29 @@ Changes:
  .
    * Easy-rsa with custom "vars" file and "pki" dir
 Checksums-Sha1:
- e7ffd5056a933997fc3c0ee14925ed705a2a525e 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
- 7ceb4adf621d420c22914bc07d15c6021606fa66 11396 easy-rsa-conf_0.1.0_amd64.deb
+ 255679ed2354ccdb63575b3544ad36b0fc67928f 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 06ff80aac58f7c2bd8dc7f7952a263467673275d 11392 easy-rsa-conf_0.1.0_amd64.deb
 Checksums-Sha256:
- a177af92bfd49f3e387a38834348218fa3ec9baaa0f321fab31bfe51d0441091 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
- 68b46a0f665a850567c5649e92e24aa1cec66ed64ce1e00c334a070f4d390488 11396 easy-rsa-conf_0.1.0_amd64.deb
+ 92dde5e2b77abfbf43b5319bce5897ee7fab66b8e17920c38feb84dac63a15e7 6188 easy-rsa-conf_0.1.0_amd64.buildinfo
+ 8b99a0701fe5487100b0f2a485ca88457c403b65853b834954af7badbc750254 11392 easy-rsa-conf_0.1.0_amd64.deb
 Files:
- 270c7b0629aa09c3bd9760d617ce9ea7 6188 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
- 0db123ad59493dbd12e7c5276de344b1 11396 utils optional easy-rsa-conf_0.1.0_amd64.deb
+ 28b0128c20fbee9dddb528b9c00a2212 6188 utils optional easy-rsa-conf_0.1.0_amd64.buildinfo
+ 5b8adcf3f946a7c9447fc272fba416bd 11392 utils optional easy-rsa-conf_0.1.0_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmaS/VIUHG1haWxAc2Iu
-c3R1bWFzb3YucnUACgkQER/DK9jjoM1UwA/9HP/F46oWc2etoTOSkI9DgPcOhrmH
-pe0o1myKL+fqnZlXIv5zk8qKNCQ+5XpV/JsvC8Vp0rNfL3rJ6YDPVskZxF0Ro29J
-2Vf/rFY0vgkdVlrtvq3ffgGE78kmyCqkvzxoCab1pPWTv2VPiBmDFJ6tSqWRqgM9
-f2DP8/Y2BBQTVU3WyXQZaU/CgKWSf/Ssc8+qH3uLacs/nxIZ4xvsYIAEm8+Vp/1L
-jX5SErh1auxPAd4N0LnvAva6ZZctClryU9CwwWtRnxl5Rd0HDzgepxK7nG/Ewztt
-xMlMlE+8WNVR/ZaiH2Vbe4qA+nGg76lH28URiA3VJvmakb3jA3Rh7yeA4w+KStB1
-+LQ13j10lNX3VSua8f0j0Z7pdHClz59pokoKl7au3J0DbW98qfpqoJPkJoIdE6YA
-Q9jiWw39ft94DwAom1C2HcOkPYI5EV3xLKMrqIeJ3jXDUl2bRYkaby3Vgrn+nclR
-VdLMXV+muTVTQ1n/s2lgRbBe2ubMBYCj8m/uct/TvB9c7eayMHKGz9a/coVCUZCm
-0SyerMZiv6zQNNjKP+a1vbbNznlTedWv8xwigPxUqk2P/YSICrrPCiyIZGrsDX4H
-2jcR7ASPO3WVI+i9DohT9Efjtx8rJxRvDG1P/4dDzXZDxfn/9cK2uXPZml94vU4n
-M1gCJbL4n1o2dcU=
-=lAOh
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmag37sUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM0UQw/+I2VklT7o8Os0F5mwICmxCipctqgn
+vaeQStQmIwYFMt6hbey2MfHi2QvKpbAtcs3AC+jjIYBIiJ/UN6afm2f4XUbw2bxh
+ZlSpfLapANRE1PkNrk+lCgZEJlTsE1PVrRrgvHtqDoqmBxrpR7cnIUkN8NHwKB3w
+y5QVY83e+kKFl82DuHpGJHqMkniW+Piy1myNCzmKzE9jO1A50/YUE4t1WO1yCMpC
+RK8qpjp5QGRye8coO6/Yu0bCJaF1wOC3wVC+RXVvuTl8OtR2+9ZjIjWd+FehpzN0
+CuBOLniZkYNE8Bz3m2JrTRUt+GYs/PXdYbJsCZ/0gvQf0L20CliuTpmVmssUuAGH
+0bvmfaTlef7vvu3KR7+uXOpviysy9XbdA8oz5NJ1OV6stQFvTJP6zY0Uxp/LDqmU
+UjkQU4BeXd8rQP1SGLIjV6mb/tDQFKVCvr08nFPC7cICTqAzYX8oQ6IiL8R4ETQr
+M7aCIvrngD9zuo099hbXnCrNOpNcNtnUJOg7yBQACOZ9Rw5tUBhWA8ULYy/Npacu
+o9OkzU+KH5R7Fa0HZa0Gcn28zcapg8XWTKQVqsxBEuCe9cPVLn/+pcRl3F6S0yrX
+vbkhn6dV8MetEl7YfxI/MhU30Y+jCAlo1RIFrlDQ4IAyxhTefPwUI3K+JG2gpaAK
+kk8+yMQjBa5a5C4=
+=VCkq
 -----END PGP SIGNATURE-----

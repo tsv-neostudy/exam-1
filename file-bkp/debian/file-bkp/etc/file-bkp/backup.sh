@@ -9,7 +9,7 @@ MYSQL_BKP_FILE="${WORK_DIR}/$(date +%Y-%m-%d_%H-%M)-mysql-all-databases.sql.lzma
 
 if [ $(systemctl is-active mysql) == 'active' ]
 then
-        mysqldump -u bkp_user -p12!@qwQW  --flush-logs --delete-source-logs --single-transaction --all-databases | lzma > "${MYSQL_BKP_FILE}"
+        mysqldump -u bkp_user -p12!@qwQW --flush-logs --delete-master-logs --single-transaction --all-databases | lzma > "${MYSQL_BKP_FILE}"
 fi
 
 INC_SRC_LIST="${WORK_DIR}/inc_bkp.list"

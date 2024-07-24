@@ -21,7 +21,7 @@ set /p "email=Enter your e-mail, please: "
 
 @echo [dn] >> "%CSR_TEM%"
 @echo commonName = Common Name >> "%CSR_TEM%"
-@echo commonName_default = vpn.sb.stumasov.ru >> "%CSR_TEM%"
+@echo commonName_default = vpn.stumasov.ru >> "%CSR_TEM%"
 
 @echo countryName = Country Name >> "%CSR_TEM%"
 @echo countryName_default = RU >> "%CSR_TEM%"
@@ -30,7 +30,7 @@ set /p "email=Enter your e-mail, please: "
 @echo localityName_default = Moscow >> "%CSR_TEM%"
 
 @echo organizationName = Organization >> "%CSR_TEM%"
-@echo organizationName_default = sb.stumasov.ru >> "%CSR_TEM%"
+@echo organizationName_default = stumasov.ru >> "%CSR_TEM%"
 
 @echo organizationUnitName = Department >> "%CSR_TEM%"
 @echo organizationUnitName = IT >> "%CSR_TEM%"
@@ -39,7 +39,7 @@ set /p "email=Enter your e-mail, please: "
 @echo emailAddress_default = %email% >> "%CSR_TEM%"
 
 @echo [ext] >> "%CSR_TEM%"
-@echo subjectAltName = DNS:www.sb.stumasov.ru,DNS:sb.stumasov.ru >> "%CSR_TEM%"
+@echo subjectAltName = DNS:www.stumasov.ru,DNS:stumasov.ru >> "%CSR_TEM%"
 
 set path=%path%;"%programfiles%\OpenVPN\bin"
 
