@@ -1,0 +1,63 @@
+ dpkg-buildpackage -us -uc -ui -b
+dpkg-buildpackage: info: source package prometheus-openvpn-exporter
+dpkg-buildpackage: info: source version 0.3.0
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Sergey <mail@sb.stumasov.ru>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installinit
+   dh_installsystemd
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_dwz
+dwz: debian/prometheus-openvpn-exporter/usr/bin/prometheus_openvpn_exporter: .debug_info section not present
+   dh_strip
+dh_strip: warning: Could not find the BuildID in debian/prometheus-openvpn-exporter/usr/bin/prometheus_openvpn_exporter
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'prometheus-openvpn-exporter' in '../prometheus-openvpn-exporter_0.3.0_amd64.deb'.
+ dpkg-genbuildinfo --build=binary
+ dpkg-genchanges --build=binary >../prometheus-openvpn-exporter_0.3.0_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+Now running lintian prometheus-openvpn-exporter_0.3.0_amd64.changes ...
+E: prometheus-openvpn-exporter changes: bad-distribution-in-changes-file unstable
+E: prometheus-openvpn-exporter: copyright-contains-dh_make-todo-boilerplate
+E: prometheus-openvpn-exporter: helper-templates-in-copyright
+W: prometheus-openvpn-exporter: binary-without-manpage usr/bin/prometheus_openvpn_exporter
+W: prometheus-openvpn-exporter: copyright-has-url-from-dh_make-boilerplate
+W: prometheus-openvpn-exporter: hardening-no-pie usr/bin/prometheus_openvpn_exporter
+W: prometheus-openvpn-exporter: hardening-no-relro usr/bin/prometheus_openvpn_exporter
+W: prometheus-openvpn-exporter: readme-debian-contains-debmake-template
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo prometheus-openvpn-exporter_0.3.0_amd64.buildinfo Sergey <mail@sb.stumasov.ru>
+
+ fixup_changes buildinfo prometheus-openvpn-exporter_0.3.0_amd64.buildinfo prometheus-openvpn-exporter_0.3.0_amd64.changes
+ signfile changes prometheus-openvpn-exporter_0.3.0_amd64.changes Sergey <mail@sb.stumasov.ru>
+
+Successfully signed buildinfo, changes files

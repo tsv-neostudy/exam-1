@@ -1,0 +1,35 @@
+#cloud-config
+datasource:
+ Ec2:
+  strict_id: false
+ssh_pwauth: no
+users:
+- name: ubuntu
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  shell: /bin/bash
+  ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPzIstosdQku42omxxNwdre58a1jj1LSSYkgG/ehvlQM for SkillBox study purpose
+
+#cloud-config
+runcmd:
+  - timedatectl set-timezone Europe/Moscow
+
+  - sudo sed -i 's/.*PasswordAuthentication.*yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+  - sudo sed -i 's/.*PubkeyAuthentication.*no/PubkeyAuthentication yes/' /etc/ssh/sshd_config
+  - sudo sed -i 's/PermitRootLogin.*yes/PermitRootLogin no/' /etc/ssh/sshd_config
+  - sudo sed -i 's/#TCPKeepAlive yes/TCPKeepAlive yes/' /etc/ssh/sshd_config
+  - sudo sed -i 's/#ClientAliveInterval 0/ClientAliveInterval 60/' /etc/ssh/sshd_config
+  - sudo sed -i 's/#ClientAliveCountMax 3/ClientAliveCountMax 30/' /etc/ssh/sshd_config
+  - sudo sed -i 's/X11Forwarding.*yes/X11Forwarding no/' /etc/ssh/sshd_config
+  - sudo sed -i 's/IgnoreRhosts.*no/IgnoreRhosts yes/' /etc/ssh/sshd_config
+  - sudo sed -i 's/PermitEmptyPasswords.*yes/PermitEmptyPasswords no/' /etc/ssh/sshd_config
+  - sudo bash -c 'echo "colorscheme torte" >> /etc/vim/vimrc'
+
+  - sudo systemctl reload sshd
+
+  - curl -s --compressed "https://tsv2k-skillbox.github.io/exam-1/KEY.gpg" | sudo apt-key add -
+  - sudo curl -s --compressed -o /etc/apt/sources.list.d/my_list_file.list "https://tsv2k-skillbox.github.io/exam-1/my_list_file.list"
+  - sudo apt update
+
+  - sudo curl -s --compressed -o /usr/local/share/ca-certificates/sb.stumasov.ru-CA.crt "https://tsv2k-skillbox.github.io/exam-1/ca.crt"
+  - sudo update-ca-certificates

@@ -1,0 +1,5 @@
+141f7e240d8ae12bc9ec7326d07a890c  lib/systemd/system/prometheus-openvpn-exporter.service
+91a2d20834851a7afa18bf170f80dc31  usr/bin/prometheus_openvpn_exporter
+0255717809471c7011efac9b518720b4  usr/share/doc/prometheus-openvpn-exporter/README.Debian
+fb15adee2100ede254a68272122b708e  usr/share/doc/prometheus-openvpn-exporter/changelog.gz
+3bac126b339ae865044bce4fecb3e875  usr/share/doc/prometheus-openvpn-exporter/copyright

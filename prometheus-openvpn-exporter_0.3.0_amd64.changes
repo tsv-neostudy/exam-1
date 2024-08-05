@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 05 Aug 2024 17:29:26 +0300
+Source: prometheus-openvpn-exporter
+Binary: prometheus-openvpn-exporter
+Architecture: amd64
+Version: 0.3.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Changed-By: Sergey <mail@sb.stumasov.ru>
+Description:
+ prometheus-openvpn-exporter - OpenVPN status monitoring
+Changes:
+ prometheus-openvpn-exporter (0.3.0) unstable; urgency=medium
+ .
+   *Prometheus OpenVPN Exporter ver. 0.3.0
+Checksums-Sha1:
+ 40b596765d42fa4af63fe8c8f7d53a31f8c75f13 6264 prometheus-openvpn-exporter_0.3.0_amd64.buildinfo
+ fb00d65efe4dcd6985867a0febdaff550f8ecd68 2540396 prometheus-openvpn-exporter_0.3.0_amd64.deb
+Checksums-Sha256:
+ 705596fef7e966dc558c76488d04a6a62f5fc7b0140617aca1dd89fb76b400b7 6264 prometheus-openvpn-exporter_0.3.0_amd64.buildinfo
+ e75ce4b11bec636f7ab799a2a2d9a54499953dd0cf945836fcb766b20b5d8ac1 2540396 prometheus-openvpn-exporter_0.3.0_amd64.deb
+Files:
+ b56686cedb18eef1d3f3b0a28e2dc60a 6264 net optional prometheus-openvpn-exporter_0.3.0_amd64.buildinfo
+ e8467e0e781182f6ca0c0ccdbb52bafc 2540396 net optional prometheus-openvpn-exporter_0.3.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEom+20hhEk5/+4GlPER/DK9jjoM0FAmaxAgsUHG1haWxAc2Iu
+c3R1bWFzb3YucnUACgkQER/DK9jjoM3wcA//T7Ffn2MWPkYaqrhTslBbdpReYI+k
+dppgi/DjuhyFfY2UDNOOgHO6Qcw67+ZUheWa2/y8g6r9CARp+az2NFCzpm6irS2t
+7a8ew+mNOBORYo2I2FYuQ1fiRLhK9LIQQXIGjyRjWIBP38+bbjrA5IYfCgRnMQME
+/zZKDwTUas9oAHRsnT3jlWQNrhjHiXcuIkOzerWXM4LKDZKd0uT6M/yN4ngPGEE1
+NAKpKKNMaV8GTyOqHN3UpQmJ4yBIKh/rcWL9hJaFXJhbHU6yD/F0HYwq0CVjTgkm
+VrHysUgja+7l9Qd4Ast3j9Ux56u6dHvxD3cAFaLsGWU81V65MZUH8xbWZvrd4545
+CDMqXMnK9fiEij9crKBBm4B1U30pGKmMumaHfVnZNR/AKHc28WrOLcNR/X0/rDlh
+TP2L9CJEAn0czYfC21hEKLqmcwt2khNlKhS4aFRix7fr3P+MUoX/Xqn7dr6/xthU
+XMrlXMzaTnCWIyb3Nw8coUHLAakVyRY6qjbWHJCMqkVkc7GHxQeLfXqsB+nAViRX
+bTDKZunIZORK+Ye1XhScTejJ+qTH50A20CuzHxj2Ww9YzPFjkOVA3l9aMYgS5lXc
+IxwIpHrY0D3MHxeq+HwLTE0T8zwJaMq/Mbuo/S2p28ZeXeII/bqC67kTDx/SpSJI
+b9ll/KB0HadqM04=
+=7nVz
+-----END PGP SIGNATURE-----

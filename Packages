@@ -184,3 +184,20 @@ Description: Prometheus exporter for machine metrics
  Prometheus exporter for machine metrics, written in Go with pluggable metric
  collectors.
 
+Package: prometheus-openvpn-exporter
+Version: 0.3.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 8306
+Depends: libc6 (>= 2.4)
+Filename: ./prometheus-openvpn-exporter_0.3.0_amd64.deb
+Size: 2540396
+MD5sum: e8467e0e781182f6ca0c0ccdbb52bafc
+SHA1: fb00d65efe4dcd6985867a0febdaff550f8ecd68
+SHA256: e75ce4b11bec636f7ab799a2a2d9a54499953dd0cf945836fcb766b20b5d8ac1
+Section: net
+Priority: optional
+Homepage: https://github.com/kumina/openvpn_exporter
+Description: OpenVPN status monitoring
+ Prometheus OpenVPN Exporter
+

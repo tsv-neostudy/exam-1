@@ -1,0 +1,11 @@
+Package: prometheus-openvpn-exporter
+Version: 0.3.0
+Architecture: amd64
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Installed-Size: 8306
+Depends: libc6 (>= 2.4)
+Section: net
+Priority: optional
+Homepage: https://github.com/kumina/openvpn_exporter
+Description: OpenVPN status monitoring
+ Prometheus OpenVPN Exporter

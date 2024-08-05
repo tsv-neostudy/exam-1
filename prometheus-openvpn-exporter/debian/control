@@ -1,0 +1,15 @@
+Source: prometheus-openvpn-exporter
+Section: net
+Priority: optional
+Maintainer: Sergey <mail@sb.stumasov.ru>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/kumina/openvpn_exporter
+#Vcs-Browser: https://salsa.debian.org/debian/prometheus-openvpn-exporter
+#Vcs-Git: https://salsa.debian.org/debian/prometheus-openvpn-exporter.git
+
+Package: prometheus-openvpn-exporter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OpenVPN status monitoring
+ Prometheus OpenVPN Exporter 

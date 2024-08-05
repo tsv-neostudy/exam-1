@@ -1,0 +1,18 @@
+[Unit]
+Description=Prometheus Expoerer for OpenVPN metrics
+Documentation=https://github.com/kumina/openvpn_exporter
+Wants=network-online.target
+After=network-online.target
+
+
+[Service]
+Restart=on-failure
+Type=simple
+ExecStart=/usr/bin/prometheus_openvpn_exporter
+ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStopSec=20s
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target
+
