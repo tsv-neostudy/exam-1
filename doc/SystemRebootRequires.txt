@@ -1,0 +1,2 @@
+Operation system restart requires.
+Please, check the reason of restart requirement in the /var/log/syslog, choose time for system restart, restart it and check all services run well.

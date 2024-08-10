@@ -1,0 +1,2 @@
+Within 5 minutes, the remaining free RAM was less than 10%.
+Please, check RAM allocation by processes. If it need - add more RAM to the virtual machine.

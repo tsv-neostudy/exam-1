@@ -1,0 +1,2 @@
+400-errors in Nginx responses may indicate errors in the code, or attempts of crack the sitee.
+Please, doublecheck and fix it.

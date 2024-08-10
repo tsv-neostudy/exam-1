@@ -1,0 +1,2 @@
+Instance does not respond. 
+Please connect to the virtual machine check it and start in manualy.

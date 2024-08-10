@@ -1,0 +1,4 @@
+It seems inodes on the disk  are over.
+You can find folders where inodes are used bulk:
+find . -mindepth 2 | awk -F/ '{ print $2"/" }' | sort | uniq -c | sort -n | tail -10
+And take desigion to free some inodes.

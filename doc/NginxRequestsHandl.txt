@@ -1,0 +1,2 @@
+Requests to Nginx isn't equal Nginx responses.
+So, some requests does not handled for some reason. Please be advised.

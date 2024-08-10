@@ -1,0 +1,2 @@
+CPU loaded over 80% during 5 minuts.
+Please check CPU loading. Possible it needs to add more CPU to virtual machine.

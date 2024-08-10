@@ -1,0 +1,2 @@
+MySQL server does not respond.
+Please, check it and start as soon as possible.

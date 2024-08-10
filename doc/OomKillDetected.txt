@@ -1,0 +1,2 @@
+Out of memory Killer Detected. Linux Core was out of memory, so it killed some process to free some RAM.
+Please, check and fix RAM using.

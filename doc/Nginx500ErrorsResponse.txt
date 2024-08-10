@@ -1,0 +1,2 @@
+500 errors in Nginx responses may indicate errors in the code, or errors in the infrastructure.
+Please, doublecheck and fix it.

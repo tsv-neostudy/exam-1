@@ -1,0 +1,2 @@
+Transactions on MySQL server are slow. 
+Please check and fix a bottleneck.
